@@ -1,0 +1,2754 @@
+{
+  "diputados": [
+    {
+      "Apellido": "Acevedo",
+      "Nombre": "Sergio Edgardo",
+      "Distrito": "SANTA CRUZ",
+      "IniciaMandato": "07/12/2023",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "POR SANTA CRUZ"
+    },
+    {
+      "Apellido": "Agost Carreño",
+      "Nombre": "Oscar",
+      "Distrito": "CORDOBA",
+      "IniciaMandato": "23/08/2023",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "ENCUENTRO FEDERAL"
+    },
+    {
+      "Apellido": "Aguirre",
+      "Nombre": "Manuel Ignacio",
+      "Distrito": "CORRIENTES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "DEMOCRACIA PARA SIEMPRE"
+    },
+    {
+      "Apellido": "Aguirre",
+      "Nombre": "Hilda",
+      "Distrito": "LA RIOJA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Ajmechet",
+      "Nombre": "Sabrina",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Alí",
+      "Nombre": "Ernesto \"Pipi\"",
+      "Distrito": "SAN LUIS",
+      "IniciaMandato": "31/01/2024",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Alianiello",
+      "Nombre": "Eugenia",
+      "Distrito": "CHUBUT",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Allende",
+      "Nombre": "Walberto",
+      "Distrito": "SAN JUAN",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Almirón",
+      "Nombre": "Lisandro",
+      "Distrito": "CORRIENTES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Alonso",
+      "Nombre": "Constanza María",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Ansaloni",
+      "Nombre": "Pablo",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Antola",
+      "Nombre": "Marcela",
+      "Distrito": "ENTRE RIOS",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "DEMOCRACIA PARA SIEMPRE"
+    },
+    {
+      "Apellido": "Arabia",
+      "Nombre": "Damián",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Arancibia Rodríguez",
+      "Nombre": "Alberto Gustavo",
+      "Distrito": "SAN LUIS",
+      "IniciaMandato": "02/11/2023",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Araujo",
+      "Nombre": "María Fernanda",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "07/12/2023",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Araujo Hernández",
+      "Nombre": "Jorge Neri",
+      "Distrito": "TIERRA DEL FUEGO",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Ardohain",
+      "Nombre": "Martín",
+      "Distrito": "LA PAMPA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Arjol",
+      "Nombre": "Martín",
+      "Distrito": "MISIONES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "LIGA DEL INTERIOR ELI"
+    },
+    {
+      "Apellido": "Arrieta",
+      "Nombre": "Lourdes Micaela",
+      "Distrito": "MENDOZA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "COHERENCIA"
+    },
+    {
+      "Apellido": "Arroyo",
+      "Nombre": "Daniel",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Arrúa",
+      "Nombre": "Alberto",
+      "Distrito": "MISIONES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "INNOVACIÓN FEDERAL"
+    },
+    {
+      "Apellido": "Aubone",
+      "Nombre": "Ana Fabiola",
+      "Distrito": "SAN JUAN",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Aveiro",
+      "Nombre": "Martín",
+      "Distrito": "MENDOZA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Avico",
+      "Nombre": "Belén",
+      "Distrito": "CORDOBA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Avila",
+      "Nombre": "Jorge Antonio",
+      "Distrito": "CHUBUT",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "ENCUENTRO FEDERAL"
+    },
+    {
+      "Apellido": "Avila",
+      "Nombre": "Fernanda",
+      "Distrito": "CATAMARCA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Bachey",
+      "Nombre": "Karina Ethel",
+      "Distrito": "SAN LUIS",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Baldassi",
+      "Nombre": "Héctor W.",
+      "Distrito": "CORDOBA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Ballejos",
+      "Nombre": "Nancy",
+      "Distrito": "ENTRE RIOS",
+      "IniciaMandato": "11/09/2024",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Banfi",
+      "Nombre": "Karina",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
+    },
+    {
+      "Apellido": "Barletta",
+      "Nombre": "Mario",
+      "Distrito": "SANTA FE",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIDOS"
+    },
+    {
+      "Apellido": "Basterra",
+      "Nombre": "Luis Eugenio",
+      "Distrito": "FORMOSA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Benedetti",
+      "Nombre": "Atilio",
+      "Distrito": "ENTRE RIOS",
+      "IniciaMandato": "05/07/2023",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
+    },
+    {
+      "Apellido": "Benedit",
+      "Nombre": "Beltrán",
+      "Distrito": "ENTRE RIOS",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Benegas Lynch",
+      "Nombre": "Bertie",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Bermejo",
+      "Nombre": "Adolfo",
+      "Distrito": "MENDOZA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Bertoldi",
+      "Nombre": "Tanya",
+      "Distrito": "NEUQUEN",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Besana",
+      "Nombre": "Gabriela",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Bianchetti",
+      "Nombre": "Emmanuel",
+      "Distrito": "MISIONES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Bonacci",
+      "Nombre": "Rocío",
+      "Distrito": "SANTA FE",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Bongiovanni",
+      "Nombre": "Alejandro",
+      "Distrito": "SANTA FE",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Bordet",
+      "Nombre": "Gustavo",
+      "Distrito": "ENTRE RIOS",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Bornoroni",
+      "Nombre": "Gabriel",
+      "Distrito": "CORDOBA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Borrego",
+      "Nombre": "Victoria",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "COALICION CIVICA"
+    },
+    {
+      "Apellido": "Brambilla",
+      "Nombre": "Sofía",
+      "Distrito": "CORRIENTES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Brouwer De Koning",
+      "Nombre": "Gabriela",
+      "Distrito": "CORDOBA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
+    },
+    {
+      "Apellido": "Brügge",
+      "Nombre": "Juan Fernando",
+      "Distrito": "CORDOBA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "ENCUENTRO FEDERAL"
+    },
+    {
+      "Apellido": "Cafiero",
+      "Nombre": "Santiago",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Calletti",
+      "Nombre": "Pamela",
+      "Distrito": "SALTA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "INNOVACIÓN FEDERAL"
+    },
+    {
+      "Apellido": "Campagnoli",
+      "Nombre": "Marcela",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "COALICION CIVICA"
+    },
+    {
+      "Apellido": "Campero",
+      "Nombre": "Mariano",
+      "Distrito": "TUCUMAN",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LIGA DEL INTERIOR ELI"
+    },
+    {
+      "Apellido": "Campitelli",
+      "Nombre": "Celia",
+      "Distrito": "SANTIAGO DEL ESTERO",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Capozzi",
+      "Nombre": "Sergio Eduardo",
+      "Distrito": "RIO NEGRO",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Carbajal",
+      "Nombre": "Fernando",
+      "Distrito": "FORMOSA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "DEMOCRACIA PARA SIEMPRE"
+    },
+    {
+      "Apellido": "Carignano",
+      "Nombre": "Florencia",
+      "Distrito": "SANTA FE",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Carrizo",
+      "Nombre": "Soledad",
+      "Distrito": "CORDOBA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
+    },
+    {
+      "Apellido": "Carrizo",
+      "Nombre": "Ana Carla",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "DEMOCRACIA PARA SIEMPRE"
+    },
+    {
+      "Apellido": "Carro",
+      "Nombre": "Pablo",
+      "Distrito": "CORDOBA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Casas",
+      "Nombre": "Sergio Guillermo",
+      "Distrito": "LA RIOJA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Castagneto",
+      "Nombre": "Carlos Daniel",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Castillo",
+      "Nombre": "Christian",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "PTS-FRENTE DE IZQUIERDA UNIDAD"
+    },
+    {
+      "Apellido": "Cervi",
+      "Nombre": "Pablo",
+      "Distrito": "NEUQUEN",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "LIGA DEL INTERIOR ELI"
+    },
+    {
+      "Apellido": "Chaher",
+      "Nombre": "Leila",
+      "Distrito": "JUJUY",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Chica",
+      "Nombre": "Jorge",
+      "Distrito": "SAN JUAN",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Chomiak",
+      "Nombre": "María Luisa",
+      "Distrito": "CHACO",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Chumpitaz",
+      "Nombre": "Gabriel Felipe",
+      "Distrito": "SANTA FE",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "FUTURO Y LIBERTAD"
+    },
+    {
+      "Apellido": "Cipolini",
+      "Nombre": "Gerardo",
+      "Distrito": "CHACO",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
+    },
+    {
+      "Apellido": "Cisneros",
+      "Nombre": "Carlos",
+      "Distrito": "TUCUMAN",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Cobos",
+      "Nombre": "Julio",
+      "Distrito": "MENDOZA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
+    },
+    {
+      "Apellido": "Coletta",
+      "Nombre": "Mariela",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "DEMOCRACIA PARA SIEMPRE"
+    },
+    {
+      "Apellido": "Coli",
+      "Nombre": "Marcela",
+      "Distrito": "LA PAMPA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "DEMOCRACIA PARA SIEMPRE"
+    },
+    {
+      "Apellido": "Correa Llano",
+      "Nombre": "Facundo",
+      "Distrito": "MENDOZA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "D'Alessandro",
+      "Nombre": "Carlos",
+      "Distrito": "SAN LUIS",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "COHERENCIA"
+    },
+    {
+      "Apellido": "Daives",
+      "Nombre": "Ricardo",
+      "Distrito": "SANTIAGO DEL ESTERO",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "de la Sota",
+      "Nombre": "Natalia",
+      "Distrito": "CORDOBA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "ENCUENTRO FEDERAL"
+    },
+    {
+      "Apellido": "de Loredo",
+      "Nombre": "Rodrigo",
+      "Distrito": "CORDOBA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
+    },
+    {
+      "Apellido": "de Mendieta",
+      "Nombre": "Mercedes",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "02/07/2025",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "IZQUIERDA SOCIALISTA FIT-UNIDAD"
+    },
+    {
+      "Apellido": "De Sensi",
+      "Nombre": "María Florencia",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Diez",
+      "Nombre": "Romina",
+      "Distrito": "SANTA FE",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Domingo",
+      "Nombre": "Agustín",
+      "Distrito": "RIO NEGRO",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "INNOVACIÓN FEDERAL"
+    },
+    {
+      "Apellido": "Emma",
+      "Nombre": "Nicolás",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "07/12/2023",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Espert",
+      "Nombre": "José Luis",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Estévez",
+      "Nombre": "Gabriela Beatriz",
+      "Distrito": "CORDOBA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Estrada",
+      "Nombre": "Emiliano",
+      "Distrito": "SALTA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Falcone",
+      "Nombre": "Eduardo",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "MID - MOVIMIENTO DE INTEGRACIÓN Y DESARROLLO"
+    },
+    {
+      "Apellido": "Fein",
+      "Nombre": "Mónica",
+      "Distrito": "SANTA FE",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "ENCUENTRO FEDERAL"
+    },
+    {
+      "Apellido": "Fernández",
+      "Nombre": "Agustin",
+      "Distrito": "TUCUMAN",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "INDEPENDENCIA"
+    },
+    {
+      "Apellido": "Fernández",
+      "Nombre": "Elia Marina",
+      "Distrito": "TUCUMAN",
+      "IniciaMandato": "02/11/2023",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "INDEPENDENCIA"
+    },
+    {
+      "Apellido": "Fernández",
+      "Nombre": "Carlos Alberto",
+      "Distrito": "MISIONES",
+      "IniciaMandato": "16/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "INNOVACIÓN FEDERAL"
+    },
+    {
+      "Apellido": "Fernández Molero",
+      "Nombre": "Daiana",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Fernández Patri",
+      "Nombre": "Ramiro",
+      "Distrito": "FORMOSA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Ferraro",
+      "Nombre": "Maximiliano",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "COALICION CIVICA"
+    },
+    {
+      "Apellido": "Ferreyra",
+      "Nombre": "Alida",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "31/01/2024",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Figueroa Casas",
+      "Nombre": "Germana",
+      "Distrito": "SANTA FE",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Finocchiaro",
+      "Nombre": "Alejandro",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Frade",
+      "Nombre": "Mónica",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "COALICION CIVICA"
+    },
+    {
+      "Apellido": "Freites",
+      "Nombre": "Andrea",
+      "Distrito": "TIERRA DEL FUEGO",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Gaillard",
+      "Nombre": "Ana Carolina",
+      "Distrito": "ENTRE RIOS",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "García",
+      "Nombre": "Carlos",
+      "Distrito": "CHACO",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "García Aresca",
+      "Nombre": "Ignacio",
+      "Distrito": "CORDOBA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "ENCUENTRO FEDERAL"
+    },
+    {
+      "Apellido": "Garramuño",
+      "Nombre": "Ricardo",
+      "Distrito": "TIERRA DEL FUEGO",
+      "IniciaMandato": "06/02/2025",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "SOMOS FUEGUINOS"
+    },
+    {
+      "Apellido": "Garrido",
+      "Nombre": "José Luis",
+      "Distrito": "SANTA CRUZ",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "POR SANTA CRUZ"
+    },
+    {
+      "Apellido": "Ginocchio",
+      "Nombre": "Silvana Micaela",
+      "Distrito": "CATAMARCA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Giordano",
+      "Nombre": "Juan Carlos",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "02/07/2025",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "IZQUIERDA SOCIALISTA FIT-UNIDAD"
+    },
+    {
+      "Apellido": "Giorgi",
+      "Nombre": "Melina",
+      "Distrito": "SANTA FE",
+      "IniciaMandato": "07/12/2023",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "DEMOCRACIA PARA SIEMPRE"
+    },
+    {
+      "Apellido": "Giudici",
+      "Nombre": "Silvana",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Giuliano",
+      "Nombre": "Diego A.",
+      "Distrito": "SANTA FE",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Glinski",
+      "Nombre": "José",
+      "Distrito": "CHUBUT",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Gollán",
+      "Nombre": "Daniel",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Gomez",
+      "Nombre": "José",
+      "Distrito": "SANTIAGO DEL ESTERO",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "González",
+      "Nombre": "Gerardo Gustavo",
+      "Distrito": "FORMOSA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "COHERENCIA"
+    },
+    {
+      "Apellido": "González",
+      "Nombre": "Álvaro",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "González",
+      "Nombre": "Gustavo Carlos Miguel",
+      "Distrito": "SANTA CRUZ",
+      "IniciaMandato": "16/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Gutiérrez",
+      "Nombre": "Carlos",
+      "Distrito": "CORDOBA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "ENCUENTRO FEDERAL"
+    },
+    {
+      "Apellido": "Gutiérrez",
+      "Nombre": "Ramiro",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Hagman",
+      "Nombre": "Itai",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Heller",
+      "Nombre": "Carlos",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Herrera",
+      "Nombre": "Ricardo",
+      "Distrito": "LA RIOJA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Herrera",
+      "Nombre": "Bernardo José",
+      "Distrito": "SANTIAGO DEL ESTERO",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Huesen",
+      "Nombre": "Gerardo",
+      "Distrito": "TUCUMAN",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Ianni",
+      "Nombre": "Ana María",
+      "Distrito": "SANTA CRUZ",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Ibañez",
+      "Nombre": "María Cecilia",
+      "Distrito": "CORDOBA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Iglesias",
+      "Nombre": "Fernando Adolfo",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Iparraguirre",
+      "Nombre": "Rogelio",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Juliano",
+      "Nombre": "Pablo",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "DEMOCRACIA PARA SIEMPRE"
+    },
+    {
+      "Apellido": "Kirchner",
+      "Nombre": "Máximo Carlos",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Klipauka Lewtak",
+      "Nombre": "Florencia",
+      "Distrito": "MISIONES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Laspina",
+      "Nombre": "Luciano Andrés",
+      "Distrito": "SANTA FE",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Ledesma",
+      "Nombre": "Tomás",
+      "Distrito": "ENTRE RIOS",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Leiva",
+      "Nombre": "Aldo",
+      "Distrito": "CHACO",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Lemoine",
+      "Nombre": "Lilia",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Litza",
+      "Nombre": "Mónica",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Llancafilo",
+      "Nombre": "Osvaldo",
+      "Distrito": "NEUQUEN",
+      "IniciaMandato": "07/12/2023",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "MOVIMIENTO POPULAR  NEUQUINO"
+    },
+    {
+      "Apellido": "Llano",
+      "Nombre": "Mercedes",
+      "Distrito": "MENDOZA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "López",
+      "Nombre": "Juan Manuel",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "COALICION CIVICA"
+    },
+    {
+      "Apellido": "López Murphy",
+      "Nombre": "Ricardo Hipólito",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "REPUBLICANOS UNIDOS"
+    },
+    {
+      "Apellido": "López Rodríguez",
+      "Nombre": "Dante",
+      "Distrito": "CATAMARCA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Lospennato",
+      "Nombre": "Silvia",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Macha",
+      "Nombre": "Mónica",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Macyszyn",
+      "Nombre": "Lorena",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Manes",
+      "Nombre": "Facundo",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "DEMOCRACIA PARA SIEMPRE"
+    },
+    {
+      "Apellido": "Manrique",
+      "Nombre": "Mario",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Maquieyra",
+      "Nombre": "Martín",
+      "Distrito": "LA PAMPA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Marín",
+      "Nombre": "Varinia Lis",
+      "Distrito": "LA PAMPA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Marino",
+      "Nombre": "Juan",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Márquez",
+      "Nombre": "Nadia",
+      "Distrito": "NEUQUEN",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Martínez",
+      "Nombre": "Álvaro",
+      "Distrito": "MENDOZA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Martínez",
+      "Nombre": "Germán Pedro",
+      "Distrito": "SANTA FE",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Marziotta",
+      "Nombre": "Gisela",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Massot",
+      "Nombre": "Nicolás",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "ENCUENTRO FEDERAL"
+    },
+    {
+      "Apellido": "Mastaler",
+      "Nombre": "Magalí",
+      "Distrito": "SANTA FE",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Mayoraz",
+      "Nombre": "Nicolás",
+      "Distrito": "SANTA FE",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Medina",
+      "Nombre": "Gladys",
+      "Distrito": "TUCUMAN",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "INDEPENDENCIA"
+    },
+    {
+      "Apellido": "Menem",
+      "Nombre": "Martín",
+      "Distrito": "LA RIOJA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Milman",
+      "Nombre": "Gerardo",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Mirabella",
+      "Nombre": "Roberto",
+      "Distrito": "SANTA FE",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "DEFENDAMOS SANTA FE"
+    },
+    {
+      "Apellido": "Molle",
+      "Nombre": "Matías",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Montenegro",
+      "Nombre": "Guillermo",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Monti",
+      "Nombre": "Francisco",
+      "Distrito": "CATAMARCA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "LIGA DEL INTERIOR ELI"
+    },
+    {
+      "Apellido": "Montoto",
+      "Nombre": "María Luisa",
+      "Distrito": "SANTIAGO DEL ESTERO",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Monzó",
+      "Nombre": "Emilio",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "ENCUENTRO FEDERAL"
+    },
+    {
+      "Apellido": "Monzón",
+      "Nombre": "Roxana",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Moran",
+      "Nombre": "Micaela",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "12/10/2022",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Morchio",
+      "Nombre": "Francisco",
+      "Distrito": "ENTRE RIOS",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "ENCUENTRO FEDERAL"
+    },
+    {
+      "Apellido": "Moreau",
+      "Nombre": "Leopoldo",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Moreau",
+      "Nombre": "Cecilia",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Moreno",
+      "Nombre": "María De Los Ángeles",
+      "Distrito": "SAN JUAN",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PRODUCCION Y TRABAJO"
+    },
+    {
+      "Apellido": "Moreno Ovalle",
+      "Nombre": "Julio",
+      "Distrito": "SALTA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Moyano",
+      "Nombre": "Nilda",
+      "Distrito": "SANTIAGO DEL ESTERO",
+      "IniciaMandato": "16/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Neder",
+      "Nombre": "Estela Mary",
+      "Distrito": "SANTIAGO DEL ESTERO",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Nieri",
+      "Nombre": "Lisandro",
+      "Distrito": "MENDOZA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
+    },
+    {
+      "Apellido": "Nóblega",
+      "Nombre": "Sebastián",
+      "Distrito": "CATAMARCA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Nuñez",
+      "Nombre": "José",
+      "Distrito": "SANTA FE",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Oliveto Lago",
+      "Nombre": "Paula",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "COALICION CIVICA"
+    },
+    {
+      "Apellido": "Omodeo",
+      "Nombre": "Paula",
+      "Distrito": "TUCUMAN",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "CREO"
+    },
+    {
+      "Apellido": "Orozco",
+      "Nombre": "Emilia",
+      "Distrito": "SALTA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Osuna",
+      "Nombre": "Blanca Inés",
+      "Distrito": "ENTRE RIOS",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Outes",
+      "Nombre": "Pablo",
+      "Distrito": "SALTA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "INNOVACIÓN FEDERAL"
+    },
+    {
+      "Apellido": "Pagano",
+      "Nombre": "Marcela Marina",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "COHERENCIA"
+    },
+    {
+      "Apellido": "Palazzo",
+      "Nombre": "Sergio Omar",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Paponet",
+      "Nombre": "Liliana",
+      "Distrito": "MENDOZA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Parola",
+      "Nombre": "María Graciela",
+      "Distrito": "FORMOSA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Passo",
+      "Nombre": "Marcela Fabiana",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Pauli",
+      "Nombre": "Santiago",
+      "Distrito": "TIERRA DEL FUEGO",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Paulón",
+      "Nombre": "Esteban",
+      "Distrito": "SANTA FE",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "ENCUENTRO FEDERAL"
+    },
+    {
+      "Apellido": "Pedrali",
+      "Nombre": "Gabriela",
+      "Distrito": "LA RIOJA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Pedrini",
+      "Nombre": "Juan Manuel",
+      "Distrito": "CHACO",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Peluc",
+      "Nombre": "José",
+      "Distrito": "SAN JUAN",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Penacca",
+      "Nombre": "Paula Andrea",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Pereyra",
+      "Nombre": "Julio",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Picat",
+      "Nombre": "Luis Albino",
+      "Distrito": "CORDOBA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LIGA DEL INTERIOR ELI"
+    },
+    {
+      "Apellido": "Pichetto",
+      "Nombre": "Miguel Ángel",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "ENCUENTRO FEDERAL"
+    },
+    {
+      "Apellido": "Picón Martínez",
+      "Nombre": "Nancy Viviana",
+      "Distrito": "SAN JUAN",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "PRODUCCION Y TRABAJO"
+    },
+    {
+      "Apellido": "Píparo",
+      "Nombre": "Carolina",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Pokoik",
+      "Nombre": "Lorena",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Polini",
+      "Nombre": "Juan Carlos",
+      "Distrito": "CHACO",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "DEMOCRACIA PARA SIEMPRE"
+    },
+    {
+      "Apellido": "Ponce",
+      "Nombre": "María Celeste",
+      "Distrito": "CORDOBA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Potenza",
+      "Nombre": "Luciana",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Propato",
+      "Nombre": "Agustina Lucrecia",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Quetglas",
+      "Nombre": "Fabio José",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
+    },
+    {
+      "Apellido": "Quintar",
+      "Nombre": "Manuel",
+      "Distrito": "JUJUY",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Quiroz",
+      "Nombre": "Marilú",
+      "Distrito": "CHACO",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Randazzo",
+      "Nombre": "Florencio",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "ENCUENTRO FEDERAL"
+    },
+    {
+      "Apellido": "Rauschenberger",
+      "Nombre": "Ariel",
+      "Distrito": "LA PAMPA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Razzini",
+      "Nombre": "Verónica",
+      "Distrito": "SANTA FE",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "FUTURO Y LIBERTAD"
+    },
+    {
+      "Apellido": "Reyes",
+      "Nombre": "Roxana",
+      "Distrito": "SANTA CRUZ",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
+    },
+    {
+      "Apellido": "Ripoll",
+      "Nombre": "Vilma",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "16/04/2025",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "MST - FRENTE DE IZQUIERDA Y TRABAJADORES UNIDAD"
+    },
+    {
+      "Apellido": "Ritondo",
+      "Nombre": "Cristian A.",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Rizzotti",
+      "Nombre": "Jorge",
+      "Distrito": "JUJUY",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "DEMOCRACIA PARA SIEMPRE"
+    },
+    {
+      "Apellido": "Rodríguez Machado",
+      "Nombre": "Laura",
+      "Distrito": "CORDOBA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Romero",
+      "Nombre": "Ana Clara",
+      "Distrito": "CHUBUT",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Romero",
+      "Nombre": "Jorge Antonio",
+      "Distrito": "CORRIENTES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Ruíz",
+      "Nombre": "Yamila",
+      "Distrito": "MISIONES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "INNOVACIÓN FEDERAL"
+    },
+    {
+      "Apellido": "Sánchez",
+      "Nombre": "Roberto Antonio",
+      "Distrito": "TUCUMAN",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
+    },
+    {
+      "Apellido": "Sánchez Wrba",
+      "Nombre": "Javier",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "12/03/2025",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Sand",
+      "Nombre": "Nancy",
+      "Distrito": "CORRIENTES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Santillán Juárez Brahim",
+      "Nombre": "Juliana",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Santilli",
+      "Nombre": "Diego",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Santoro",
+      "Nombre": "Leandro",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Santurio",
+      "Nombre": "Santiago",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Sarapura",
+      "Nombre": "Natalia Silvina",
+      "Distrito": "JUJUY",
+      "IniciaMandato": "13/06/2023",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
+    },
+    {
+      "Apellido": "Selva",
+      "Nombre": "Sabrina",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Siley",
+      "Nombre": "Vanesa Raquel",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Snopek",
+      "Nombre": "Guillermo",
+      "Distrito": "JUJUY",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Soria",
+      "Nombre": "Martín",
+      "Distrito": "RIO NEGRO",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Sotolano",
+      "Nombre": "María",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Stolbizer",
+      "Nombre": "Margarita",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "ENCUENTRO FEDERAL"
+    },
+    {
+      "Apellido": "Strada",
+      "Nombre": "Julia",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Tailhade",
+      "Nombre": "Rodolfo",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Tavela",
+      "Nombre": "Danya",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "DEMOCRACIA PARA SIEMPRE"
+    },
+    {
+      "Apellido": "Tetaz",
+      "Nombre": "Martin Alberto",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
+    },
+    {
+      "Apellido": "Todero",
+      "Nombre": "Pablo",
+      "Distrito": "NEUQUEN",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Tolosa Paz",
+      "Nombre": "Victoria",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Toniolli",
+      "Nombre": "Eduardo",
+      "Distrito": "SANTA FE",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Torres",
+      "Nombre": "Alejandra",
+      "Distrito": "CORDOBA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "ENCUENTRO FEDERAL"
+    },
+    {
+      "Apellido": "Tortoriello",
+      "Nombre": "Anibal",
+      "Distrito": "RIO NEGRO",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Tournier",
+      "Nombre": "José Federico",
+      "Distrito": "CORRIENTES",
+      "IniciaMandato": "14/08/2024",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LIGA DEL INTERIOR ELI"
+    },
+    {
+      "Apellido": "Treffinger",
+      "Nombre": "César",
+      "Distrito": "CHUBUT",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Valdés",
+      "Nombre": "Eduardo Félix",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Vancsik",
+      "Nombre": "Daniel",
+      "Distrito": "MISIONES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "INNOVACIÓN FEDERAL"
+    },
+    {
+      "Apellido": "Vargas Matyi",
+      "Nombre": "Brenda",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Vásquez",
+      "Nombre": "Patricia",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Vega",
+      "Nombre": "Yolanda",
+      "Distrito": "SALTA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "INNOVACIÓN FEDERAL"
+    },
+    {
+      "Apellido": "Verasay",
+      "Nombre": "Pamela Fernanda",
+      "Distrito": "MENDOZA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
+    },
+    {
+      "Apellido": "Vidal",
+      "Nombre": "María Eugenia",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Vilca",
+      "Nombre": "Alejandro",
+      "Distrito": "JUJUY",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "PTS-FRENTE DE IZQUIERDA UNIDAD"
+    },
+    {
+      "Apellido": "Villaverde",
+      "Nombre": "Lorena",
+      "Distrito": "RIO NEGRO",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Volnovich",
+      "Nombre": "Luana",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Yasky",
+      "Nombre": "Hugo",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Yedlin",
+      "Nombre": "Pablo Raúl",
+      "Distrito": "TUCUMAN",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Yeza",
+      "Nombre": "Martín",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "PRO"
+    },
+    {
+      "Apellido": "Yutrovic",
+      "Nombre": "Carolina",
+      "Distrito": "TIERRA DEL FUEGO",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Zabala Chacur",
+      "Nombre": "Natalia",
+      "Distrito": "SAN LUIS",
+      "IniciaMandato": "21/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Zago",
+      "Nombre": "Oscar",
+      "Distrito": "CIUDAD DE BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "MID - MOVIMIENTO DE INTEGRACIÓN Y DESARROLLO"
+    },
+    {
+      "Apellido": "Zapata",
+      "Nombre": "Carlos Raúl",
+      "Distrito": "SALTA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2025",
+      "Bloque": "LA LIBERTAD AVANZA"
+    },
+    {
+      "Apellido": "Zaracho",
+      "Nombre": "Natalia",
+      "Distrito": "BUENOS AIRES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    },
+    {
+      "Apellido": "Zulli",
+      "Nombre": "Christian Alejandro",
+      "Distrito": "CORRIENTES",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027",
+      "Bloque": "UNIÓN POR LA PATRIA"
+    }
+  ],
+  "bloques": [
+    {
+      "nombres": ["FUERZA PATRIA", "UNIÓN POR LA PATRIA"],
+      "color": "#009FE3"
+    },
+    {
+      "nombres": ["UCR - UNIÓN CÍVICA RADICAL"],
+      "color": "#FFD700"
+    },
+    {
+      "nombres": ["PRO"],
+      "color": "#FFD700"
+    },
+    {
+      "nombres": ["LA LIBERTAD AVANZA"],
+      "color": "#6C4C99"
+    }
+  ],
+  "finalizaMandato": "09/12/2025",
+  "elecciones": {
+    "Senadores - Ciudad Autónoma de Buenos Aires": {
+      "partidos": {
+        "LA LIBERTAD AVANZA": {
+          "votos": 50,
+          "candidatos": [
+            "Patricia Bullrich",
+            "Agust\u00edn An\u00edbal Monteverde"
+          ]
+        },
+        "FUERZA PATRIA": {
+          "votos": 24,
+          "candidatos": [
+            "Mariano Recalde",
+            "Ana Josefina Arias"
+          ]
+        },
+        "CIUDADANOS UNIDOS": {
+          "votos": 2,
+          "candidatos": [
+            "Graciela Oca\u00f1a",
+            "Mart\u00edn Ocampo"
+          ]
+        },
+        "HAGAMOS FUTURO": {
+          "votos": 2,
+          "candidatos": [
+            "Marcela Campagnoli",
+            "Claudio Gabriel Cingolani"
+          ]
+        },
+        "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD": {
+          "votos": 2,
+          "candidatos": [
+            "Christian Castillo",
+            "Mercedes Trimarchi"
+          ]
+        },
+        "POTENCIA": {
+          "votos": 2,
+          "candidatos": [
+            "Juan Mart\u00edn Paleo",
+            "Ana Luisa Paulesu"
+          ]
+        },
+        "PARTIDO GEN": {
+          "votos": 2,
+          "candidatos": [
+            "Facundo Manes",
+            "Carla Betina Pitiot"
+          ]
+        },
+        "LA IZQUIERDA EN LA CIUDAD": {
+          "votos": 2,
+          "candidatos": [
+            "H\u00e9ctor Antonio Herberling",
+            "Mar\u00eda Bel\u00e9n D'Ambrosio Romero"
+          ]
+        },
+        "UNIÓN DEL CENTRO DEMOCRÁTICO": {
+          "votos": 2,
+          "candidatos": [
+            "Diego Guelar",
+            "Mar\u00eda Luciana Minassian"
+          ]
+        },
+        "PARTIDO COMUNISTA": {
+          "votos": 2,
+          "candidatos": [
+            "Ariel Sebasti\u00e1n Elger Vargas",
+            "Nuria In\u00e9s Giniger"
+          ]
+        },
+        "FRENTE PATRIOTA FEDERAL": {
+          "votos": 2,
+          "candidatos": [
+            "\u00c1ngel Javier Romero",
+            "Alicia Mar\u00eda Quinodoz"
+          ]
+        },
+        "MOVIMIENTO PLURAL": {
+          "votos": 2,
+          "candidatos": [
+            "Gustavo Ra\u00fal D'El\u00eda",
+            "Mariana Soledad Funes Llaneza"
+          ]
+        },
+        "MOVIMIENTO DE JUBILADOS Y JUVENTUD": {
+          "votos": 2,
+          "candidatos": [
+            "Esteban Paul\u00f3n",
+            "Daniela Cecilia Soldano"
+          ]
+        },
+        "PARTIDO SOCIALISTA AUTÉNTICO": {
+          "votos": 2,
+          "candidatos": [
+            "Francisco Moreno Guirado",
+            "Elsa Mercedes Morales"
+          ]
+        },
+        "PARTIDO FEDERAL": {
+          "votos": 2,
+          "candidatos": [
+            "Agust\u00edn Dante Rombol\u00e1",
+            "Marina Gabriela P\u00e9rez Damil"
+          ]
+        }
+      }
+    },
+    "Diputados - Buenos Aires": {
+      "partidos": {
+        "FUERZA PATRIA": {
+          "votos": 45.8,
+          "candidatos": [
+            "Jorge Taiana",
+            "Mar\u00eda Jimena L\u00f3pez",
+            "Juan Grabois",
+            "Vanesa Siley",
+            "Sergio Palazzo",
+            "Mar\u00eda Teresa Garc\u00eda",
+            "Horacio Pietragalla Corti",
+            "Agustina Propato",
+            "Hugo Antonio Moyano",
+            "Fernanda D\u00edaz",
+            "Sebasti\u00e1n Galmarini",
+            "Fernanda Mi\u00f1o",
+            "Hugo Yasky",
+            "Marina Dorotea Salzman",
+            "Nicol\u00e1s Trotta",
+            "Mar\u00eda Elena Vel\u00e1zquez",
+            "Luis Alberto Calderaro",
+            "Aldana Giselle Rodr\u00edguez Golisano",
+            "Daniel Adolfo Catalano",
+            "Claudia Alicia Bernazza",
+            "Jorge Rivas",
+            "Roc\u00edo Di Bastiano",
+            "Oscar Gerardo De Isasi",
+            "Silvia Saravia",
+            "Carlos Alberto Raimundi",
+            "Macarena Quinteros",
+            "Carlos Alberto Ortega",
+            "Macarena Ayel\u00e9n Rusconi",
+            "Federico Aldo De Marziano",
+            "Mar\u00eda Cristina Moreno",
+            "Ar\u00edstides Bernab\u00e9 Leinenn",
+            "Florencia Defelipe",
+            "Sebasti\u00e1n Javier Bertoldo",
+            "Julieta Ferrari",
+            "Alejandro Esteban \"Topo\" Rodr\u00edguez "
+          ]
+        },
+        "LA LIBERTAD AVANZA": {
+          "votos": 39.4,
+          "candidatos": [
+            "José Luis Espert",
+            "Karen Reichardt",
+            "Diego Santilli",
+            "Gladys Noemí Humenuk",
+            "Sebastián Miguel Pareja",
+            "Johanna Sabrina Longo",
+            "Alejandro Ángel Carrancio",
+            "Miriam del Cármen Niveyro",
+            "Alejandro Finocchiaro",
+            "Giselle Castelnuovo",
+            "Sergio Daniel \"Tronco\" Figliuolo",
+            "María Florencia De Sensi",
+            "Álvaro García",
+            "María Luisa González Estevarena",
+            "Joaquín Paticio Ojeda",
+            "Andrea Fernanda Vera",
+            "Hernán Urien",
+            "Ana Valeria Tamagno",
+            "Javier Sánchez Wrba",
+            "Martina Daniela León Espinosa",
+            "Rubén Darío Torres",
+            "Bárbara Patricia Lerin",
+            "Mario Osmar Saavedra",
+            "Susana Gabriela Conte",
+            "Hugo Alberto Ferreyra",
+            "Roxana Elizabet Mirna Cavallini",
+            "Ignacio Roberto Salaberren",
+            "Mirta Narzi Wide",
+            "Eduardo Hugo \"Lalo\" Creus",
+            "Karina Gabriela García",
+            "Damián Andrés Selem",
+            "Paula Beatriz Canegallo",
+            "Luis Enrique Green",
+            "Luciana Elizabeth Benardoni",
+            "Mauricio Imperatori"
+          ]
+        },
+        "PROVINCIAS UNIDAS": {
+          "votos": 4.1,
+          "candidatos": [
+            "Florencio Randazzo",
+            "Margarita Stolbizer",
+            "Emilio Monz\u00f3",
+            "Danya Tavela",
+            "Alfredo Lazzeretti",
+            "Andrea Carola Almenta",
+            "Osvaldo C\u00e1ffaro",
+            "Josefina Laur\u00eda",
+            "Julio Enrique Pasqual\u00edn",
+            "Mar\u00eda Silvina Green Asteazar\u00e1n",
+            "Sergio Omar Buil",
+            "Natalia Lorena Dziakowski",
+            "Julio Daniel Dunogent",
+            "Graciela Nora Rego",
+            "Oscar H\u00e9ctor Alva",
+            "Ver\u00f3nica Gabriela Zamora",
+            "Juan Pablo Ripamonti",
+            "Jorgelina Soledad L\u00f3pez",
+            "Carlos Daniel Gianella",
+            "Marianela L\u00f3pez",
+            "Marcelo Daniel Fraga",
+            "Stella Maris Menda\u00f1o",
+            "Ricardo Fabi\u00e1n Choffi",
+            "Mar\u00eda Luj\u00e1n Rodr\u00edguez",
+            "Sergio Fabi\u00e1n Carciofi",
+            "Silvana Raquel Bergel",
+            "Jos\u00e9 Mar\u00eda Duhalde",
+            "Gladis Beatriz Villalba",
+            "Jos\u00e9 Enrique Velazco",
+            "Mar\u00eda Fabiana Nardi",
+            "Juan Gustavo Colli",
+            "Marcela Patricia Loyola",
+            "Hern\u00e1n Jos\u00e9 Miguel Capolupo",
+            "Mar\u00eda del Pilar Muniz",
+            "Alejandro Agust\u00edn Cieri "
+          ]
+        },
+        "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD": {
+          "votos": 4.3,
+          "candidatos": [
+            "Nicol\u00e1s del Ca\u00f1o",
+            "Romina Del Pl\u00e1",
+            "Juan Carlos Giordano",
+            "M\u00f3nica Schlotthauer",
+            "Alejandro Bodart",
+            "Ana Irene Paredes Landman",
+            "Nestor Pitrola",
+            "Nathalia Gonz\u00e1lez Seligra",
+            "Eduardo Ayala",
+            "Luana Simioni",
+            "Sebasti\u00e1n Manuel Rodr\u00edguez",
+            "Jorgelina Matusevicius",
+            "Federico Francisco Novo Foti",
+            "Norma In\u00e9s Lezama",
+            "Ariel Marcelo Somer",
+            "Agustina Bel\u00e9n Barrios",
+            "Guillermo Enrique Pacagnini",
+            "Daiana Solange Cabrera S\u00e1nchez",
+            "Lucas Hern\u00e1n Cuenca",
+            "Graciela Beatriz Calder\u00f3n",
+            "Juan Emiliano Romero",
+            "Karen Florencia Leguizam\u00f3n",
+            "Jos\u00e9 Alejandro Sebriano",
+            "Andrea Bernarda Lanzette",
+            "Franco Rapanelli",
+            "Emilce Alejandra Correa Louzao",
+            "Claudio Manuel Mora",
+            "Nora Iris Biaggio",
+            "Luis Mariano Sucher",
+            "M\u00f3nica Silvia M\u00e9ndez",
+            "Ricardo Javier Valdueza Segreti",
+            "Paula Yamila Akerfeld",
+            "Osvaldo Omar L\u00f3pez",
+            "Natalia Marisa Espasa",
+            "Luciano Corradi "
+          ]
+        },
+        "POTENCIA": {
+          "votos": 0.64,
+          "candidatos": [
+            "Mar\u00eda Eugenia Talerico",
+            "Ricardo Inti Alpert",
+            "Mar\u00eda Sof\u00eda De Hagen",
+            "Fernando Pablo Mascetti",
+            "Flavia Noelia Acu\u00f1a",
+            "Miguel \u00c1ngel Echeverr\u00eda",
+            "Eva Beatriz Gigena",
+            "Ricardo Jos\u00e9 Stoddart",
+            "Amalia Francini",
+            "Carlos Manuel \u00c1lvarez",
+            "Mar\u00eda Gabriela Hern\u00e1ndez",
+            "An\u00edbal Anselmo Cevasco",
+            "Cecilia Virginia Rumi Gonz\u00e1lez",
+            "Marcelo Fabi\u00e1n Garc\u00eda",
+            "Ariana Magal\u00ed Schiavi",
+            "Jorge Luis Berisso",
+            "Mar\u00eda Eugenia Villata",
+            "Alejandro Bartoletti",
+            "Marcela Estela Chui",
+            "Luis Enrique Palmiotti",
+            "Mar\u00eda Andrea Passerini",
+            "H\u00e9ctor Juan Cumplido",
+            "Susana Graciela Pisera",
+            "Pedro Manuel Vigneau",
+            "Delia Natalia Gandini",
+            "Federico Caballero Matoccio",
+            "Mariana Fuentes Weber",
+            "Claudio Jes\u00fas Venchiarutti",
+            "Gabriela Anoll",
+            "Alejandro Jos\u00e9 Bulacio",
+            "Stella Maris D\u00edaz",
+            "Oscar Daniel Ponce",
+            "Lorena Paola Gorosito",
+            "Jes\u00fas Ismael Chobadindegui",
+            "Laura Adelina Carbone"
+          ]
+        },
+        "UNIÓN FEDERAL": {
+          "votos": 0.64,
+          "candidatos": [
+            "Fernando Gray",
+            "Mar\u00eda Laura Guazzaroni",
+            "Federico Martelli",
+            "Anal\u00eda Elisabet P\u00e9rez",
+            "Adolfo Maximiliano Su\u00e1rez Erdaire",
+            "Carina Mabel Biroulet",
+            "\u00c1ngel Alberto Garc\u00eda",
+            "Gisela Elizabet Oliva",
+            "Mariano Fernandino",
+            "Rosana Tortosa",
+            "Alejandro Luis L\u00f3pez",
+            "Mar\u00eda Isabel Casas",
+            "Horacio Azzoni",
+            "Romina Soledad Rojas",
+            "Guido Ignacio Mengia",
+            "Emilce Beatriz Blanco",
+            "Ernesto Fabi\u00e1n Garc\u00eda",
+            "Iris Noemi Barrios",
+            "Hugo Marcelo D\u00e1vila",
+            "Marcela Fabiana Ludue\u00f1a",
+            "Javier Dami\u00e1n Raffaellino",
+            "Andrea Silvia Piantanida",
+            "Luis Roberto Cano",
+            "Sabrina Natalia Alsina",
+            "Ariel Gustavo Montes",
+            "Mirta Azucena Koch",
+            "Pablo Sebasti\u00e1n Etchegoyhen",
+            "Ramona Cruz Barraza",
+            "Manuel H\u00e9ctor S\u00e1nchez",
+            "Blanca Soledad Cristaldo",
+            "Facundo Martin Fern\u00e1ndez Araujo",
+            "Sabrina Ayel\u00e9n Soria",
+            "Ignacio Trucco",
+            "Silvana Patricia Fern\u00e1ndez",
+            "Walter Adri\u00e1n Favale"
+          ]
+        },
+        "NUEVOS AIRES": {
+          "votos": 0.64,
+          "candidatos": [
+            "Sixto Cristiani",
+            "Catalina Achilli",
+            "Leandro Dami\u00e1n Nievas Offidani",
+            "Milagros Ayel\u00e9n Alfonso",
+            "Cristian Alejandro Ruiz",
+            "Romina Elizabeth D\u00edaz",
+            "Tomas Joaqu\u00edn Cuervo",
+            "Rosana Cecilia Sobr\u00e9",
+            "Cristian Fabi\u00e1n Quillotay",
+            "Nerea Silvina G\u00f3mez",
+            "Tiago Aranzabe",
+            "Andrea Alejandra Repetto",
+            "Alejandro Mart\u00edn Torre",
+            "Aldana Bel\u00e9n G\u00f3mez",
+            "Ra\u00fal Eduardo Ramos",
+            "Natalia Antonia Muller",
+            "Emiliano Daniel Acosta",
+            "Tamara Anabella Arredondo",
+            "Roberto Mariano Brizuela",
+            "Anah\u00ed Anabel Vallejo",
+            "Agust\u00edn Lautaro Garc\u00eda Ruiz",
+            "Mariela Ver\u00f3nica M\u00e9ndez",
+            "Patricio Longarini",
+            "Micaela Jazm\u00edn Di Palma",
+            "Mauricio Esteban Gonz\u00e1lez",
+            "Marcela Elisabeth Sejas",
+            "Guillermo Dar\u00edo Carrizo",
+            "Mar\u00eda Jimena L\u00f3pez",
+            "Cristian Mario Loff Fonseca",
+            "Ana Mar\u00eda Offidani",
+            "Ram\u00f3n Rafael P\u00e9rez",
+            "Mariela Alejandra Meconcelli",
+            "Nicol\u00e1s Agust\u00edn G\u00f3mez",
+            "Rosana Gabriela G\u00f3mez",
+            "Gonzalo Adri\u00e1n Araujo \u00c1lvarez"
+          ]
+        },
+        "PARTIDO NUEVO BUENOS AIRES": {
+          "votos": 0.64,
+          "candidatos": [
+            "Santiago C\u00faneo",
+            "Mara Yanina Ord\u00f3\u00f1ez",
+            "Ra\u00fal Germ\u00e1n Biaggioni",
+            "Nydia Ximena Caligiuri",
+            "Ram\u00f3n Garces",
+            "Alessandra Minnicelli",
+            "Adri\u00e1n Ricardo Salbuchi",
+            "Ofelia A\u00edda Barbe",
+            "David Andr\u00e9s Moreyra",
+            "Susana Elena Rojas",
+            "Claudio C\u00e9sar Orellano",
+            "Vilma Josephine Biro Alem\u00e1n",
+            "Horacio Eladio Burgos",
+            "D\u00e9bora Raquel Anselmino",
+            "Alejandro Rogelio Cabello",
+            "Sandra Patricia Ick",
+            "Luciano Carmelo Martos",
+            "Soledad Catalina Albornoz",
+            "Daniel Mart\u00edn",
+            "Mar\u00eda Jos\u00e9 Deolinda Pacenti",
+            "Sebasti\u00e1n Everardo L\u00f3pez Podest\u00e1",
+            "Ver\u00f3nica Anal\u00eda D\u00edaz",
+            "Ram\u00f3n V\u00edctor Rodr\u00edguez",
+            "Laura Soledad Vel\u00e1zquez",
+            "Nelson Ra\u00fal Prezioso",
+            "Mar\u00eda Virginia Iribas",
+            "Joel Ick Pacenti",
+            "Cecilia Elina Espinoza Lampert",
+            "Roberto Osvaldo Smith",
+            "Chiara Pacenti",
+            "Pablo Ricardo Anselmino",
+            "Cecilia Mariana Marti",
+            "Gast\u00f3n Alejandro Frachetti",
+            "Silvia Margarita Altamura",
+            "Daniel Gerardo Escobar"
+          ]
+        },
+        "UNIÓN LIBERAL": {
+          "votos": 0.64,
+          "candidatos": [
+            "Roberto Horacio Cachanosky",
+            "Griselda Mirian Romariz de Aristi",
+            "Hugo Eduardo Bontempo",
+            "Patricia Marcela Heltner",
+            "Alejandro Ra\u00fal Mansilla",
+            "Evangelina Noem\u00ed Mart\u00edn",
+            "Francisco Antonio Soraci",
+            "M\u00f3nica Alejandra Leguizam\u00f3n",
+            "Leonardo Maximiliano Panebianco",
+            "Vanessa Mariel Spinola Torres",
+            "Cristian Sebasti\u00e1n Le\u00f3n",
+            "Romina Victoria Trotta",
+            "Ram\u00f3n Argentino Palacios",
+            "Bianca Giangrande",
+            "Francisco Sicardi De Estrada",
+            "Clara Lorena Espinosa",
+            "Jorge Centuri\u00f3n",
+            "Vera Mar\u00eda Laura Montenegro",
+            "Gustavo Adolfo D\u00edaz",
+            "Erika Romina Spitteler",
+            "Marcelo Daniel Carola",
+            "Dora Elizabeth Marcelino",
+            "Claudio Daniel Gim\u00e9nez",
+            "M\u00f3nica Patricia Fern\u00e1ndez",
+            "Horacio Alejandro Santill\u00e1n",
+            "Natalia Laura Mariotti",
+            "Roberto Guillermo Casal",
+            "Alicia Lidia Casal",
+            "Carlos Daniel Harendorf",
+            "Alicia Magdalena Rivero",
+            "Mat\u00edas Ferrario",
+            "Roxana Laura Marga",
+            "Jos\u00e9 Fernando Bustamante",
+            "Marisa Lorena Mraca",
+            "Sebasti\u00e1n Manuel Vilas Bustos"
+          ]
+        },
+        "COALICIÓN CÍVICA ARI": {
+          "votos": 0.64,
+          "candidatos": [
+            "Juan Manuel L\u00f3pez",
+            "Elsa Esther Llenderrozas",
+            "Lisandro Fabi\u00e1n Hourcade",
+            "Maricel Etchecoin Moro",
+            "Mat\u00edas Yofre",
+            "Nadia Graciela Porro",
+            "Rom\u00e1n Luj\u00e1n Bouvier",
+            "Victoria Borrego",
+            "H\u00e9ctor \"Toty\" Flores",
+            "Graciela Norma Andrada",
+            "Pablo Antonio Zubiaurre",
+            "Nilda Gabriela Zapata",
+            "Jos\u00e9 Mar\u00eda Fern\u00e1ndez",
+            "Anah\u00ed Silvina Bilbao",
+            "Eduardo Jordan",
+            "Patricia Alejandra Malaspina",
+            "Fernando Daniel Trigo",
+            "Silvia Beatriz V\u00e1zquez",
+            "Oscar Daniel Cappelletti",
+            "Giana L\u00eda Fuentes",
+            "Sa\u00fal Alberto Trejo",
+            "Mariana Caracoche",
+            "Patricio Esteban Yalet",
+            "Mar\u00eda Bel\u00e9n C\u00e1ceres",
+            "Santiago Jos\u00e9 Mercad\u00e9",
+            "Lourdes Nocetti",
+            "Haroldo Oscar Alfredo Villafranca",
+            "Berta Ofelia N\u00fa\u00f1ez",
+            "Lucas Mat\u00edas Ag\u00fcero Lorenzo",
+            "Miriam Ethel Landoni",
+            "Horacio Javier Canullan",
+            "Concepci\u00f3n Ester Junco",
+            "Mart\u00edn Bossi",
+            "Silvia Diana Rodr\u00edguez",
+            "Fernando Gabriel Landaburu "
+          ]
+        },
+        "MOVIMIENTO AVANZADA SOCIALISTA": {
+          "votos": 0.64,
+          "candidatos": [
+            "Manuela Jimena Casta\u00f1eira",
+            "Juan Cruz Ramat",
+            "Mar\u00eda Paz \u00c1lvarez",
+            "Lucas Mat\u00edas Correa",
+            "Soledad Victoria Yapura",
+            "Marcos Javier Pascuan",
+            "Paula Gabriela Abal",
+            "Leandro Hidalgo Robles",
+            "Karina Vanesa Colodro",
+            "Jorge Luis Ayala",
+            "Graciela Luisa Robles",
+            "Facundo Ariel D\u00edaz",
+            "Andrea Susana Dopazo",
+            "Ramiro Andr\u00e9s Manini",
+            "Natalia Celeste Faganello",
+            "Facundo Esteban Raggio",
+            "Laura Daniela G\u00f3mez",
+            "Emilio Alberto Almada",
+            "Karen Gisele N\u00fa\u00f1ez",
+            "Benjamin Argentino Caviedes",
+            "Emma Sof\u00eda Vecchio",
+            "Maximiliano Wasserman",
+            "Luc\u00eda Macarena C\u00e1mara",
+            "Sergio Gerardo Mart\u00ednez",
+            "Paula Soledad Rojas",
+            "Miguel \u00c1ngel Mugueta",
+            "Evelyn Mac Dermott",
+            "Eduardo Pastor Mart\u00ednez",
+            "Florencia Beatriz Gonz\u00e1lez",
+            "Jaime Manuel Lasa Matteucci",
+            "Florencia Beatriz Ben\u00edtez",
+            "Gustavo Marcelo Ju\u00e1rez",
+            "Sof\u00eda del Carmen Carneiro",
+            "Alejandro Marcelo Schmale",
+            "Andrea Solange Nu\u00f1ez"
+          ]
+        },
+        "MOVIMIENTO POLÍTICO, SOCIAL Y CULTURAL PROYECTO SUR": {
+          "votos": 0.64,
+          "candidatos": [
+            "Ricardo Alfons\u00edn",
+            "Lilia Estrella Mar\u00eda Cassese",
+            "Gustavo Fernando L\u00f3pez",
+            "Marina Celina Sburlatti",
+            "Hugo Adolfo Maltempo",
+            "Julia Larcam\u00f3n",
+            "Manuel Mart\u00edn Canay",
+            "Carina Ester Zeli",
+            "Jos\u00e9 Luis Fabris",
+            "Marianella Islas",
+            "Santiago Luis Hern\u00e1ndez",
+            "Gabriela Alejandra Adorno",
+            "Germ\u00e1n Kohl",
+            "M\u00f3nica Beatriz Sequeira",
+            "Christian Carlos Greco",
+            "Ver\u00f3nica Beatriz Mateo",
+            "Fabio Gabriel Perussich",
+            "Silvia Beatriz Fern\u00e1ndez Zena",
+            "Pablo Cristian Foster",
+            "Viviana Hayd\u00e9e Forti",
+            "Daniel Horacio Deserti",
+            "Evelin Gisela Gonz\u00e1lez",
+            "Osvaldo Julio Gatti",
+            "Marta Melodi Campos",
+            "Antonio Hern\u00e1n Corona",
+            "Laura Andrea P\u00e9rgola",
+            "Eduardo Adri\u00e1n Bogado",
+            "Leila Rashid",
+            "Walter Oscar Flores",
+            "Gisella Noem\u00ed Mattea",
+            "Leonel Alberto Antonuchi",
+            "Irene Elisa Barzola",
+            "Guillermo Andr\u00e9s Garc\u00eda",
+            "Fernanda Marcela Fern\u00e1ndez Vizcay",
+            "Rodolfo Dami\u00e1n Su\u00e1rez"
+          ]
+        },
+        "PROPUESTA FEDERAL PARA EL CAMBIO": {
+          "votos": 0.64,
+          "candidatos": [
+            "Alberto Samid",
+            "Mar\u00eda Cristina Dip",
+            "Alejandro Carlos Biondini",
+            "Marisa Cecilia Scarafia",
+            "Mart\u00edn Ad\u00e1n Iodko",
+            "Eliana Solange Ott",
+            "Diego Ariel Carlomagno",
+            "Sandra Marcela Garc\u00eda",
+            "Valentino Bellini",
+            "Yolanda Beatriz Kayser",
+            "Claudio Hern\u00e1n Garc\u00eda",
+            "Yanel Daiana Etcheverry",
+            "Am\u00e9rico Antonio Fresca",
+            "Mariana Paula Patricia Mollo",
+            "Sebasti\u00e1n Jorge Salvador Bustamante",
+            "Mar\u00eda Laura Ferreyra",
+            "H\u00e9ctor Ismael Rodr\u00edguez",
+            "Silvia Irene Bostjanic",
+            "Esteban Oscar Mannarino",
+            "Silvia Raquel Clavijo",
+            "Roberto Gabriel Spinosa Casta\u00f1o",
+            "Marcela Ana Garc\u00eda",
+            "Alberto Enrique Cetrola",
+            "Raquel Alejandra Aguilera",
+            "Sebasti\u00e1n Gabriel Guti\u00e9rrez",
+            "Nancy Elizabeth Castillo",
+            "Miguel Omar Juli\u00e1n",
+            "Alicia Beatriz Quiroz",
+            "Rolando Mart\u00edn Riss",
+            "Erica Raquel Salto",
+            "Juan Carlos Rosito",
+            "Yesica Andrea Colicino",
+            "Enrique Marcelo Ariel Oros",
+            "M\u00f3nica Isabel P\u00e9rez",
+            "Jorge Eduardo Arias"
+          ]
+        },
+        "LIBER.AR": {
+          "votos": 0.64,
+          "candidatos": [
+            "Fernando Burlando",
+            "Fabiana Graciela Mart\u00edn",
+            "Fabi\u00e1n Ra\u00fal Amendola",
+            "Silvia Fabiana Petroff",
+            "Fernando Javier Ferrer",
+            "Vanesa Judith Sosa",
+            "Javier Ignacio Ba\u00f1os",
+            "Mar\u00eda Lorena Pagano",
+            "Carlos Alberto Giuliani",
+            "Carina Alejandra Arraygada",
+            "Adolfo Mart\u00edn Leguizam\u00f3n Pe\u00f1a",
+            "Alejandra Leonor Mart\u00ednez",
+            "Germ\u00e1n Rodrigo Francone",
+            "Rosa del Valle Lazo",
+            "Sebasti\u00e1n Lautaro Federico Slpizer",
+            "Gloria Ver\u00f3nica Ayala",
+            "Claudio Alejandro Papasidero Ricco",
+            "Carolina Ver\u00f3nica Onzari Frau",
+            "V\u00edctor Hugo Lectour",
+            "Celia Isabel Quintana",
+            "Nerio Alfredo Robles",
+            "Natalia Berrittella",
+            "Gabriel Dar\u00edo Balbuena",
+            "Norma Beatriz Ram\u00edrez",
+            "Adri\u00e1n Flavio Corzo",
+            "Griselda Hayd\u00e9e Saucedo",
+            "Adri\u00e1n Daniel Serusi",
+            "Viviana Andrea Veloso",
+            "Jonatan Oscar Magno",
+            "Gabriela Fernanda Fellet",
+            "Pablo Ariel Gonz\u00e1lez",
+            "Gabriela Alejandra Porta",
+            "Eduardo Ernesto Trejo",
+            "Elena Lidia Romero",
+            "Sergio Luis Lanzini"
+          ]
+        }
+      }
+    }
+  }
+}

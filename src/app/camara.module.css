@@ -1,0 +1,29 @@
+.cls-6 {
+    stroke-width: 1.2px;
+  }
+
+  .cls-6, .cls-7 {
+    fill: none;
+    opacity: .7;
+    stroke: #6aaae4;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+  }
+
+  .cls-6, .cls-7, .cls-8 {
+    isolation: isolate;
+  }
+
+  .cls-7 {
+    stroke-width: 2.3px;
+  }
+
+  .cls-17 {
+    display: none;
+  }
+
+  .cls-8 {
+    font-family: Arial-BoldMT, Arial;
+    font-size: 105.8px;
+    font-weight: 700;
+  }
