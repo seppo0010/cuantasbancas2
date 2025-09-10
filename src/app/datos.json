@@ -509,7 +509,6 @@
     {
       "Apellido": "Acevedo",
       "Nombre": "Sergio Edgardo",
-      "Distrito": "SANTA CRUZ",
       "IniciaMandato": "07/12/2023",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "POR SANTA CRUZ"
@@ -517,7 +516,6 @@
     {
       "Apellido": "Agost Carreño",
       "Nombre": "Oscar",
-      "Distrito": "CORDOBA",
       "IniciaMandato": "23/08/2023",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "ENCUENTRO FEDERAL"
@@ -525,7 +523,6 @@
     {
       "Apellido": "Aguirre",
       "Nombre": "Manuel Ignacio",
-      "Distrito": "CORRIENTES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "DEMOCRACIA PARA SIEMPRE"
@@ -533,7 +530,6 @@
     {
       "Apellido": "Aguirre",
       "Nombre": "Hilda",
-      "Distrito": "LA RIOJA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -541,7 +537,6 @@
     {
       "Apellido": "Ajmechet",
       "Nombre": "Sabrina",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PRO"
@@ -549,7 +544,6 @@
     {
       "Apellido": "Alí",
       "Nombre": "Ernesto \"Pipi\"",
-      "Distrito": "SAN LUIS",
       "IniciaMandato": "31/01/2024",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -557,7 +551,6 @@
     {
       "Apellido": "Alianiello",
       "Nombre": "Eugenia",
-      "Distrito": "CHUBUT",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -565,7 +558,6 @@
     {
       "Apellido": "Allende",
       "Nombre": "Walberto",
-      "Distrito": "SAN JUAN",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -573,7 +565,6 @@
     {
       "Apellido": "Almirón",
       "Nombre": "Lisandro",
-      "Distrito": "CORRIENTES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -581,7 +572,6 @@
     {
       "Apellido": "Alonso",
       "Nombre": "Constanza María",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -589,7 +579,6 @@
     {
       "Apellido": "Ansaloni",
       "Nombre": "Pablo",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -597,7 +586,6 @@
     {
       "Apellido": "Antola",
       "Nombre": "Marcela",
-      "Distrito": "ENTRE RIOS",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "DEMOCRACIA PARA SIEMPRE"
@@ -605,7 +593,6 @@
     {
       "Apellido": "Arabia",
       "Nombre": "Damián",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "PRO"
@@ -613,7 +600,6 @@
     {
       "Apellido": "Arancibia Rodríguez",
       "Nombre": "Alberto Gustavo",
-      "Distrito": "SAN LUIS",
       "IniciaMandato": "02/11/2023",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -621,7 +607,6 @@
     {
       "Apellido": "Araujo",
       "Nombre": "María Fernanda",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "07/12/2023",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -629,7 +614,6 @@
     {
       "Apellido": "Araujo Hernández",
       "Nombre": "Jorge Neri",
-      "Distrito": "TIERRA DEL FUEGO",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -637,7 +621,6 @@
     {
       "Apellido": "Ardohain",
       "Nombre": "Martín",
-      "Distrito": "LA PAMPA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "PRO"
@@ -645,7 +628,6 @@
     {
       "Apellido": "Arjol",
       "Nombre": "Martín",
-      "Distrito": "MISIONES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "LIGA DEL INTERIOR ELI"
@@ -653,7 +635,6 @@
     {
       "Apellido": "Arrieta",
       "Nombre": "Lourdes Micaela",
-      "Distrito": "MENDOZA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "COHERENCIA"
@@ -661,7 +642,6 @@
     {
       "Apellido": "Arroyo",
       "Nombre": "Daniel",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -669,7 +649,6 @@
     {
       "Apellido": "Arrúa",
       "Nombre": "Alberto",
-      "Distrito": "MISIONES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "INNOVACIÓN FEDERAL"
@@ -677,7 +656,6 @@
     {
       "Apellido": "Aubone",
       "Nombre": "Ana Fabiola",
-      "Distrito": "SAN JUAN",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -685,7 +663,6 @@
     {
       "Apellido": "Aveiro",
       "Nombre": "Martín",
-      "Distrito": "MENDOZA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -693,7 +670,6 @@
     {
       "Apellido": "Avico",
       "Nombre": "Belén",
-      "Distrito": "CORDOBA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "PRO"
@@ -701,7 +677,6 @@
     {
       "Apellido": "Avila",
       "Nombre": "Jorge Antonio",
-      "Distrito": "CHUBUT",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "ENCUENTRO FEDERAL"
@@ -709,7 +684,6 @@
     {
       "Apellido": "Avila",
       "Nombre": "Fernanda",
-      "Distrito": "CATAMARCA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -717,7 +691,6 @@
     {
       "Apellido": "Bachey",
       "Nombre": "Karina Ethel",
-      "Distrito": "SAN LUIS",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PRO"
@@ -725,7 +698,6 @@
     {
       "Apellido": "Baldassi",
       "Nombre": "Héctor W.",
-      "Distrito": "CORDOBA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PRO"
@@ -733,7 +705,6 @@
     {
       "Apellido": "Ballejos",
       "Nombre": "Nancy",
-      "Distrito": "ENTRE RIOS",
       "IniciaMandato": "11/09/2024",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PRO"
@@ -741,7 +712,6 @@
     {
       "Apellido": "Banfi",
       "Nombre": "Karina",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
@@ -749,7 +719,6 @@
     {
       "Apellido": "Barletta",
       "Nombre": "Mario",
-      "Distrito": "SANTA FE",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIDOS"
@@ -757,7 +726,6 @@
     {
       "Apellido": "Basterra",
       "Nombre": "Luis Eugenio",
-      "Distrito": "FORMOSA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -765,7 +733,6 @@
     {
       "Apellido": "Benedetti",
       "Nombre": "Atilio",
-      "Distrito": "ENTRE RIOS",
       "IniciaMandato": "05/07/2023",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
@@ -773,7 +740,6 @@
     {
       "Apellido": "Benedit",
       "Nombre": "Beltrán",
-      "Distrito": "ENTRE RIOS",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -781,7 +747,6 @@
     {
       "Apellido": "Benegas Lynch",
       "Nombre": "Bertie",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -789,7 +754,6 @@
     {
       "Apellido": "Bermejo",
       "Nombre": "Adolfo",
-      "Distrito": "MENDOZA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -797,7 +761,6 @@
     {
       "Apellido": "Bertoldi",
       "Nombre": "Tanya",
-      "Distrito": "NEUQUEN",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -805,7 +768,6 @@
     {
       "Apellido": "Besana",
       "Nombre": "Gabriela",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PRO"
@@ -813,7 +775,6 @@
     {
       "Apellido": "Bianchetti",
       "Nombre": "Emmanuel",
-      "Distrito": "MISIONES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "PRO"
@@ -821,7 +782,6 @@
     {
       "Apellido": "Bonacci",
       "Nombre": "Rocío",
-      "Distrito": "SANTA FE",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -829,7 +789,6 @@
     {
       "Apellido": "Bongiovanni",
       "Nombre": "Alejandro",
-      "Distrito": "SANTA FE",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "PRO"
@@ -837,7 +796,6 @@
     {
       "Apellido": "Bordet",
       "Nombre": "Gustavo",
-      "Distrito": "ENTRE RIOS",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -845,7 +803,6 @@
     {
       "Apellido": "Bornoroni",
       "Nombre": "Gabriel",
-      "Distrito": "CORDOBA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -853,7 +810,6 @@
     {
       "Apellido": "Borrego",
       "Nombre": "Victoria",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "COALICION CIVICA"
@@ -861,7 +817,6 @@
     {
       "Apellido": "Brambilla",
       "Nombre": "Sofía",
-      "Distrito": "CORRIENTES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PRO"
@@ -869,7 +824,6 @@
     {
       "Apellido": "Brouwer De Koning",
       "Nombre": "Gabriela",
-      "Distrito": "CORDOBA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
@@ -877,7 +831,6 @@
     {
       "Apellido": "Brügge",
       "Nombre": "Juan Fernando",
-      "Distrito": "CORDOBA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "ENCUENTRO FEDERAL"
@@ -885,7 +838,6 @@
     {
       "Apellido": "Cafiero",
       "Nombre": "Santiago",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -893,7 +845,6 @@
     {
       "Apellido": "Calletti",
       "Nombre": "Pamela",
-      "Distrito": "SALTA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "INNOVACIÓN FEDERAL"
@@ -901,7 +852,6 @@
     {
       "Apellido": "Campagnoli",
       "Nombre": "Marcela",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "COALICION CIVICA"
@@ -909,7 +859,6 @@
     {
       "Apellido": "Campero",
       "Nombre": "Mariano",
-      "Distrito": "TUCUMAN",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LIGA DEL INTERIOR ELI"
@@ -917,7 +866,6 @@
     {
       "Apellido": "Campitelli",
       "Nombre": "Celia",
-      "Distrito": "SANTIAGO DEL ESTERO",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -925,7 +873,6 @@
     {
       "Apellido": "Capozzi",
       "Nombre": "Sergio Eduardo",
-      "Distrito": "RIO NEGRO",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "PRO"
@@ -933,7 +880,6 @@
     {
       "Apellido": "Carbajal",
       "Nombre": "Fernando",
-      "Distrito": "FORMOSA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "DEMOCRACIA PARA SIEMPRE"
@@ -941,7 +887,6 @@
     {
       "Apellido": "Carignano",
       "Nombre": "Florencia",
-      "Distrito": "SANTA FE",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -949,7 +894,6 @@
     {
       "Apellido": "Carrizo",
       "Nombre": "Soledad",
-      "Distrito": "CORDOBA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
@@ -957,7 +901,6 @@
     {
       "Apellido": "Carrizo",
       "Nombre": "Ana Carla",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "DEMOCRACIA PARA SIEMPRE"
@@ -965,7 +908,6 @@
     {
       "Apellido": "Carro",
       "Nombre": "Pablo",
-      "Distrito": "CORDOBA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -973,7 +915,6 @@
     {
       "Apellido": "Casas",
       "Nombre": "Sergio Guillermo",
-      "Distrito": "LA RIOJA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -981,7 +922,6 @@
     {
       "Apellido": "Castagneto",
       "Nombre": "Carlos Daniel",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -989,7 +929,6 @@
     {
       "Apellido": "Castillo",
       "Nombre": "Christian",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "PTS-FRENTE DE IZQUIERDA UNIDAD"
@@ -997,7 +936,6 @@
     {
       "Apellido": "Cervi",
       "Nombre": "Pablo",
-      "Distrito": "NEUQUEN",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "LIGA DEL INTERIOR ELI"
@@ -1005,7 +943,6 @@
     {
       "Apellido": "Chaher",
       "Nombre": "Leila",
-      "Distrito": "JUJUY",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1013,7 +950,6 @@
     {
       "Apellido": "Chica",
       "Nombre": "Jorge",
-      "Distrito": "SAN JUAN",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1021,7 +957,6 @@
     {
       "Apellido": "Chomiak",
       "Nombre": "María Luisa",
-      "Distrito": "CHACO",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1029,7 +964,6 @@
     {
       "Apellido": "Chumpitaz",
       "Nombre": "Gabriel Felipe",
-      "Distrito": "SANTA FE",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "FUTURO Y LIBERTAD"
@@ -1037,7 +971,6 @@
     {
       "Apellido": "Cipolini",
       "Nombre": "Gerardo",
-      "Distrito": "CHACO",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
@@ -1045,7 +978,6 @@
     {
       "Apellido": "Cisneros",
       "Nombre": "Carlos",
-      "Distrito": "TUCUMAN",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1053,7 +985,6 @@
     {
       "Apellido": "Cobos",
       "Nombre": "Julio",
-      "Distrito": "MENDOZA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
@@ -1061,7 +992,6 @@
     {
       "Apellido": "Coletta",
       "Nombre": "Mariela",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "DEMOCRACIA PARA SIEMPRE"
@@ -1069,7 +999,6 @@
     {
       "Apellido": "Coli",
       "Nombre": "Marcela",
-      "Distrito": "LA PAMPA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "DEMOCRACIA PARA SIEMPRE"
@@ -1077,7 +1006,6 @@
     {
       "Apellido": "Correa Llano",
       "Nombre": "Facundo",
-      "Distrito": "MENDOZA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -1085,7 +1013,6 @@
     {
       "Apellido": "D'Alessandro",
       "Nombre": "Carlos",
-      "Distrito": "SAN LUIS",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "COHERENCIA"
@@ -1093,7 +1020,6 @@
     {
       "Apellido": "Daives",
       "Nombre": "Ricardo",
-      "Distrito": "SANTIAGO DEL ESTERO",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1101,7 +1027,6 @@
     {
       "Apellido": "de la Sota",
       "Nombre": "Natalia",
-      "Distrito": "CORDOBA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "ENCUENTRO FEDERAL"
@@ -1109,7 +1034,6 @@
     {
       "Apellido": "de Loredo",
       "Nombre": "Rodrigo",
-      "Distrito": "CORDOBA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
@@ -1117,7 +1041,6 @@
     {
       "Apellido": "de Mendieta",
       "Nombre": "Mercedes",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "02/07/2025",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "IZQUIERDA SOCIALISTA FIT-UNIDAD"
@@ -1125,7 +1048,6 @@
     {
       "Apellido": "De Sensi",
       "Nombre": "María Florencia",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PRO"
@@ -1133,7 +1055,6 @@
     {
       "Apellido": "Diez",
       "Nombre": "Romina",
-      "Distrito": "SANTA FE",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -1141,7 +1062,6 @@
     {
       "Apellido": "Domingo",
       "Nombre": "Agustín",
-      "Distrito": "RIO NEGRO",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "INNOVACIÓN FEDERAL"
@@ -1149,7 +1069,6 @@
     {
       "Apellido": "Emma",
       "Nombre": "Nicolás",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "07/12/2023",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -1157,7 +1076,6 @@
     {
       "Apellido": "Espert",
       "Nombre": "José Luis",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -1165,7 +1083,6 @@
     {
       "Apellido": "Estévez",
       "Nombre": "Gabriela Beatriz",
-      "Distrito": "CORDOBA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1173,7 +1090,6 @@
     {
       "Apellido": "Estrada",
       "Nombre": "Emiliano",
-      "Distrito": "SALTA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1181,7 +1097,6 @@
     {
       "Apellido": "Falcone",
       "Nombre": "Eduardo",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "MID - MOVIMIENTO DE INTEGRACIÓN Y DESARROLLO"
@@ -1189,7 +1104,6 @@
     {
       "Apellido": "Fein",
       "Nombre": "Mónica",
-      "Distrito": "SANTA FE",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "ENCUENTRO FEDERAL"
@@ -1197,7 +1111,6 @@
     {
       "Apellido": "Fernández",
       "Nombre": "Agustin",
-      "Distrito": "TUCUMAN",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "INDEPENDENCIA"
@@ -1205,7 +1118,6 @@
     {
       "Apellido": "Fernández",
       "Nombre": "Elia Marina",
-      "Distrito": "TUCUMAN",
       "IniciaMandato": "02/11/2023",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "INDEPENDENCIA"
@@ -1213,7 +1125,6 @@
     {
       "Apellido": "Fernández",
       "Nombre": "Carlos Alberto",
-      "Distrito": "MISIONES",
       "IniciaMandato": "16/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "INNOVACIÓN FEDERAL"
@@ -1221,7 +1132,6 @@
     {
       "Apellido": "Fernández Molero",
       "Nombre": "Daiana",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "PRO"
@@ -1229,7 +1139,6 @@
     {
       "Apellido": "Fernández Patri",
       "Nombre": "Ramiro",
-      "Distrito": "FORMOSA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1237,7 +1146,6 @@
     {
       "Apellido": "Ferraro",
       "Nombre": "Maximiliano",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "COALICION CIVICA"
@@ -1245,7 +1153,6 @@
     {
       "Apellido": "Ferreyra",
       "Nombre": "Alida",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "31/01/2024",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -1253,7 +1160,6 @@
     {
       "Apellido": "Figueroa Casas",
       "Nombre": "Germana",
-      "Distrito": "SANTA FE",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PRO"
@@ -1261,7 +1167,6 @@
     {
       "Apellido": "Finocchiaro",
       "Nombre": "Alejandro",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PRO"
@@ -1269,7 +1174,6 @@
     {
       "Apellido": "Frade",
       "Nombre": "Mónica",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "COALICION CIVICA"
@@ -1277,7 +1181,6 @@
     {
       "Apellido": "Freites",
       "Nombre": "Andrea",
-      "Distrito": "TIERRA DEL FUEGO",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1285,7 +1188,6 @@
     {
       "Apellido": "Gaillard",
       "Nombre": "Ana Carolina",
-      "Distrito": "ENTRE RIOS",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1293,7 +1195,6 @@
     {
       "Apellido": "García",
       "Nombre": "Carlos",
-      "Distrito": "CHACO",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -1301,7 +1202,6 @@
     {
       "Apellido": "García Aresca",
       "Nombre": "Ignacio",
-      "Distrito": "CORDOBA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "ENCUENTRO FEDERAL"
@@ -1309,7 +1209,6 @@
     {
       "Apellido": "Garramuño",
       "Nombre": "Ricardo",
-      "Distrito": "TIERRA DEL FUEGO",
       "IniciaMandato": "06/02/2025",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "SOMOS FUEGUINOS"
@@ -1317,7 +1216,6 @@
     {
       "Apellido": "Garrido",
       "Nombre": "José Luis",
-      "Distrito": "SANTA CRUZ",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "POR SANTA CRUZ"
@@ -1325,7 +1223,6 @@
     {
       "Apellido": "Ginocchio",
       "Nombre": "Silvana Micaela",
-      "Distrito": "CATAMARCA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1333,7 +1230,6 @@
     {
       "Apellido": "Giordano",
       "Nombre": "Juan Carlos",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "02/07/2025",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "IZQUIERDA SOCIALISTA FIT-UNIDAD"
@@ -1341,7 +1237,6 @@
     {
       "Apellido": "Giorgi",
       "Nombre": "Melina",
-      "Distrito": "SANTA FE",
       "IniciaMandato": "07/12/2023",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "DEMOCRACIA PARA SIEMPRE"
@@ -1349,7 +1244,6 @@
     {
       "Apellido": "Giudici",
       "Nombre": "Silvana",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "PRO"
@@ -1357,7 +1251,6 @@
     {
       "Apellido": "Giuliano",
       "Nombre": "Diego A.",
-      "Distrito": "SANTA FE",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1365,7 +1258,6 @@
     {
       "Apellido": "Glinski",
       "Nombre": "José",
-      "Distrito": "CHUBUT",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1373,7 +1265,6 @@
     {
       "Apellido": "Gollán",
       "Nombre": "Daniel",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1381,7 +1272,6 @@
     {
       "Apellido": "Gomez",
       "Nombre": "José",
-      "Distrito": "SANTIAGO DEL ESTERO",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1389,7 +1279,6 @@
     {
       "Apellido": "González",
       "Nombre": "Gerardo Gustavo",
-      "Distrito": "FORMOSA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "COHERENCIA"
@@ -1397,7 +1286,6 @@
     {
       "Apellido": "González",
       "Nombre": "Álvaro",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "PRO"
@@ -1405,7 +1293,6 @@
     {
       "Apellido": "González",
       "Nombre": "Gustavo Carlos Miguel",
-      "Distrito": "SANTA CRUZ",
       "IniciaMandato": "16/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1413,7 +1300,6 @@
     {
       "Apellido": "Gutiérrez",
       "Nombre": "Carlos",
-      "Distrito": "CORDOBA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "ENCUENTRO FEDERAL"
@@ -1421,7 +1307,6 @@
     {
       "Apellido": "Gutiérrez",
       "Nombre": "Ramiro",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1429,7 +1314,6 @@
     {
       "Apellido": "Hagman",
       "Nombre": "Itai",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1437,7 +1321,6 @@
     {
       "Apellido": "Heller",
       "Nombre": "Carlos",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1445,7 +1328,6 @@
     {
       "Apellido": "Herrera",
       "Nombre": "Ricardo",
-      "Distrito": "LA RIOJA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1453,7 +1335,6 @@
     {
       "Apellido": "Herrera",
       "Nombre": "Bernardo José",
-      "Distrito": "SANTIAGO DEL ESTERO",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1461,7 +1342,6 @@
     {
       "Apellido": "Huesen",
       "Nombre": "Gerardo",
-      "Distrito": "TUCUMAN",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -1469,7 +1349,6 @@
     {
       "Apellido": "Ianni",
       "Nombre": "Ana María",
-      "Distrito": "SANTA CRUZ",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1477,7 +1356,6 @@
     {
       "Apellido": "Ibañez",
       "Nombre": "María Cecilia",
-      "Distrito": "CORDOBA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -1485,7 +1363,6 @@
     {
       "Apellido": "Iglesias",
       "Nombre": "Fernando Adolfo",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PRO"
@@ -1493,7 +1370,6 @@
     {
       "Apellido": "Iparraguirre",
       "Nombre": "Rogelio",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1501,7 +1377,6 @@
     {
       "Apellido": "Juliano",
       "Nombre": "Pablo",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "DEMOCRACIA PARA SIEMPRE"
@@ -1509,7 +1384,6 @@
     {
       "Apellido": "Kirchner",
       "Nombre": "Máximo Carlos",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1517,7 +1391,6 @@
     {
       "Apellido": "Klipauka Lewtak",
       "Nombre": "Florencia",
-      "Distrito": "MISIONES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -1525,7 +1398,6 @@
     {
       "Apellido": "Laspina",
       "Nombre": "Luciano Andrés",
-      "Distrito": "SANTA FE",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PRO"
@@ -1533,7 +1405,6 @@
     {
       "Apellido": "Ledesma",
       "Nombre": "Tomás",
-      "Distrito": "ENTRE RIOS",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1541,7 +1412,6 @@
     {
       "Apellido": "Leiva",
       "Nombre": "Aldo",
-      "Distrito": "CHACO",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1549,7 +1419,6 @@
     {
       "Apellido": "Lemoine",
       "Nombre": "Lilia",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -1557,7 +1426,6 @@
     {
       "Apellido": "Litza",
       "Nombre": "Mónica",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1565,7 +1433,6 @@
     {
       "Apellido": "Llancafilo",
       "Nombre": "Osvaldo",
-      "Distrito": "NEUQUEN",
       "IniciaMandato": "07/12/2023",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "MOVIMIENTO POPULAR  NEUQUINO"
@@ -1573,7 +1440,6 @@
     {
       "Apellido": "Llano",
       "Nombre": "Mercedes",
-      "Distrito": "MENDOZA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -1581,7 +1447,6 @@
     {
       "Apellido": "López",
       "Nombre": "Juan Manuel",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "COALICION CIVICA"
@@ -1589,7 +1454,6 @@
     {
       "Apellido": "López Murphy",
       "Nombre": "Ricardo Hipólito",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "REPUBLICANOS UNIDOS"
@@ -1597,7 +1461,6 @@
     {
       "Apellido": "López Rodríguez",
       "Nombre": "Dante",
-      "Distrito": "CATAMARCA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1605,7 +1468,6 @@
     {
       "Apellido": "Lospennato",
       "Nombre": "Silvia",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "PRO"
@@ -1613,7 +1475,6 @@
     {
       "Apellido": "Macha",
       "Nombre": "Mónica",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1621,7 +1482,6 @@
     {
       "Apellido": "Macyszyn",
       "Nombre": "Lorena",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -1629,7 +1489,6 @@
     {
       "Apellido": "Manes",
       "Nombre": "Facundo",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "DEMOCRACIA PARA SIEMPRE"
@@ -1637,7 +1496,6 @@
     {
       "Apellido": "Manrique",
       "Nombre": "Mario",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1645,7 +1503,6 @@
     {
       "Apellido": "Maquieyra",
       "Nombre": "Martín",
-      "Distrito": "LA PAMPA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PRO"
@@ -1653,7 +1510,6 @@
     {
       "Apellido": "Marín",
       "Nombre": "Varinia Lis",
-      "Distrito": "LA PAMPA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1661,7 +1517,6 @@
     {
       "Apellido": "Marino",
       "Nombre": "Juan",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1669,7 +1524,6 @@
     {
       "Apellido": "Márquez",
       "Nombre": "Nadia",
-      "Distrito": "NEUQUEN",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -1677,7 +1531,6 @@
     {
       "Apellido": "Martínez",
       "Nombre": "Álvaro",
-      "Distrito": "MENDOZA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -1685,7 +1538,6 @@
     {
       "Apellido": "Martínez",
       "Nombre": "Germán Pedro",
-      "Distrito": "SANTA FE",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1693,7 +1545,6 @@
     {
       "Apellido": "Marziotta",
       "Nombre": "Gisela",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1701,7 +1552,6 @@
     {
       "Apellido": "Massot",
       "Nombre": "Nicolás",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "ENCUENTRO FEDERAL"
@@ -1709,7 +1559,6 @@
     {
       "Apellido": "Mastaler",
       "Nombre": "Magalí",
-      "Distrito": "SANTA FE",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1717,7 +1566,6 @@
     {
       "Apellido": "Mayoraz",
       "Nombre": "Nicolás",
-      "Distrito": "SANTA FE",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -1725,7 +1573,6 @@
     {
       "Apellido": "Medina",
       "Nombre": "Gladys",
-      "Distrito": "TUCUMAN",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "INDEPENDENCIA"
@@ -1733,7 +1580,6 @@
     {
       "Apellido": "Menem",
       "Nombre": "Martín",
-      "Distrito": "LA RIOJA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -1741,7 +1587,6 @@
     {
       "Apellido": "Milman",
       "Nombre": "Gerardo",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PRO"
@@ -1749,7 +1594,6 @@
     {
       "Apellido": "Mirabella",
       "Nombre": "Roberto",
-      "Distrito": "SANTA FE",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "DEFENDAMOS SANTA FE"
@@ -1757,7 +1601,6 @@
     {
       "Apellido": "Molle",
       "Nombre": "Matías",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1765,7 +1608,6 @@
     {
       "Apellido": "Montenegro",
       "Nombre": "Guillermo",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -1773,7 +1615,6 @@
     {
       "Apellido": "Monti",
       "Nombre": "Francisco",
-      "Distrito": "CATAMARCA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "LIGA DEL INTERIOR ELI"
@@ -1781,7 +1622,6 @@
     {
       "Apellido": "Montoto",
       "Nombre": "María Luisa",
-      "Distrito": "SANTIAGO DEL ESTERO",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1789,7 +1629,6 @@
     {
       "Apellido": "Monzó",
       "Nombre": "Emilio",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "ENCUENTRO FEDERAL"
@@ -1797,7 +1636,6 @@
     {
       "Apellido": "Monzón",
       "Nombre": "Roxana",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1805,7 +1643,6 @@
     {
       "Apellido": "Moran",
       "Nombre": "Micaela",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "12/10/2022",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1813,7 +1650,6 @@
     {
       "Apellido": "Morchio",
       "Nombre": "Francisco",
-      "Distrito": "ENTRE RIOS",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "ENCUENTRO FEDERAL"
@@ -1821,7 +1657,6 @@
     {
       "Apellido": "Moreau",
       "Nombre": "Leopoldo",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1829,7 +1664,6 @@
     {
       "Apellido": "Moreau",
       "Nombre": "Cecilia",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1837,7 +1671,6 @@
     {
       "Apellido": "Moreno",
       "Nombre": "María De Los Ángeles",
-      "Distrito": "SAN JUAN",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PRODUCCION Y TRABAJO"
@@ -1845,7 +1678,6 @@
     {
       "Apellido": "Moreno Ovalle",
       "Nombre": "Julio",
-      "Distrito": "SALTA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -1853,7 +1685,6 @@
     {
       "Apellido": "Moyano",
       "Nombre": "Nilda",
-      "Distrito": "SANTIAGO DEL ESTERO",
       "IniciaMandato": "16/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1861,7 +1692,6 @@
     {
       "Apellido": "Neder",
       "Nombre": "Estela Mary",
-      "Distrito": "SANTIAGO DEL ESTERO",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1869,7 +1699,6 @@
     {
       "Apellido": "Nieri",
       "Nombre": "Lisandro",
-      "Distrito": "MENDOZA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
@@ -1877,7 +1706,6 @@
     {
       "Apellido": "Nóblega",
       "Nombre": "Sebastián",
-      "Distrito": "CATAMARCA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1885,7 +1713,6 @@
     {
       "Apellido": "Nuñez",
       "Nombre": "José",
-      "Distrito": "SANTA FE",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "PRO"
@@ -1893,7 +1720,6 @@
     {
       "Apellido": "Oliveto Lago",
       "Nombre": "Paula",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "COALICION CIVICA"
@@ -1901,7 +1727,6 @@
     {
       "Apellido": "Omodeo",
       "Nombre": "Paula",
-      "Distrito": "TUCUMAN",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "CREO"
@@ -1909,7 +1734,6 @@
     {
       "Apellido": "Orozco",
       "Nombre": "Emilia",
-      "Distrito": "SALTA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -1917,7 +1741,6 @@
     {
       "Apellido": "Osuna",
       "Nombre": "Blanca Inés",
-      "Distrito": "ENTRE RIOS",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1925,7 +1748,6 @@
     {
       "Apellido": "Outes",
       "Nombre": "Pablo",
-      "Distrito": "SALTA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "INNOVACIÓN FEDERAL"
@@ -1933,7 +1755,6 @@
     {
       "Apellido": "Pagano",
       "Nombre": "Marcela Marina",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "COHERENCIA"
@@ -1941,7 +1762,6 @@
     {
       "Apellido": "Palazzo",
       "Nombre": "Sergio Omar",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1949,7 +1769,6 @@
     {
       "Apellido": "Paponet",
       "Nombre": "Liliana",
-      "Distrito": "MENDOZA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1957,7 +1776,6 @@
     {
       "Apellido": "Parola",
       "Nombre": "María Graciela",
-      "Distrito": "FORMOSA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1965,7 +1783,6 @@
     {
       "Apellido": "Passo",
       "Nombre": "Marcela Fabiana",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1973,7 +1790,6 @@
     {
       "Apellido": "Pauli",
       "Nombre": "Santiago",
-      "Distrito": "TIERRA DEL FUEGO",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -1981,7 +1797,6 @@
     {
       "Apellido": "Paulón",
       "Nombre": "Esteban",
-      "Distrito": "SANTA FE",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "ENCUENTRO FEDERAL"
@@ -1989,7 +1804,6 @@
     {
       "Apellido": "Pedrali",
       "Nombre": "Gabriela",
-      "Distrito": "LA RIOJA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -1997,7 +1811,6 @@
     {
       "Apellido": "Pedrini",
       "Nombre": "Juan Manuel",
-      "Distrito": "CHACO",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2005,7 +1818,6 @@
     {
       "Apellido": "Peluc",
       "Nombre": "José",
-      "Distrito": "SAN JUAN",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -2013,7 +1825,6 @@
     {
       "Apellido": "Penacca",
       "Nombre": "Paula Andrea",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2021,7 +1832,6 @@
     {
       "Apellido": "Pereyra",
       "Nombre": "Julio",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2029,7 +1839,6 @@
     {
       "Apellido": "Picat",
       "Nombre": "Luis Albino",
-      "Distrito": "CORDOBA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LIGA DEL INTERIOR ELI"
@@ -2037,7 +1846,6 @@
     {
       "Apellido": "Pichetto",
       "Nombre": "Miguel Ángel",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "ENCUENTRO FEDERAL"
@@ -2045,7 +1853,6 @@
     {
       "Apellido": "Picón Martínez",
       "Nombre": "Nancy Viviana",
-      "Distrito": "SAN JUAN",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "PRODUCCION Y TRABAJO"
@@ -2053,7 +1860,6 @@
     {
       "Apellido": "Píparo",
       "Nombre": "Carolina",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -2061,7 +1867,6 @@
     {
       "Apellido": "Pokoik",
       "Nombre": "Lorena",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2069,7 +1874,6 @@
     {
       "Apellido": "Polini",
       "Nombre": "Juan Carlos",
-      "Distrito": "CHACO",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "DEMOCRACIA PARA SIEMPRE"
@@ -2077,7 +1881,6 @@
     {
       "Apellido": "Ponce",
       "Nombre": "María Celeste",
-      "Distrito": "CORDOBA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -2085,7 +1888,6 @@
     {
       "Apellido": "Potenza",
       "Nombre": "Luciana",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2093,7 +1895,6 @@
     {
       "Apellido": "Propato",
       "Nombre": "Agustina Lucrecia",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2101,7 +1902,6 @@
     {
       "Apellido": "Quetglas",
       "Nombre": "Fabio José",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
@@ -2109,7 +1909,6 @@
     {
       "Apellido": "Quintar",
       "Nombre": "Manuel",
-      "Distrito": "JUJUY",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -2117,7 +1916,6 @@
     {
       "Apellido": "Quiroz",
       "Nombre": "Marilú",
-      "Distrito": "CHACO",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PRO"
@@ -2125,7 +1923,6 @@
     {
       "Apellido": "Randazzo",
       "Nombre": "Florencio",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "ENCUENTRO FEDERAL"
@@ -2133,7 +1930,6 @@
     {
       "Apellido": "Rauschenberger",
       "Nombre": "Ariel",
-      "Distrito": "LA PAMPA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2141,7 +1937,6 @@
     {
       "Apellido": "Razzini",
       "Nombre": "Verónica",
-      "Distrito": "SANTA FE",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "FUTURO Y LIBERTAD"
@@ -2149,7 +1944,6 @@
     {
       "Apellido": "Reyes",
       "Nombre": "Roxana",
-      "Distrito": "SANTA CRUZ",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
@@ -2157,7 +1951,6 @@
     {
       "Apellido": "Ripoll",
       "Nombre": "Vilma",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "16/04/2025",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "MST - FRENTE DE IZQUIERDA Y TRABAJADORES UNIDAD"
@@ -2165,7 +1958,6 @@
     {
       "Apellido": "Ritondo",
       "Nombre": "Cristian A.",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "PRO"
@@ -2173,7 +1965,6 @@
     {
       "Apellido": "Rizzotti",
       "Nombre": "Jorge",
-      "Distrito": "JUJUY",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "DEMOCRACIA PARA SIEMPRE"
@@ -2181,7 +1972,6 @@
     {
       "Apellido": "Rodríguez Machado",
       "Nombre": "Laura",
-      "Distrito": "CORDOBA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PRO"
@@ -2189,7 +1979,6 @@
     {
       "Apellido": "Romero",
       "Nombre": "Ana Clara",
-      "Distrito": "CHUBUT",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PRO"
@@ -2197,7 +1986,6 @@
     {
       "Apellido": "Romero",
       "Nombre": "Jorge Antonio",
-      "Distrito": "CORRIENTES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2205,7 +1993,6 @@
     {
       "Apellido": "Ruíz",
       "Nombre": "Yamila",
-      "Distrito": "MISIONES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "INNOVACIÓN FEDERAL"
@@ -2213,7 +2000,6 @@
     {
       "Apellido": "Sánchez",
       "Nombre": "Roberto Antonio",
-      "Distrito": "TUCUMAN",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
@@ -2221,7 +2007,6 @@
     {
       "Apellido": "Sánchez Wrba",
       "Nombre": "Javier",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "12/03/2025",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PRO"
@@ -2229,7 +2014,6 @@
     {
       "Apellido": "Sand",
       "Nombre": "Nancy",
-      "Distrito": "CORRIENTES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2237,7 +2021,6 @@
     {
       "Apellido": "Santillán Juárez Brahim",
       "Nombre": "Juliana",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -2245,7 +2028,6 @@
     {
       "Apellido": "Santilli",
       "Nombre": "Diego",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PRO"
@@ -2253,7 +2035,6 @@
     {
       "Apellido": "Santoro",
       "Nombre": "Leandro",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2261,7 +2042,6 @@
     {
       "Apellido": "Santurio",
       "Nombre": "Santiago",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -2269,7 +2049,6 @@
     {
       "Apellido": "Sarapura",
       "Nombre": "Natalia Silvina",
-      "Distrito": "JUJUY",
       "IniciaMandato": "13/06/2023",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
@@ -2277,7 +2056,6 @@
     {
       "Apellido": "Selva",
       "Nombre": "Sabrina",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2285,7 +2063,6 @@
     {
       "Apellido": "Siley",
       "Nombre": "Vanesa Raquel",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2293,7 +2070,6 @@
     {
       "Apellido": "Snopek",
       "Nombre": "Guillermo",
-      "Distrito": "JUJUY",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2301,7 +2077,6 @@
     {
       "Apellido": "Soria",
       "Nombre": "Martín",
-      "Distrito": "RIO NEGRO",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2309,7 +2084,6 @@
     {
       "Apellido": "Sotolano",
       "Nombre": "María",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PRO"
@@ -2317,7 +2091,6 @@
     {
       "Apellido": "Stolbizer",
       "Nombre": "Margarita",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "ENCUENTRO FEDERAL"
@@ -2325,7 +2098,6 @@
     {
       "Apellido": "Strada",
       "Nombre": "Julia",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2333,7 +2105,6 @@
     {
       "Apellido": "Tailhade",
       "Nombre": "Rodolfo",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2341,7 +2112,6 @@
     {
       "Apellido": "Tavela",
       "Nombre": "Danya",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "DEMOCRACIA PARA SIEMPRE"
@@ -2349,7 +2119,6 @@
     {
       "Apellido": "Tetaz",
       "Nombre": "Martin Alberto",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
@@ -2357,7 +2126,6 @@
     {
       "Apellido": "Todero",
       "Nombre": "Pablo",
-      "Distrito": "NEUQUEN",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2365,7 +2133,6 @@
     {
       "Apellido": "Tolosa Paz",
       "Nombre": "Victoria",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2373,7 +2140,6 @@
     {
       "Apellido": "Toniolli",
       "Nombre": "Eduardo",
-      "Distrito": "SANTA FE",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2381,7 +2147,6 @@
     {
       "Apellido": "Torres",
       "Nombre": "Alejandra",
-      "Distrito": "CORDOBA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "ENCUENTRO FEDERAL"
@@ -2389,7 +2154,6 @@
     {
       "Apellido": "Tortoriello",
       "Nombre": "Anibal",
-      "Distrito": "RIO NEGRO",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PRO"
@@ -2397,7 +2161,6 @@
     {
       "Apellido": "Tournier",
       "Nombre": "José Federico",
-      "Distrito": "CORRIENTES",
       "IniciaMandato": "14/08/2024",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LIGA DEL INTERIOR ELI"
@@ -2405,7 +2168,6 @@
     {
       "Apellido": "Treffinger",
       "Nombre": "César",
-      "Distrito": "CHUBUT",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -2413,7 +2175,6 @@
     {
       "Apellido": "Valdés",
       "Nombre": "Eduardo Félix",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2421,7 +2182,6 @@
     {
       "Apellido": "Vancsik",
       "Nombre": "Daniel",
-      "Distrito": "MISIONES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "INNOVACIÓN FEDERAL"
@@ -2429,7 +2189,6 @@
     {
       "Apellido": "Vargas Matyi",
       "Nombre": "Brenda",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2437,7 +2196,6 @@
     {
       "Apellido": "Vásquez",
       "Nombre": "Patricia",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "PRO"
@@ -2445,7 +2203,6 @@
     {
       "Apellido": "Vega",
       "Nombre": "Yolanda",
-      "Distrito": "SALTA",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "INNOVACIÓN FEDERAL"
@@ -2453,7 +2210,6 @@
     {
       "Apellido": "Verasay",
       "Nombre": "Pamela Fernanda",
-      "Distrito": "MENDOZA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UCR - UNIÓN CÍVICA RADICAL"
@@ -2461,7 +2217,6 @@
     {
       "Apellido": "Vidal",
       "Nombre": "María Eugenia",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PRO"
@@ -2469,7 +2224,6 @@
     {
       "Apellido": "Vilca",
       "Nombre": "Alejandro",
-      "Distrito": "JUJUY",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "PTS-FRENTE DE IZQUIERDA UNIDAD"
@@ -2477,7 +2231,6 @@
     {
       "Apellido": "Villaverde",
       "Nombre": "Lorena",
-      "Distrito": "RIO NEGRO",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -2485,7 +2238,6 @@
     {
       "Apellido": "Volnovich",
       "Nombre": "Luana",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2493,7 +2245,6 @@
     {
       "Apellido": "Yasky",
       "Nombre": "Hugo",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2501,7 +2252,6 @@
     {
       "Apellido": "Yedlin",
       "Nombre": "Pablo Raúl",
-      "Distrito": "TUCUMAN",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2509,7 +2259,6 @@
     {
       "Apellido": "Yeza",
       "Nombre": "Martín",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "PRO"
@@ -2517,7 +2266,6 @@
     {
       "Apellido": "Yutrovic",
       "Nombre": "Carolina",
-      "Distrito": "TIERRA DEL FUEGO",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2525,7 +2273,6 @@
     {
       "Apellido": "Zabala Chacur",
       "Nombre": "Natalia",
-      "Distrito": "SAN LUIS",
       "IniciaMandato": "21/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2533,7 +2280,6 @@
     {
       "Apellido": "Zago",
       "Nombre": "Oscar",
-      "Distrito": "CIUDAD DE BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "MID - MOVIMIENTO DE INTEGRACIÓN Y DESARROLLO"
@@ -2541,7 +2287,6 @@
     {
       "Apellido": "Zapata",
       "Nombre": "Carlos Raúl",
-      "Distrito": "SALTA",
       "IniciaMandato": "10/12/2021",
       "FinalizaMandato": "09/12/2025",
       "Bloque": "LA LIBERTAD AVANZA"
@@ -2549,7 +2294,6 @@
     {
       "Apellido": "Zaracho",
       "Nombre": "Natalia",
-      "Distrito": "BUENOS AIRES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
@@ -2557,7 +2301,6 @@
     {
       "Apellido": "Zulli",
       "Nombre": "Christian Alejandro",
-      "Distrito": "CORRIENTES",
       "IniciaMandato": "10/12/2023",
       "FinalizaMandato": "09/12/2027",
       "Bloque": "UNIÓN POR LA PATRIA"
