@@ -5,27 +5,9 @@ import { Senadores } from './senadores'
 import datos_ from './datos.json'
 import { useEffect, useState } from "react";
 import calcularDhondt from "./dhondt";
-
-interface Eleccion {
-  electores: number;
-  camara: string;
-  finalizaMandatoNuevo: string;
-  partidos: { [partido: string]: { votos: number, candidatos: string[] } };
-}
-
-interface Bloque {
-  nombres: string[];
-  color: string;
-}
-
-interface Legislador {
-  Apellido: string;
-  Nombre: string;
-  Distrito: string;
-  IniciaMandato: string;
-  FinalizaMandato: string;
-  Bloque: string;
-}
+import { Eleccion } from "./Eleccion";
+import { Bloque } from "./Bloque";
+import { Legislador } from "./Legislador";
 
 const datos: {
   diputados: Legislador[],
@@ -77,7 +59,6 @@ export default function Home() {
         ).flatMap(({ partido, bancas }) => el.partidos[partido].candidatos.slice(0, bancas).map((c) => ({
           Apellido: '',
           Nombre: c,
-          Distrito: eleccion,
           IniciaMandato: datos.finalizaMandato,
           FinalizaMandato: el.finalizaMandatoNuevo,
           Bloque: partido,
@@ -87,7 +68,6 @@ export default function Home() {
         return el.partidos[partidos[0]].candidatos.concat(el.partidos[partidos[1]].candidatos.slice(0, 1)).map((c, i) => ({
           Apellido: '',
           Nombre: c,
-          Distrito: eleccion,
           IniciaMandato: datos.finalizaMandato,
           FinalizaMandato: el.finalizaMandatoNuevo,
           Bloque: i < 2 ? partidos[0] : partidos[1],
@@ -111,6 +91,7 @@ export default function Home() {
   const senadores = datos.senadores.filter((d) => d.FinalizaMandato !== datos.finalizaMandato).concat(
     ...Object.entries(datos.elecciones).filter((e) => e[1].camara === 'senadores').map((e) => legisladoresEleccion[e[0]])).filter((x) => !!x)
   senadores.sort((d1, d2) => datos.bloques.findIndex((b) => b.nombres.includes(d1.Bloque)) - datos.bloques.findIndex((b) => b.nombres.includes(d2.Bloque)))
+  const eleccionLegisladores = eleccion === null ? [] : legisladoresEleccion[eleccion];
   return (
     <div className={styles.page}>
       <div className={styles.camara}>
@@ -130,6 +111,11 @@ export default function Home() {
         </select>
       </div>
       {eleccion !== null && <div className={styles.eleccion}>
+        <ul>
+          {eleccionLegisladores.map((e) => (<li key={`${e.Apellido} ${e.Nombre} (${e.Bloque})`}>
+            {e.Apellido} {e.Nombre} ({e.Bloque})
+          </li>))}
+        </ul>
         <ul>
           {Object.keys(datos.elecciones[eleccion].partidos).map((p) => (<li key={p}>
             {p} ({Math.abs(votos[eleccion][p] / 100).toFixed(2)}%)<br />
