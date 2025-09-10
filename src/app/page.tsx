@@ -2,10 +2,13 @@
 import styles from "./page.module.css";
 import { Camara } from './camara'
 import datos_ from './datos.json'
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import calcularDhondt from "./dhondt";
 
 interface Eleccion {
-  partidos: { [partido: string]: { votos: number, candidatos: string[] } }
+  electores: number;
+  finalizaMandatoNuevo: string;
+  partidos: { [partido: string]: { votos: number, candidatos: string[] } };
 }
 
 interface Bloque {
@@ -36,9 +39,50 @@ export default function Home() {
       Object.fromEntries(Object.entries(value.partidos).map(([k, v]) => [k, v.votos * 100]))
     ])))
   });
-  const diputados = datos.diputados.filter((d) => d.FinalizaMandato !== datos.finalizaMandato)
+  const updateVotos = (newP: number, p: string, v: { [partido: string]: number }) => {
+    if (eleccion === null) return;
+    if (newP < 0) newP = 0;
+    if (newP > 100000) newP = 10000;
+    const delta = v[p] - newP;
+    if (v[p] === 10000) {
+      setVotos({
+        ...votos,
+        [eleccion]: Object.fromEntries(Object.entries(v).map(([k, x]) => [k, k === p ? newP : delta / eleccion.length])),
+      })
+      return
+    }
+    const newE = Object.fromEntries(Object.entries(v).map(([k, x]) => [k, k === p ? newP : x * (1 + delta / (100 * 100 - v[p]))]))
+    const exceed = Object.values(newE).reduce((x, y) => x + y) - 100 * 100;
+    newE[p] -= exceed;
+    const newVotos = {
+      ...votos,
+      [eleccion]: newE,
+    }
+    setVotos(newVotos)
+  }
+  const [diputadosEleccion, setDiputadosEleccion] = useState<{ [eleccion: string]: Diputado[] }>({});
+  useEffect(() => {
+    if (eleccion === null) return;
+    const dhondt = calcularDhondt(Object.entries(datos.elecciones[eleccion].partidos).map(([p, _]) => ({
+      partido: p,
+      votos: votos[eleccion][p] * datos.elecciones[eleccion].electores,
+      porcentaje: votos[eleccion][p] / 100,
+    })), Object.values(datos.elecciones[eleccion].partidos)[0].candidatos.length, datos.elecciones[eleccion].electores)
+    setDiputadosEleccion({
+      ...diputadosEleccion,
+      [eleccion]: dhondt.flatMap(({ partido, bancas }) => datos.elecciones[eleccion].partidos[partido].candidatos.slice(0, bancas).map((c) => ({
+        Apellido: '',
+        Nombre: c,
+        Distrito: eleccion,
+        IniciaMandato: datos.finalizaMandato,
+        FinalizaMandato: datos.elecciones[eleccion].finalizaMandatoNuevo,
+        Bloque: partido,
+      })))
+    })
+  }, [eleccion, votos])
+
+  const diputados = datos.diputados.filter((d) => d.FinalizaMandato !== datos.finalizaMandato).concat(...Object.values(diputadosEleccion))
   diputados.sort((d1, d2) => datos.bloques.findIndex((b) => b.nombres.includes(d1.Bloque)) - datos.bloques.findIndex((b) => b.nombres.includes(d2.Bloque)))
-  console.log(diputados.map(({ Apellido, Bloque }) => ({ Apellido, Bloque })))
   return (
     <div className={styles.page}>
       <div className={styles.camara}>
@@ -60,23 +104,7 @@ export default function Home() {
             <input type="range" min={0} max={100 * 100} value={votos[eleccion][p]} onChange={(ev) => {
               const v = votos[eleccion];
               let newP = parseFloat(ev.target.value);
-              if (newP < 0) newP = 0;
-              if (newP > 100000) newP = 10000;
-              const delta = v[p] - newP;
-              if (v[p] === 10000) {
-                setVotos({
-                  ...votos,
-                  [eleccion]: Object.fromEntries(Object.entries(v).map(([k, x]) => [k, k === p ? newP : delta / eleccion.length])),
-                })
-                return
-              }
-              const newE = Object.fromEntries(Object.entries(v).map(([k, x]) => [k, k === p ? newP : x * (1 + delta / (100 * 100 - v[p]))]))
-              const exceed = Object.values(newE).reduce((x, y) => x + y) - 100 * 100;
-              newE[p] -= exceed;
-              setVotos({
-                ...votos,
-                [eleccion]: newE,
-              })
+              updateVotos(newP, p, v)
             }
             }></input>
           </li>))}

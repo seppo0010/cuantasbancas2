@@ -2078,6 +2078,8 @@
   "finalizaMandato": "09/12/2025",
   "elecciones": {
     "Senadores - Ciudad Autónoma de Buenos Aires": {
+      "finalizaMandatoNuevo": "09/12/202319",
+      "electores": 3088750,
       "partidos": {
         "LA LIBERTAD AVANZA": {
           "votos": 50,
@@ -2187,6 +2189,8 @@
       }
     },
     "Diputados - Buenos Aires": {
+      "electores": 14376592,
+      "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "FUERZA PATRIA": {
           "votos": 45.8,

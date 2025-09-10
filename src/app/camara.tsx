@@ -34,7 +34,7 @@ export const Camara = ({ diputados }: {
     0,
   ]
   const butacaStyle: { [butaca: string]: { fill: string } } = Object.fromEntries(diputados.map(({ color }, i) => [`butaca${butacas[i]}`, { fill: color }]))
-  console.log(butacaStyle)
+  const titles: { [butaca: string]: string } = Object.fromEntries(diputados.map(({ nombre }, i) => [`butaca${butacas[i]}`, nombre]))
   return (
     <svg version="1.1" viewBox="0 0 1190.6 772.2" id="svg299" xmlns="http://www.w3.org/2000/svg">
       <defs id="defs4">
@@ -70,7 +70,7 @@ export const Camara = ({ diputados }: {
       <path id="path1142" className={styles["cls-6"]} d="m 402.2,391.2 c 0,0 -1,0.9 -1.1,0.9 C 326,454.4 295.3,548.5 295.3,653.8 V 693" />
       <path id="path1144" className={styles["cls-6"]} d="m 435.1,433.1 -2.1,1.7 c -67.6,56.1 -87.3,140.8 -87.3,235.6 V 693" />
       <path id="path1146" className={styles["cls-6"]} d="m 238.7,182.5 c -0.1,0 -5.1,4.1 -5.2,4.2 C 111.4,288.1 33.7,441.1 33.7,612.2 V 666" />
-      <circle id="butacaElement_1" className={styles["cls-4"]} style={butacaStyle.butaca1} cx="424.20001" cy="639" r="15.7" />
+      <circle id="butacaElement_1" className={styles["cls-4"]} style={butacaStyle.butaca1} r="15.7" cx="424.20001" cy="639" />
       <circle id="butacaElement_2" className={styles["cls-4"]} style={butacaStyle.butaca2} cx="426" cy="596.70001" r="15.7" />
       <circle id="butacaElement_3" className={styles["cls-4"]} style={butacaStyle.butaca3} cx="437.29999" cy="555" r="15.7" />
       <circle id="butacaElement_4" className={styles["cls-4"]} style={butacaStyle.butaca4} cx="460.70001" cy="515.59998" r="15.7" />
