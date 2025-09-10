@@ -1,6 +1,6 @@
-import styles from "./camara.module.css";
+import styles from "./diputados.module.css";
 
-export const Camara = ({ diputados }: {
+export const Diputados = ({ diputados }: {
   diputados: {
     nombre: string,
     color: string,

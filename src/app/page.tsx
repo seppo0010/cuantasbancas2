@@ -1,12 +1,14 @@
 "use client";
 import styles from "./page.module.css";
-import { Camara } from './camara'
+import { Diputados } from './diputados'
+import { Senadores } from './senadores'
 import datos_ from './datos.json'
 import { useEffect, useState } from "react";
 import calcularDhondt from "./dhondt";
 
 interface Eleccion {
   electores: number;
+  camara: string;
   finalizaMandatoNuevo: string;
   partidos: { [partido: string]: { votos: number, candidatos: string[] } };
 }
@@ -16,7 +18,7 @@ interface Bloque {
   color: string;
 }
 
-interface Diputado {
+interface Legislador {
   Apellido: string;
   Nombre: string;
   Distrito: string;
@@ -26,7 +28,8 @@ interface Diputado {
 }
 
 const datos: {
-  diputados: Diputado[],
+  diputados: Legislador[],
+  senadores: Legislador[],
   elecciones: { [nombre: string]: Eleccion },
   finalizaMandato: string,
   bloques: Bloque[]
@@ -60,41 +63,63 @@ export default function Home() {
     }
     setVotos(newVotos)
   }
-  const [diputadosEleccion, setDiputadosEleccion] = useState<{ [eleccion: string]: Diputado[] }>({});
+  const [legisladoresEleccion, setLegisladoresEleccion] = useState<{ [eleccion: string]: Legislador[] }>({});
 
   useEffect(() => {
     const calcEleccion = (eleccion: string) => {
-      const dhondt = calcularDhondt(Object.keys(datos.elecciones[eleccion].partidos).map((p) => ({
-        partido: p,
-        votos: votos[eleccion][p] * datos.elecciones[eleccion].electores,
-        porcentaje: votos[eleccion][p] / 100,
-      })), Object.values(datos.elecciones[eleccion].partidos)[0].candidatos.length, datos.elecciones[eleccion].electores)
-      return dhondt.flatMap(({ partido, bancas }) => datos.elecciones[eleccion].partidos[partido].candidatos.slice(0, bancas).map((c) => ({
-        Apellido: '',
-        Nombre: c,
-        Distrito: eleccion,
-        IniciaMandato: datos.finalizaMandato,
-        FinalizaMandato: datos.elecciones[eleccion].finalizaMandatoNuevo,
-        Bloque: partido,
-      })))
+      const el = datos.elecciones[eleccion];
+      if (el.camara === 'diputados') {
+        return calcularDhondt(Object.keys(el.partidos).map((p) => ({
+          partido: p,
+          votos: votos[eleccion][p] * el.electores,
+          porcentaje: votos[eleccion][p] / 100,
+        })), Object.values(el.partidos)[0].candidatos.length, el.electores
+        ).flatMap(({ partido, bancas }) => el.partidos[partido].candidatos.slice(0, bancas).map((c) => ({
+          Apellido: '',
+          Nombre: c,
+          Distrito: eleccion,
+          IniciaMandato: datos.finalizaMandato,
+          FinalizaMandato: el.finalizaMandatoNuevo,
+          Bloque: partido,
+        })))
+      } else {
+        const partidos = Object.values(Object.entries(votos[eleccion]).toSorted((a, b) => - a[1] + b[1])).map((x) => x[0]);
+        return el.partidos[partidos[0]].candidatos.concat(el.partidos[partidos[1]].candidatos.slice(0, 1)).map((c, i) => ({
+          Apellido: '',
+          Nombre: c,
+          Distrito: eleccion,
+          IniciaMandato: datos.finalizaMandato,
+          FinalizaMandato: el.finalizaMandatoNuevo,
+          Bloque: i < 2 ? partidos[0] : partidos[1],
+        }))
+      }
     }
 
     if (eleccion === null) {
-      setDiputadosEleccion(Object.fromEntries(Object.keys(datos.elecciones).map((e) => [e, calcEleccion(e)])))
+      setLegisladoresEleccion(Object.fromEntries(Object.keys(datos.elecciones).map((e) => [e, calcEleccion(e)])))
       return;
     }
-    setDiputadosEleccion({
-      ...diputadosEleccion,
+    setLegisladoresEleccion({
+      ...legisladoresEleccion,
       [eleccion]: calcEleccion(eleccion)
     })
   }, [eleccion, votos])
 
-  const diputados = datos.diputados.filter((d) => d.FinalizaMandato !== datos.finalizaMandato).concat(...Object.values(diputadosEleccion))
+  const diputados = datos.diputados.filter((d) => d.FinalizaMandato !== datos.finalizaMandato).concat(
+    ...Object.entries(datos.elecciones).filter((e) => e[1].camara === 'diputados').map((e) => legisladoresEleccion[e[0]])).filter((x) => !!x)
   diputados.sort((d1, d2) => datos.bloques.findIndex((b) => b.nombres.includes(d1.Bloque)) - datos.bloques.findIndex((b) => b.nombres.includes(d2.Bloque)))
+  const senadores = datos.senadores.filter((d) => d.FinalizaMandato !== datos.finalizaMandato).concat(
+    ...Object.entries(datos.elecciones).filter((e) => e[1].camara === 'senadores').map((e) => legisladoresEleccion[e[0]])).filter((x) => !!x)
+  senadores.sort((d1, d2) => datos.bloques.findIndex((b) => b.nombres.includes(d1.Bloque)) - datos.bloques.findIndex((b) => b.nombres.includes(d2.Bloque)))
+  console.log(Object.entries(datos.elecciones).filter((e) => e[1].camara === 'senadores').map((e) => legisladoresEleccion[e[0]]))
   return (
     <div className={styles.page}>
       <div className={styles.camara}>
-        <Camara diputados={diputados.map((d) => ({
+        <Senadores senadores={senadores.map((d) => ({
+          nombre: `${d.Apellido}, ${d.Nombre}`,
+          color: datos.bloques.find((f) => f.nombres.includes(d.Bloque))?.color ?? '#000',
+        }))} />
+        <Diputados diputados={diputados.map((d) => ({
           nombre: `${d.Apellido}, ${d.Nombre}`,
           color: datos.bloques.find((f) => f.nombres.includes(d.Bloque))?.color ?? '#000',
         }))} />

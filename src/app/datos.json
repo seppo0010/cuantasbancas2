@@ -1,4 +1,510 @@
 {
+  "senadores": [
+    {
+      "Bloque": "UNIÓN CÍVICA RADICAL",
+      "Apellido": "ABAD",
+      "Nombre": "MAXIMILIANO",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "LA LIBERTAD AVANZA",
+      "Apellido": "ABDALA",
+      "Nombre": "BARTOLOMÉ ESTEBAN",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "FRENTE PRO",
+      "Apellido": "ALVAREZ RIVERO",
+      "Nombre": "CARMEN",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "CONVICCIÓN FEDERAL",
+      "Apellido": "ANDRADA",
+      "Nombre": "GUILLERMO EDUARDO",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "FRENTE RENOVADOR DE LA CONCORDIA SOCIAL",
+      "Apellido": "ARCE",
+      "Nombre": "CARLOS OMAR",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "LA LIBERTAD AVANZA",
+      "Apellido": "ARRASCAETA",
+      "Nombre": "IVANNA MARCELA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "LA LIBERTAD AVANZA",
+      "Apellido": "ATAUCHE",
+      "Nombre": "EZEQUIEL",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "POR LA JUSTICIA SOCIAL",
+      "Apellido": "AVILA",
+      "Nombre": "BEATRIZ LUISA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "LA LIBERTAD AVANZA",
+      "Apellido": "BEDIA",
+      "Nombre": "VILMA FACUNDA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "FRENTE NACIONAL Y POPULAR",
+      "Apellido": "BENSUSÁN",
+      "Nombre": "DANIEL PABLO",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "UNIÓN CÍVICA RADICAL",
+      "Apellido": "BLANCO",
+      "Nombre": "PABLO DANIEL",
+      "IniciaMandato": "10/12/2019",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "POR SANTA CRUZ",
+      "Apellido": "CARAMBIA",
+      "Nombre": "JOSÉ MARÍA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "UNIDAD CIUDADANA",
+      "Apellido": "CORA",
+      "Nombre": "STEFANIA",
+      "IniciaMandato": "20/02/2025",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "FRENTE NACIONAL Y POPULAR",
+      "Apellido": "CORPACCI",
+      "Nombre": "LUCIA BENIGNA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "MOVIMIENTO NEUQUINO",
+      "Apellido": "CREXELL",
+      "Nombre": "CARMEN LUCILA",
+      "IniciaMandato": "10/12/2019",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "FRENTE PRO",
+      "Apellido": "CRISTINA",
+      "Nombre": "ANDREA MARCELA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "FRENTE PRO",
+      "Apellido": "DE ANGELI",
+      "Nombre": "ALFREDO LUIS",
+      "IniciaMandato": "10/12/2019",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "UNIDAD CIUDADANA",
+      "Apellido": "DE PEDRO",
+      "Nombre": "EDUARDO ENRIQUE",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "UNIDAD CIUDADANA",
+      "Apellido": "DI TULLIO",
+      "Nombre": "JULIANA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "UNIDAD CIUDADANA",
+      "Apellido": "DOÑATE",
+      "Nombre": "CLAUDIO MARTÍN",
+      "IniciaMandato": "10/12/2019",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "UNIDAD CIUDADANA",
+      "Apellido": "DURÉ",
+      "Nombre": "MARÍA EUGENIA",
+      "IniciaMandato": "10/12/2019",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "UNIDAD FEDERAL",
+      "Apellido": "ESPÍNOLA",
+      "Nombre": "CARLOS MAURICIO",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "UNIÓN CÍVICA RADICAL",
+      "Apellido": "FAMA",
+      "Nombre": "FLAVIO SERGIO",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "UNIDAD CIUDADANA",
+      "Apellido": "FERNÁNDEZ SAGASTI",
+      "Nombre": "ANABEL",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "POR SANTA CRUZ",
+      "Apellido": "GADANO",
+      "Nombre": "NATALIA ELENA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "UNIÓN CÍVICA RADICAL",
+      "Apellido": "GALARETTO",
+      "Nombre": "EDUARDO HORACIO",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "UNIDAD CIUDADANA",
+      "Apellido": "GARCÍA LARRABURU",
+      "Nombre": "SILVINA MARCELA",
+      "IniciaMandato": "10/12/2019",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "UNIDAD CIUDADANA",
+      "Apellido": "GIMÉNEZ",
+      "Nombre": "NORA DEL VALLE",
+      "IniciaMandato": "10/12/2019",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "UNIDAD CIUDADANA",
+      "Apellido": "GIMÉNEZ NAVARRO",
+      "Nombre": "MARÍA CELESTE",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "FRENTE PRO",
+      "Apellido": "GOERLING LARA",
+      "Nombre": "ENRIQUE MARTIN",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "FRENTE NACIONAL Y POPULAR",
+      "Apellido": "GONZÁLEZ",
+      "Nombre": "MARÍA TERESA MARGARITA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "FRENTE PRO",
+      "Apellido": "HUALA",
+      "Nombre": "MARÍA VICTORIA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "FRENTE PRO",
+      "Apellido": "JUEZ",
+      "Nombre": "LUIS ALFREDO",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "UNIÓN CÍVICA RADICAL",
+      "Apellido": "JURI",
+      "Nombre": "MARIANA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "UNIDAD CIUDADANA",
+      "Apellido": "KIRCHNER",
+      "Nombre": "ALICIA MARGARITA ANTONIA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "UNIÓN CÍVICA RADICAL",
+      "Apellido": "KRONEBERGER",
+      "Nombre": "DANIEL RICARDO",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "UNIDAD CIUDADANA",
+      "Apellido": "LEAVY",
+      "Nombre": "SERGIO NAPOLEÓN",
+      "IniciaMandato": "10/12/2019",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "FRENTE NACIONAL Y POPULAR",
+      "Apellido": "LEDESMA ABDALA DE ZAMORA",
+      "Nombre": "CLAUDIA",
+      "IniciaMandato": "10/12/2019",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "FRENTE NACIONAL Y POPULAR",
+      "Apellido": "LEWANDOWSKI",
+      "Nombre": "MARCELO NESTOR",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "UNIDAD CIUDADANA",
+      "Apellido": "LINARES",
+      "Nombre": "CARLOS ALBERTO",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "UNIÓN CÍVICA RADICAL",
+      "Apellido": "LOSADA",
+      "Nombre": "CAROLINA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "UNIÓN CÍVICA RADICAL",
+      "Apellido": "LOUSTEAU",
+      "Nombre": "MARTÍN",
+      "IniciaMandato": "10/12/2019",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "UNIDAD CIUDADANA",
+      "Apellido": "LÓPEZ",
+      "Nombre": "CÁNDIDA CRISTINA",
+      "IniciaMandato": "07/12/2023",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "FRENTE NACIONAL Y POPULAR",
+      "Apellido": "LÓPEZ",
+      "Nombre": "MARÍA FLORENCIA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "FRENTE NACIONAL Y POPULAR",
+      "Apellido": "MANZUR",
+      "Nombre": "JUAN LUIS",
+      "IniciaMandato": "09/12/2023",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "FRENTE NACIONAL Y POPULAR",
+      "Apellido": "MAYANS",
+      "Nombre": "JOSÉ MIGUEL ÁNGEL",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "FRENTE NACIONAL Y POPULAR",
+      "Apellido": "MENDOZA",
+      "Nombre": "SANDRA MARIELA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "CONVICCIÓN FEDERAL",
+      "Apellido": "MOISES",
+      "Nombre": "MARÍA CAROLINA",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "FRENTE NACIONAL Y POPULAR",
+      "Apellido": "MONTENEGRO",
+      "Nombre": "GERARDO ANTENOR",
+      "IniciaMandato": "10/12/2019",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "FRENTE NACIONAL Y POPULAR",
+      "Apellido": "NEDER",
+      "Nombre": "JOSÉ EMILIO",
+      "IniciaMandato": "10/12/2019",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "UNIÓN CÍVICA RADICAL",
+      "Apellido": "OLALLA",
+      "Nombre": "STELLA MARIS",
+      "IniciaMandato": "10/12/2019",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "LA LIBERTAD AVANZA",
+      "Apellido": "OLIVERA LUCERO",
+      "Nombre": "BRUNO ANTONIO",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "LA LIBERTAD AVANZA",
+      "Apellido": "PAGOTTO",
+      "Nombre": "JUAN CARLOS",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "LIBERTAD, TRABAJO Y PROGRESO",
+      "Apellido": "PAOLTRONI",
+      "Nombre": "FRANCISCO MANUEL",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "UNIDAD CIUDADANA",
+      "Apellido": "PARRILLI",
+      "Nombre": "OSCAR ISIDRO",
+      "IniciaMandato": "10/12/2019",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "FRENTE NACIONAL Y POPULAR",
+      "Apellido": "PILATTI VERGARA",
+      "Nombre": "MARÍA INÉS",
+      "IniciaMandato": "10/12/2019",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "FRENTE NACIONAL Y POPULAR",
+      "Apellido": "RECALDE",
+      "Nombre": "MARIANO",
+      "IniciaMandato": "10/12/2019",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "CONVICCIÓN FEDERAL",
+      "Apellido": "REJAL",
+      "Nombre": "JESÚS FERNANDO",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "FRENTE NACIONAL Y POPULAR",
+      "Apellido": "RODAS",
+      "Nombre": "ANTONIO JOSÉ",
+      "IniciaMandato": "10/12/2019",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "FRENTE RENOVADOR DE LA CONCORDIA SOCIAL",
+      "Apellido": "ROJAS DECUT",
+      "Nombre": "SONIA ELIZABETH",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "CAMBIO FEDERAL",
+      "Apellido": "ROMERO",
+      "Nombre": "JUAN CARLOS",
+      "IniciaMandato": "10/12/2019",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "CONVICCIÓN FEDERAL",
+      "Apellido": "SALINO",
+      "Nombre": "FERNANDO ALDO",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "UNIDAD CIUDADANA",
+      "Apellido": "SAPAG",
+      "Nombre": "SILVIA ESTELA ",
+      "IniciaMandato": "10/12/2019",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "JUNTOS SOMOS RÍO NEGRO",
+      "Apellido": "SILVA",
+      "Nombre": "MÓNICA ESTHER",
+      "IniciaMandato": "07/12/2023",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "UNIÓN CÍVICA RADICAL",
+      "Apellido": "SUÁREZ",
+      "Nombre": "RODOLFO ALEJANDRO",
+      "IniciaMandato": "09/12/2023",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "FRENTE PRO",
+      "Apellido": "TAGLIAFERRI",
+      "Nombre": "GUADALUPE",
+      "IniciaMandato": "10/12/2019",
+      "FinalizaMandato": "09/12/2025"
+    },
+    {
+      "Bloque": "DESPIERTA CHUBUT",
+      "Apellido": "TERENZI",
+      "Nombre": "EDITH ELIZABETH",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "FRENTE NACIONAL Y POPULAR",
+      "Apellido": "UÑAC",
+      "Nombre": "SERGIO MAURICIO",
+      "IniciaMandato": "10/12/2023",
+      "FinalizaMandato": "09/12/2029"
+    },
+    {
+      "Bloque": "UNIÓN CÍVICA RADICAL",
+      "Apellido": "VALENZUELA",
+      "Nombre": "MERCEDES GABRIELA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "UNIDAD FEDERAL",
+      "Apellido": "VIGO",
+      "Nombre": "ALEJANDRA MARÍA",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "UNIÓN CÍVICA RADICAL",
+      "Apellido": "VISCHI",
+      "Nombre": "EDUARDO ALEJANDRO",
+      "IniciaMandato": "10/12/2021",
+      "FinalizaMandato": "09/12/2027"
+    },
+    {
+      "Bloque": "UNIÓN CÍVICA RADICAL",
+      "Apellido": "ZIMMERMANN",
+      "Nombre": "VICTOR",
+      "IniciaMandato": "10/12/2019",
+      "FinalizaMandato": "09/12/2025"
+    }
+  ],
   "diputados": [
     {
       "Apellido": "Acevedo",
@@ -2059,25 +2565,41 @@
   ],
   "bloques": [
     {
-      "nombres": ["FUERZA PATRIA", "UNIÓN POR LA PATRIA"],
+      "nombres": [
+        "FUERZA PATRIA",
+        "UNIÓN POR LA PATRIA",
+        "FRENTE NACIONAL Y POPULAR",
+        "CONVICCIÓN FEDERAL",
+        "UNIDAD CIUDADANA"
+      ],
       "color": "#009FE3"
     },
     {
-      "nombres": ["UCR - UNIÓN CÍVICA RADICAL"],
+      "nombres": [
+        "UCR - UNIÓN CÍVICA RADICAL",
+        "UNIÓN CÍVICA RADICAL"
+      ],
       "color": "#FFD700"
     },
     {
-      "nombres": ["PRO"],
+      "nombres": [
+        "FRENTE PRO",
+        "PRO"
+      ],
       "color": "#FFD700"
     },
     {
-      "nombres": ["LA LIBERTAD AVANZA"],
+      "nombres": [
+        "LIBERTAD, TRABAJO Y PROGRESO",
+        "LA LIBERTAD AVANZA"
+      ],
       "color": "#6C4C99"
     }
   ],
   "finalizaMandato": "09/12/2025",
   "elecciones": {
     "Senadores - Ciudad Autónoma de Buenos Aires": {
+      "camara": "senadores",
       "finalizaMandatoNuevo": "09/12/202319",
       "electores": 3088750,
       "partidos": {
@@ -2189,6 +2711,7 @@
       }
     },
     "Diputados - Buenos Aires": {
+      "camara": "diputados",
       "electores": 14376592,
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {

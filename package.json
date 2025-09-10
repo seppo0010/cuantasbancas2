@@ -5,7 +5,7 @@
   "homepage": "https://seppo0010.github.io/cuantasbancas2",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out -t true",
+    "deploy": "gh-pages -d out -t",
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
