@@ -2462,7 +2462,7 @@
     },
     "Diputados - Ciudad Autónoma de Buenos Aires": {
       "camara": "diputados",
-      "electores": 14376592,
+      "electores": 3088750,
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "LA LIBERTAD AVANZA": {
@@ -3336,6 +3336,85 @@
             "Eduardo Ernesto Trejo",
             "Elena Lidia Romero",
             "Sergio Luis Lanzini"
+          ]
+        }
+      }
+    },
+    "Diputados - Catamarca": {
+      "camara": "diputados",
+      "electores": 340168,
+      "finalizaMandatoNuevo": "09/12/2029",
+      "partidos": {
+        "LA LIBERTAD AVANZA": {
+          "votos": 39.1,
+          "candidatos": [
+            "Carlos Adri\u00e1n Nicol\u00e1s Brizuela",
+            "Myriam del Valle Ju\u00e1rez",
+            "Iv\u00e1n Rodolfo L\u00f3pez"
+          ]
+        },
+        "FUERZA PATRIA": {
+          "votos": 38.7,
+          "candidatos": [
+            "Fernando Edgardo Monguillot",
+            "Claudia Mar\u00eda Palladino",
+            "Alberto Adolfo Natella"
+          ]
+        },
+        "UNIÓN CÍVICA RADICAL": {
+          "votos": 6.6,
+          "candidatos": [
+            "Fernando Augusto Navarro",
+            "Ana Bel\u00e9n Silva",
+            "Vicente Mart\u00edn Pisello"
+          ]
+        },
+        "HACEMOS RENACER CATAMARCA": {
+          "votos": 2.6,
+          "candidatos": [
+            "V\u00edctor Javier Quinteros",
+            "Ana Isabel Reynoso",
+            "H\u00e9ctor Pascual Cangi"
+          ]
+        },
+        "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD": {
+          "votos": 2.6,
+          "candidatos": [
+            "Alejandra Figueroa",
+            "Ariel Antonio L\u00f3pez",
+            "Yanina Noelia Yapura"
+          ]
+        },
+        "PRIMERO CATAMARCA": {
+          "votos": 2.6,
+          "candidatos": [
+            "Jos\u00e9 Jalil Colom\u00e9",
+            "Mariana Valeria Monllau Grima",
+            "Juan Guillermo Dre"
+          ]
+        },
+        "FRENTE PATRIOTA FEDERAL": {
+          "votos": 2.6,
+          "candidatos": [
+            "Jos\u00e9 Alberto Furque",
+            "Ana Beatriz Monllau",
+            "Julio C\u00e9sar Didb"
+          ]
+        },
+        "MOVIMIENTO DE INTEGRACIÓN Y DESARROLLO": {
+          "votos": 2.6,
+          "candidatos": [
+            "Fernando Daniel Baigorri",
+            "Mar\u00eda Daniela Cruz",
+            "Pablo Vega"
+          ]
+        },
+        "POLÍTICA OBRERA": {
+          "votos": 2.6,
+          "candidatos": [
+            "Luc\u00eda Camila Coronel",
+            "Humberto Arturo Galindez",
+            "Roc\u00edo Milagros C\u00f3rdoba"
           ]
         }
       }
