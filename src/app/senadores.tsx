@@ -16,7 +16,6 @@ export const Senadores = ({ senadores }: {
     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 340.2 220.5">
       <g>
         <g id="Layer_1">
-          <text id="text2" className={styles["cls-8"]} transform="translate(155.8 217.5)"><tspan x="0" y="0">72</tspan></text>
           <circle style={butacaStyle.butaca1} id="circle9-0-08-4-0-9-36-4-0-0-8-5-9-16"  cx="183" cy="116.4" r="7.1" transform="translate(38.7 278.4) rotate(-80.8)" />
           <circle style={butacaStyle.butaca2} id="circle9-0-08-4-0-9-36-4-0-0-8-5-9-8-2" cx="199.1" cy="124.3" r="7.1" />
           <circle style={butacaStyle.butaca3} id="circle9-0-08-4-0-9-36-4-0-0-8-5-9-6-5" cx="212" cy="136.2" r="7.1" />
