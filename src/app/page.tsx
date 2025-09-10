@@ -87,7 +87,7 @@ export default function Home() {
       ...diputadosEleccion,
       [eleccion]: calcEleccion(eleccion)
     })
-  }, [eleccion, votos, diputadosEleccion])
+  }, [eleccion, votos])
 
   const diputados = datos.diputados.filter((d) => d.FinalizaMandato !== datos.finalizaMandato).concat(...Object.values(diputadosEleccion))
   diputados.sort((d1, d2) => datos.bloques.findIndex((b) => b.nombres.includes(d1.Bloque)) - datos.bloques.findIndex((b) => b.nombres.includes(d2.Bloque)))
