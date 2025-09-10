@@ -47,7 +47,7 @@ export default function Home() {
     if (v[p] === 10000) {
       setVotos({
         ...votos,
-        [eleccion]: Object.fromEntries(Object.entries(v).map(([k, x]) => [k, k === p ? newP : delta / eleccion.length])),
+        [eleccion]: Object.fromEntries(Object.keys(v).map((k) => [k, k === p ? newP : delta / eleccion.length])),
       })
       return
     }
@@ -61,23 +61,24 @@ export default function Home() {
     setVotos(newVotos)
   }
   const [diputadosEleccion, setDiputadosEleccion] = useState<{ [eleccion: string]: Diputado[] }>({});
-  const calcEleccion = (eleccion: string) => {
-    const dhondt = calcularDhondt(Object.entries(datos.elecciones[eleccion].partidos).map(([p, _]) => ({
-      partido: p,
-      votos: votos[eleccion][p] * datos.elecciones[eleccion].electores,
-      porcentaje: votos[eleccion][p] / 100,
-    })), Object.values(datos.elecciones[eleccion].partidos)[0].candidatos.length, datos.elecciones[eleccion].electores)
-    return dhondt.flatMap(({ partido, bancas }) => datos.elecciones[eleccion].partidos[partido].candidatos.slice(0, bancas).map((c) => ({
-      Apellido: '',
-      Nombre: c,
-      Distrito: eleccion,
-      IniciaMandato: datos.finalizaMandato,
-      FinalizaMandato: datos.elecciones[eleccion].finalizaMandatoNuevo,
-      Bloque: partido,
-    })))
-  }
 
   useEffect(() => {
+    const calcEleccion = (eleccion: string) => {
+      const dhondt = calcularDhondt(Object.keys(datos.elecciones[eleccion].partidos).map((p) => ({
+        partido: p,
+        votos: votos[eleccion][p] * datos.elecciones[eleccion].electores,
+        porcentaje: votos[eleccion][p] / 100,
+      })), Object.values(datos.elecciones[eleccion].partidos)[0].candidatos.length, datos.elecciones[eleccion].electores)
+      return dhondt.flatMap(({ partido, bancas }) => datos.elecciones[eleccion].partidos[partido].candidatos.slice(0, bancas).map((c) => ({
+        Apellido: '',
+        Nombre: c,
+        Distrito: eleccion,
+        IniciaMandato: datos.finalizaMandato,
+        FinalizaMandato: datos.elecciones[eleccion].finalizaMandatoNuevo,
+        Bloque: partido,
+      })))
+    }
+
     if (eleccion === null) {
       setDiputadosEleccion(Object.fromEntries(Object.keys(datos.elecciones).map((e) => [e, calcEleccion(e)])))
       return;
@@ -86,7 +87,7 @@ export default function Home() {
       ...diputadosEleccion,
       [eleccion]: calcEleccion(eleccion)
     })
-  }, [eleccion, votos])
+  }, [eleccion, votos, diputadosEleccion])
 
   const diputados = datos.diputados.filter((d) => d.FinalizaMandato !== datos.finalizaMandato).concat(...Object.values(diputadosEleccion))
   diputados.sort((d1, d2) => datos.bloques.findIndex((b) => b.nombres.includes(d1.Bloque)) - datos.bloques.findIndex((b) => b.nombres.includes(d2.Bloque)))
@@ -110,7 +111,7 @@ export default function Home() {
             {p} ({Math.abs(votos[eleccion][p] / 100).toFixed(2)}%)<br />
             <input type="range" min={0} max={100 * 100} value={votos[eleccion][p]} onChange={(ev) => {
               const v = votos[eleccion];
-              let newP = parseFloat(ev.target.value);
+              const newP = parseFloat(ev.target.value);
               updateVotos(newP, p, v)
             }
             }></input>

@@ -34,7 +34,6 @@ export const Camara = ({ diputados }: {
     0,
   ]
   const butacaStyle: { [butaca: string]: { fill: string } } = Object.fromEntries(diputados.map(({ color }, i) => [`butaca${butacas[i]}`, { fill: color }]))
-  const titles: { [butaca: string]: string } = Object.fromEntries(diputados.map(({ nombre }, i) => [`butaca${butacas[i]}`, nombre]))
   return (
     <svg version="1.1" viewBox="0 0 1190.6 772.2" id="svg299" xmlns="http://www.w3.org/2000/svg">
       <defs id="defs4">
