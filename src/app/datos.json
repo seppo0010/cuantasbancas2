@@ -2576,6 +2576,13 @@
     },
     {
       "nombres": [
+        "MST - FRENTE DE IZQUIERDA Y TRABAJADORES UNIDAD",
+        "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD"
+      ],
+      "color": "#ed4d57"
+    },
+    {
+      "nombres": [
         "UCR - UNIÓN CÍVICA RADICAL",
         "UNIÓN CÍVICA RADICAL"
       ],
@@ -2706,6 +2713,319 @@
           "candidatos": [
             "Agust\u00edn Dante Rombol\u00e1",
             "Marina Gabriela P\u00e9rez Damil"
+          ]
+        }
+      }
+    },
+    "Diputados - Ciudad Autónoma de Buenos Aires": {
+      "camara": "diputados",
+      "electores": 14376592,
+      "finalizaMandatoNuevo": "09/12/2029",
+      "partidos": {
+        "LA LIBERTAD AVANZA": {
+          "votos": 37.3,
+          "candidatos": [
+            "Alejandro Fargosi ",
+            "Patricia Noem\u00ed Holzman ",
+            "Nicol\u00e1s Emma ",
+            "Sabrina Ajmechet ",
+            "Fernando de Andreis ",
+            "Antonela Giampieri ",
+            "Andr\u00e9s Marcelo Leone ",
+            "Valeria Patricia Rodrigues Trimarchi ",
+            "Fernando H\u00e9ctor Pedrosa ",
+            "Mar\u00eda Fernanda Araujo ",
+            "Lautaro Diego Saponaro ",
+            "Paloma Daniela Linik ",
+            "Juan Manuel Bensusan "
+          ]
+        },
+        "FUERZA PATRIA": {
+          "votos": 18.5,
+          "candidatos": [
+            "Itai Hagman ",
+            "Kelly Olmos ",
+            "Santiago Roberto ",
+            "Luc\u00eda C\u00e1mpora ",
+            "Ernesto Andr\u00e9s Giacomini ",
+            "Mara Brawer ",
+            "Juan Jos\u00e9 Tufaro ",
+            "Natalia Bel\u00e9n Salvo ",
+            "Gustavo Dami\u00e1n Mendelovich ",
+            "Luc\u00eda Cancela ",
+            "Juan Manuel Mauro ",
+            "Agostina Agud\u00edn ",
+            "Daniel Roberto Siciliano "
+          ]
+        },
+        "CIUDADANOS UNIDOS": {
+          "votos": 6.3,
+          "candidatos": [
+            "Mart\u00edn Lousteau ",
+            "Piera Agostina Fern\u00e1ndez de Piccoli ",
+            "Gustavo Marangoni ",
+            "Jessica Soledad Barreto ",
+            "Roy Cortina ",
+            "Dolores Mart\u00ednez ",
+            "Juan Alfons\u00edn ",
+            "Nazaryan Nvard ",
+            "Gustavo Alejandro Mola ",
+            "Patricia Alejandra C\u00e1seres ",
+            "Augusto Alejandro Carzoglio ",
+            "Silvia Alejandra Stuchlik ",
+            "Ramiro Fern\u00e1ndez Sarraf "
+          ]
+        },
+        "HAGAMOS FUTURO": {
+          "votos": 1.78,
+          "candidatos": [
+            "Hern\u00e1n Reyes ",
+            "Mar\u00eda Cecilia Ferrero ",
+            "Jorge Alberto Giorno ",
+            "Mar\u00eda Silvia Pace ",
+            "Juan Facundo Del Gaiso ",
+            "Vanina Squetino ",
+            "Juan Francisco Rosati D\u00edaz ",
+            "Gisela Soledad Aulita ",
+            "Andr\u00e9s Gonz\u00e1lez Balcarce ",
+            "Florencia Any Markarian ",
+            "Diego Norberto Falc\u00f3n ",
+            "M\u00f3nica Liliana Mach\u00edn ",
+            "Delf\u00edn Manuel Huergo "
+          ]
+        },
+        "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD": {
+          "votos": 14.3,
+          "candidatos": [
+            "Myriam Bregman ",
+            "Gabriel Solano ",
+            "Mercedes de Mendieta ",
+            "Patricio Del Corro ",
+            "Mar\u00eda Celeste Fierro ",
+            "Mariano Rosa ",
+            "Vanina Biasi ",
+            "Pablo Almeida ",
+            "Lourdes Oliverio ",
+            "Federico Puy ",
+            "Mar\u00eda Carla Rodr\u00edguez ",
+            "Diego Saavedra ",
+            "Ileana Celotto "
+          ]
+        },
+        "POTENCIA": {
+          "votos": 1.78,
+          "candidatos": [
+            "Ricardo L\u00f3pez Murphy ",
+            "Bernarda Fait ",
+            "Leopoldo Francisco Sahores",
+            "Isabel Elvira C\u00f3spito",
+            "Carlos Alfredo Rodr\u00edguez",
+            "Bianca Dell'Aquila Smith",
+            "Miguel \u00c1ngel Chamli",
+            "Valera Victoria Jarmoliuk Videnkina",
+            "Luis Ariel Castillo",
+            "Mar\u00eda Rosa Davagnino",
+            "Miguel \u00c1ngel Lacour",
+            "Solange Aldana Ledo",
+            "Jonathan Ariel Tolisano"
+          ]
+        },
+        "PARTIDO GEN": {
+          "votos": 1.78,
+          "candidatos": [
+            "Sergio Abrevaya",
+            "Viviana Andrea Dirolli",
+            "Mart\u00edn Santiago Borgna",
+            "Mirna Marcela Biglione",
+            "Fernando Gril",
+            "Ivana Giselle Gonz\u00e1lez De La Vega",
+            "Marcelo Eugenio Insua",
+            "Ana L\u00eda Etchegaray",
+            "Emilio Cornaglia",
+            "Manuela Victoria Fern\u00e1ndez Roa",
+            "Sergio Daniel Hemsani",
+            "Sol Carola Takara",
+            "Fernando N\u00e9stor Bertani"
+          ]
+        },
+        "LA IZQUIERDA EN LA CIUDAD": {
+          "votos": 1.78,
+          "candidatos": [
+            "Federico Winokur",
+            "Violeta Azriel Alonso",
+            "Mat\u00edas Emiliano Brito",
+            "Mariana Rueda Kramer",
+            "Enrique Alejandro Leiva",
+            "Natacha Haeberer",
+            "Roberto S\u00e1enz",
+            "Luc\u00eda Waldman",
+            "Roque Dar\u00edo Parra",
+            "Sol Attadia",
+            "Juli\u00e1n Nahuel Luciano",
+            "Leila Soledad Arg\u00fcello",
+            "Juan Pablo Pardo Calder\u00f3n"
+          ]
+        },
+        "UNIÓN DEL CENTRO DEMOCRÁTICO": {
+          "votos": 1.78,
+          "candidatos": [
+            "Marcelo Eduardo Portas Dalmau",
+            "Mar\u00eda Barrera Echavarr\u00eda",
+            "Fabrizio Leandro",
+            "Diana Iris Saraceni",
+            "Mariano Ramella",
+            "Vanesa Cecilia Ameri",
+            "Joaqu\u00edn Jeanneret",
+            "Norma Beatriz Rold\u00e1n",
+            "Pedro Pablo Pusineri",
+            "Mar\u00eda Flora Blanck Mendoza",
+            "Facundo Augusto Gandulfo",
+            "Mar\u00eda Isabel Ackerley",
+            "Marcelo Alejandro Ruffo"
+          ]
+        },
+        "PARTIDO COMUNISTA": {
+          "votos": 1.78,
+          "candidatos": [
+            "Antonella Bianco",
+            "Ignacio C\u00e1mpora",
+            "Cristina Adriana Ibarra",
+            "Rocco Carbone",
+            "Mar\u00eda Luisa Le\u00f3n",
+            "Manuel Santos",
+            "Laura Natalia Minghetti",
+            "Ra\u00fal Carou",
+            "Zaira Abrahaan Hom",
+            "Marcelo Fabi\u00e1n Rodr\u00edguez",
+            "Hebe Ail\u00e9n Montenegro",
+            "Dardo Norberto Prusak",
+            "Mar\u00eda Dolores Fern\u00e1ndez"
+          ]
+        },
+        "FRENTE PATRIOTA FEDERAL": {
+          "votos": 1.78,
+          "candidatos": [
+            "Alejandro C\u00e9sar Biondini",
+            "Cintia Lorena Lozada",
+            "Federico Patricio Rosas",
+            "Sabrina Soledad Mansilla Coria",
+            "Daniel Alejandro Zelene\u00f1ki",
+            "Gladys Fabiana Auce",
+            "H\u00e9ctor Daniel Jaime",
+            "Silvia Cristina Javorcic",
+            "Leandro Nicol\u00e1s Padula",
+            "Lorena Gretel Barcia Dufour",
+            "Diego Alejandro Florencio Recarey",
+            "Anal\u00eda Ver\u00f3nica Cardozo",
+            "Nicol\u00e1s Omar Blanco"
+          ]
+        },
+        "MOVIMIENTO PLURAL": {
+          "votos": 1.78,
+          "candidatos": [
+            "Marcelo Daniel Peretta",
+            "Jimena Casti\u00f1eira Arce",
+            "Jorge Rosario Ferri",
+            "Elisa Aurora Nieto",
+            "Diego Hern\u00e1n Ludue\u00f1a",
+            "Cecilia Mar\u00eda Margarita Contreras G\u00f3mez",
+            "Jos\u00e9 Manuel Garc\u00eda",
+            "Malvina Liliana Starker",
+            "Eliodoro Mart\u00ednez",
+            "Gabriela Alicia Obreg\u00f3n",
+            "Sergio Daniel Pallotto",
+            "Mar\u00eda Cecilia Anal\u00eda Bonzo",
+            "Diego Augusto Erbin"
+          ]
+        },
+        "MOVIMIENTO DE JUBILADOS Y JUVENTUD": {
+          "votos": 1.78,
+          "candidatos": [
+            "Gabriel Alejandro Katz",
+            "Diana Maff\u00eda",
+            "Gabriel Puricelli Y\u00e1\u00f1ez",
+            "Mar\u00eda Rachid",
+            "Pedro Fernando N\u00fa\u00f1ez",
+            "Valeria Silvana Llobet",
+            "Adri\u00e1n Omar Helien",
+            "Valeria Karina Odetti",
+            "Juli\u00e1n Leonardo D'Angelo",
+            "Ana Elisa Wortman",
+            "Juan Martin Gra\u00f1a",
+            "Silvia In\u00e9s S\u00e1nchez Puch",
+            "Fernando Manuel Su\u00e1rez"
+          ]
+        },
+        "PARTIDO SOCIALISTA AUTÉNTICO": {
+          "votos": 1.78,
+          "candidatos": [
+            "Mario Mazzitelli",
+            "Flor del Roc\u00edo Armas Asmad",
+            "Ariel Arnaldo Rodr\u00edguez",
+            "Mar\u00eda Lucila Guadalupe Lancioni",
+            "Facundo Tom\u00e1s Muscatello",
+            "Mar\u00eda Cristina Figueroa",
+            "Luis Oscar Sierra Estrada",
+            "Mercedes Carolina Carabajal",
+            "Marcelino I\u00f1igo Ledesma",
+            "Patricia Ortega Alfaro",
+            "Carlos Alberto Quintana",
+            "Mar\u00eda Florencia Merele",
+            "Jorge Daniel Lugones"
+          ]
+        },
+        "INSTRUMENTO ELECTORAL POR LA UNIDAD POPULAR": {
+          "votos": 1.78,
+          "candidatos": [
+            "Claudio Lozano",
+            "Mar\u00eda Eva Koutsovitis",
+            "Jonatan Emanuel Baldiviezo",
+            "Nina Brugo",
+            "Pablo Bergel",
+            "Myriam Leonor Godoy Arroyo",
+            "Sergio Daniel Parra",
+            "Magdalena Soledad Salinas",
+            "Jos\u00e9 Mar\u00eda Pena",
+            "Magal\u00ed Zirulnikoff",
+            "Carlos Eduardo Scally",
+            "Soledad Pozzuto",
+            "Ra\u00fal Humberto D\u00edaz"
+          ]
+        },
+        "INTEGRAR": {
+          "votos": 1.78,
+          "candidatos": [
+            "Claudio Omar \"El Turco\" Garc\u00eda",
+            "Graciela Claudia Balestra",
+            "V\u00edctor Daniel Amoroso",
+            "Nilda Ester Prieto",
+            "Gustavo Osman Massud",
+            "Florencia Lara Dellacasa",
+            "Germ\u00e1n Andr\u00e9s Borrego",
+            "Ana Clara Becerra",
+            "Cristian Uriel Natero",
+            "Adriana Edith Merlo",
+            "Carlos Guillermo Montaldo",
+            "Aldana Paola Salazar",
+            "Adri\u00e1n Marcos Giotti"
+          ]
+        },
+        "PARTIDO FEDERAL": {
+          "votos": 1.78,
+          "candidatos": [
+            "Daniel Lipovetzky",
+            "Isabel \u00c1ngela Figueroa",
+            "Franco Ariel Mangione",
+            "Mayra Ayel\u00e9n Azpelicueta",
+            "Tom\u00e1s Ra\u00fal Hoerth Alconada",
+            "Antonella Ludmila Rombol\u00e1",
+            "Gonzalo Fernando Pereyra",
+            "Claudia Alejandra Centola",
+            "Tom\u00e1s Ezequiel Novile",
+            "Alejandra Mariela Carri\u00f3",
+            "H\u00e9ctor Benjam\u00edn Lorenzetti",
+            "Mariela Giselle Szmulewicz",
+            "Hern\u00e1n Dar\u00edo Mielniczuk"
           ]
         }
       }
