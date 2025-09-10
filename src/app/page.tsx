@@ -24,24 +24,32 @@ export default function Home() {
       Object.fromEntries(Object.entries(value.partidos).map(([k, v]) => [k, v.votos * 100]))
     ])))
   });
-  const updateVotos = (newP: number, p: string, v: { [partido: string]: number }) => {
+  const [locked, setLocked] = useState<[string, string][]>([]);
+  const updateVotos = (newP: number, p: string, v: { [partido: string]: number }, keepLocked: { [partido: string]: number }) => {
     if (eleccion === null) return;
+    const sum = 100 * 100 - Object.values(keepLocked).reduce((x, y) => x + y, 0)
     if (newP < 0) newP = 0;
-    if (newP > 100000) newP = 10000;
+    if (newP > sum) newP = sum;
     const delta = v[p] - newP;
-    if (v[p] === 10000) {
+    if (v[p] === sum) {
       setVotos({
         ...votos,
-        [eleccion]: Object.fromEntries(Object.keys(v).map((k) => [k, k === p ? newP : delta / eleccion.length])),
+        [eleccion]: {
+          ...keepLocked,
+          ...Object.fromEntries(Object.keys(v).map((k) => [k, k === p ? newP : delta / eleccion.length]))
+        },
       })
       return
     }
-    const newE = Object.fromEntries(Object.entries(v).map(([k, x]) => [k, k === p ? newP : x * (1 + delta / (100 * 100 - v[p]))]))
-    const exceed = Object.values(newE).reduce((x, y) => x + y) - 100 * 100;
+    const newE = Object.fromEntries(Object.entries(v).map(([k, x]) => [k, k === p ? newP : x * (1 + delta / (sum - v[p]))]))
+    const exceed = Object.values(newE).reduce((x, y) => x + y, 0) - sum;
     newE[p] -= exceed;
     const newVotos = {
       ...votos,
-      [eleccion]: newE,
+      [eleccion]: {
+        ...keepLocked,
+        ...newE,
+      }
     }
     setVotos(newVotos)
   }
@@ -118,11 +126,17 @@ export default function Home() {
         </ul>
         <ul>
           {Object.keys(datos.elecciones[eleccion].partidos).map((p) => (<li key={p}>
+            <input type="checkbox" checked={locked.some((l) => l[0] === eleccion && l[1] === p)} onChange={
+              (ev) => ev.target.checked ?
+                setLocked(locked.concat([[eleccion, p]])) :
+                setLocked(locked.filter((l) => !(l[0] === eleccion && l[1] === p)))
+            } />
             {p} ({Math.abs(votos[eleccion][p] / 100).toFixed(2)}%)<br />
             <input type="range" min={0} max={100 * 100} value={votos[eleccion][p]} onChange={(ev) => {
-              const v = votos[eleccion];
+              const v = Object.fromEntries(Object.entries(votos[eleccion]).filter((el) => locked.every((l) => l[1] === p || !(l[0] === eleccion && l[1] === el[0]))));
+              const keepLocked = Object.fromEntries(Object.entries(votos[eleccion]).filter((el) => locked.some((l) => l[1] !== p && l[0] === eleccion && l[1] === el[0])));
               const newP = parseFloat(ev.target.value);
-              updateVotos(newP, p, v)
+              updateVotos(newP, p, v, keepLocked)
             }
             }></input>
           </li>))}
