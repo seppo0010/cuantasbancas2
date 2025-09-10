@@ -65,8 +65,7 @@ export default function Home() {
           porcentaje: votos[eleccion][p] / 100,
         })), Object.values(el.partidos)[0].candidatos.length, el.electores
         ).flatMap(({ partido, bancas }) => el.partidos[partido].candidatos.slice(0, bancas).map((c) => ({
-          Apellido: '',
-          Nombre: c,
+          ...c,
           IniciaMandato: datos.finalizaMandato,
           FinalizaMandato: el.finalizaMandatoNuevo,
           Bloque: partido,
@@ -74,8 +73,7 @@ export default function Home() {
       } else {
         const partidos = Object.values(Object.entries(votos[eleccion]).toSorted((a, b) => - a[1] + b[1])).map((x) => x[0]);
         return el.partidos[partidos[0]].candidatos.concat(el.partidos[partidos[1]].candidatos.slice(0, 1)).map((c, i) => ({
-          Apellido: '',
-          Nombre: c,
+          ...c,
           IniciaMandato: datos.finalizaMandato,
           FinalizaMandato: el.finalizaMandatoNuevo,
           Bloque: i < 2 ? partidos[0] : partidos[1],
@@ -104,11 +102,11 @@ export default function Home() {
     <div className={styles.page}>
       <div className={styles.camara}>
         <Senadores senadores={senadores.map((d) => ({
-          nombre: `${d.Apellido}, ${d.Nombre}`,
+          nombre: `${d.Apellido}, ${d.Nombres}`,
           color: datos.bloques.find((f) => f.nombres.includes(d.Bloque))?.color ?? '#000',
         }))} />
         <Diputados diputados={diputados.map((d) => ({
-          nombre: `${d.Apellido}, ${d.Nombre}`,
+          nombre: `${d.Apellido}, ${d.Nombres}`,
           color: datos.bloques.find((f) => f.nombres.includes(d.Bloque))?.color ?? '#000',
         }))} />
       </div>
@@ -120,8 +118,8 @@ export default function Home() {
       </div>
       {eleccion !== null && <div className={styles.eleccion}>
         <ul>
-          {eleccionLegisladores.map((e) => (<li key={`${e.Apellido} ${e.Nombre} (${e.Bloque})`}>
-            {e.Apellido} {e.Nombre} ({e.Bloque})
+          {eleccionLegisladores.map((e) => (<li key={`${e.Apellido} ${e.Nombres} (${e.Bloque})`}>
+            {e.Apellido} {e.Nombres} ({e.Bloque})
           </li>))}
         </ul>
         <ul>
