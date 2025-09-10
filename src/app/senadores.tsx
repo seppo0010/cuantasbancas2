@@ -88,7 +88,6 @@ export const Senadores = ({ senadores }: {
           <circle style={butacaStyle.butaca70} id="circle9-0-08-4-0-9-36-4-0-0-8-5-9-153-0-4" cx="109.5" cy="24.6" r="7.1" />
           <circle style={butacaStyle.butaca71} id="circle9-0-08-4-0-9-36-4-0-0-8-5-9-37-4-9" cx="128.8" cy="17.9" r="7.1" />
           <circle style={butacaStyle.butaca72} id="circle9-0-08-4-0-9-36-4-0-0-8-5-9-56-1-2" cx="147.7" cy="15.2" r="7.1" />
-          <circle style={butacaStyle.butaca0} id="circle-1" cx="168.6" cy="187" r="7.1" />
         </g>
       </g>
     </svg>
