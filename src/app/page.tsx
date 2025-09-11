@@ -8,6 +8,7 @@ import calcularDhondt from "./dhondt";
 import { Eleccion } from "./Eleccion";
 import { Bloque } from "./Bloque";
 import { Legislador } from "./Legislador";
+import { Provincia } from "./provincia";
 
 const datos: {
   diputados: Legislador[],
@@ -66,14 +67,16 @@ export default function Home() {
         })), Object.values(el.partidos)[0].candidatos.length, el.electores
         ).flatMap(({ partido, bancas }) => el.partidos[partido].candidatos.slice(0, bancas).map((c) => ({
           ...c,
+          Distrito: el.distrito,
           IniciaMandato: datos.finalizaMandato,
           FinalizaMandato: el.finalizaMandatoNuevo,
           Bloque: partido,
         })))
       } else {
         const partidos = Object.values(Object.entries(votos[eleccion]).toSorted((a, b) => - a[1] + b[1])).map((x) => x[0]);
-        return el.partidos[partidos[0]].candidatos.concat(el.partidos[partidos[1]].candidatos.slice(0, 1)).map((c, i) => ({
+        return el.partidos[partidos[0]].candidatos.slice(0, 2).concat(el.partidos[partidos[1]].candidatos.slice(0, 1)).map((c, i) => ({
           ...c,
+          Distrito: el.distrito,
           IniciaMandato: datos.finalizaMandato,
           FinalizaMandato: el.finalizaMandatoNuevo,
           Bloque: i < 2 ? partidos[0] : partidos[1],
@@ -116,6 +119,21 @@ export default function Home() {
           {Object.keys(datos.elecciones).map((e) => (<option key={e} value={e}>{e}</option>))}
         </select>
       </div>
+      {eleccion !== null && <Provincia
+        enJuego={
+          Object.fromEntries(datos.bloques.map((b) =>
+            [b.nombres[0], (datos.elecciones[eleccion].camara === 'diputados' ? datos.diputados : datos.senadores
+            ).filter((l) => b.nombres.includes(l.Bloque) &&
+              l.Distrito === datos.elecciones[eleccion].distrito &&
+              l.FinalizaMandato === datos.finalizaMandato).length]
+          ))}
+        finalizaMandatoNuevo={datos.elecciones[eleccion].finalizaMandatoNuevo}
+        bloques={datos.bloques}
+        legisladores={
+          datos.elecciones[eleccion].camara === 'diputados' ?
+            diputados.filter((d) => d.Distrito === datos.elecciones[eleccion].distrito) :
+            senadores.filter((d) => d.Distrito === datos.elecciones[eleccion].distrito)
+        } />}
       {eleccion !== null && <div className={styles.eleccion}>
         <ul>
           {eleccionLegisladores.map((e) => (<li key={`${e.Apellido} ${e.Nombres} (${e.Bloque})`}>

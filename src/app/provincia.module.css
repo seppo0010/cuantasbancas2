@@ -1,0 +1,126 @@
+.referenciaBancas {
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    width: 100%;
+}
+
+
+.referenciaBancasLabel {
+    font-size: 0.9em;
+}
+
+.banca {
+    background: #d3d3d3;
+    color: #444;
+    font-size: 10px;
+    border-radius: 4px;
+    padding: 0 8px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    min-width: 60px;
+    justify-content: center;
+    margin: 0 2px;
+    text-transform: uppercase;
+
+}
+
+.renueva {
+    background: #888;
+    color: #fff;
+}
+
+.actual {
+    color: #000;
+    opacity: 0.7;
+    border-radius: 2px;
+}
+
+.actualTop {
+    margin-top: 2px;
+}
+
+.ganada {
+    color: white;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.bloque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.containerViz {
+    display: flex;
+    align-items: flex-end;
+    height: auto;
+    gap: 4px;
+    margin-top: 10px;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.stack {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.label {
+    height: 50px;
+    display: flex;
+    margin-top: 4px;
+    font-weight: bold;
+    text-align: center;
+    flex-flow: column;
+    font-size: 12px;
+    font-weight: normal;
+    width: 85%;
+  }
+
+  .title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .metricasFlex {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    border-radius: 2px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    padding: 2px 0;
+    width: 100%;
+  }
+
+  .metricaItem {
+    flex: 1 1 0;
+    display: flex;
+    background-color: #eee;
+    color: #666;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    height: 14px;
+    font-size: 12px;
+    border-radius: 2px;
+    gap: 2px;
+  }
