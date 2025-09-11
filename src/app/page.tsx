@@ -102,6 +102,11 @@ export default function Home() {
   senadores.sort((d1, d2) => datos.bloques.findIndex((b) => b.nombres.includes(d1.Bloque)) - datos.bloques.findIndex((b) => b.nombres.includes(d2.Bloque)))
   const eleccionLegisladores = eleccion === null ? [] : legisladoresEleccion[eleccion];
   return (
+
+    <div className={styles.container}>
+        <h1>¿Cuántas bancas? v2.0</h1>
+        <p>Simulador de distribución de las elecciones legislativas de 2025: <a href="https://www.visualizando.ar/cuantasbancas">www.visualizando.ar/cuantasbancas</a></p>
+
     <div className={styles.page}>
       <div className={styles.camara}>
         <Senadores senadores={senadores.map((d) => ({
@@ -119,6 +124,7 @@ export default function Home() {
           {Object.keys(datos.elecciones).map((e) => (<option key={e} value={e}>{e}</option>))}
         </select>
       </div>
+
       {eleccion !== null && <Provincia
         enJuego={
           Object.fromEntries(datos.bloques.map((b) =>
@@ -135,11 +141,11 @@ export default function Home() {
             senadores.filter((d) => d.Distrito === datos.elecciones[eleccion].distrito)
         } />}
       {eleccion !== null && <div className={styles.eleccion}>
-        <ul>
+        {/* <ul>
           {eleccionLegisladores.map((e) => (<li key={`${e.Apellido} ${e.Nombres} (${e.Bloque})`}>
             {e.Apellido} {e.Nombres} ({e.Bloque})
           </li>))}
-        </ul>
+        </ul> */}
         <ul>
           {Object.keys(datos.elecciones[eleccion].partidos).map((p) => (<li key={p}>
             <input type="checkbox" checked={locked.some((l) => l[0] === eleccion && l[1] === p)} onChange={
@@ -159,5 +165,6 @@ export default function Home() {
         </ul>
       </div>}
     </div >
+    </div>
   );
 }

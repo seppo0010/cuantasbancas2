@@ -8,7 +8,7 @@ export const Provincia = ({ legisladores, bloques, finalizaMandatoNuevo, enJuego
     legisladores: Legislador[] , bloques: Bloque[], finalizaMandatoNuevo: string, enJuego: { [bloque: string]: number }
 }) => {
     return (
-        <div>
+        <div className={styles.modal}>
             <h3>Bancas por partido</h3>
             <div className={styles.referenciaBancas}>
                 <span className={styles.referenciaBancasLabel}>Banca:</span>
@@ -29,12 +29,13 @@ export const Provincia = ({ legisladores, bloques, finalizaMandatoNuevo, enJuego
                     </div>
                     <div className={styles.label}>
                         <span className={styles.title}>{bloque.nombres[0]}</span>
-                        <div className={styles.metricasFlex}>
+                        
+                    </div>
+                    <div className={styles.metricasFlex}>
                             <span className={styles.metricaItem}><FontAwesomeIcon icon={faChair} /> {legisladores.filter((l) => bloque.nombres.includes(l.Bloque)).length}</span>
                             <span className={styles.metricaItem}><FontAwesomeIcon icon={faRecycle} /> {enJuego[bloque.nombres[0]]}</span>
                             <span className={styles.metricaItem}><FontAwesomeIcon icon={faTrophy} /> {legisladores.filter((l) => bloque.nombres.includes(l.Bloque) && l.FinalizaMandato === finalizaMandatoNuevo).length}</span>
                         </div>
-                    </div>
                 </div>))}
             </div>
         </div>
