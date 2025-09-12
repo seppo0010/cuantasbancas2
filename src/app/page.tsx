@@ -9,6 +9,7 @@ import { Eleccion } from "./Eleccion";
 import { Bloque } from "./Bloque";
 import { Legislador } from "./Legislador";
 import { Provincia } from "./provincia";
+import ProvinciaChart from "./ProvinciaChart";
 
 const datos: {
   diputados: Legislador[],
@@ -101,69 +102,77 @@ export default function Home() {
     ...Object.entries(datos.elecciones).filter((e) => e[1].camara === 'senadores').map((e) => legisladoresEleccion[e[0]])).filter((x) => !!x)
   senadores.sort((d1, d2) => datos.bloques.findIndex((b) => b.nombres.includes(d1.Bloque)) - datos.bloques.findIndex((b) => b.nombres.includes(d2.Bloque)))
   return (
-
     <div className={styles.container}>
-        <h1>¿Cuántas bancas? v2.0</h1>
-        <p>Simulador de distribución de las elecciones legislativas de 2025: <a href="https://www.visualizando.ar/cuantasbancas">www.visualizando.ar/cuantasbancas</a></p>
+      <h1>¿Cuántas bancas? v2.0</h1>
+      <p>Simulador de distribución de las elecciones legislativas de 2025: <a href="https://www.visualizando.ar/cuantasbancas">www.visualizando.ar/cuantasbancas</a></p>
 
-    <div className={styles.page}>
-      <div className={styles.camara}>
-        <Senadores senadores={senadores.map((d) => ({
-          nombre: `${d.Apellido}, ${d.Nombres}`,
-          color: datos.bloques.find((f) => f.nombres.includes(d.Bloque))?.color ?? '#000',
-        }))} />
-        <Diputados diputados={diputados.map((d) => ({
-          nombre: `${d.Apellido}, ${d.Nombres}`,
-          color: datos.bloques.find((f) => f.nombres.includes(d.Bloque))?.color ?? '#000',
-        }))} />
-      </div>
-      <div className={styles.eleccionPicker}>
-        <select onChange={(ev) => ev.target.value === '' ? setEleccion(null) : setEleccion(ev.target.value)}>
-          <option value="">Todas</option>
-          {Object.keys(datos.elecciones).map((e) => (<option key={e} value={e}>{e}</option>))}
-        </select>
-      </div>
+      <div className={styles.page}>
+        <div className={styles.camara}>
+          <Senadores senadores={senadores.map((d) => ({
+            nombre: `${d.Apellido}, ${d.Nombres}`,
+            color: datos.bloques.find((f) => f.nombres.includes(d.Bloque))?.color ?? '#000',
+          }))} />
+          <Diputados diputados={diputados.map((d) => ({
+            nombre: `${d.Apellido}, ${d.Nombres}`,
+            color: datos.bloques.find((f) => f.nombres.includes(d.Bloque))?.color ?? '#000',
+          }))} />
+        </div>
 
-      {eleccion !== null && <Provincia
-        enJuego={
-          Object.fromEntries(datos.bloques.map((b) =>
-            [b.nombres[0], (datos.elecciones[eleccion].camara === 'diputados' ? datos.diputados : datos.senadores
-            ).filter((l) => b.nombres.includes(l.Bloque) &&
-              l.Distrito === datos.elecciones[eleccion].distrito &&
-              l.FinalizaMandato === datos.finalizaMandato).length]
-          ))}
-        finalizaMandatoNuevo={datos.elecciones[eleccion].finalizaMandatoNuevo}
-        bloques={datos.bloques}
-        legisladores={
-          datos.elecciones[eleccion].camara === 'diputados' ?
-            diputados.filter((d) => d.Distrito === datos.elecciones[eleccion].distrito) :
-            senadores.filter((d) => d.Distrito === datos.elecciones[eleccion].distrito)
-        } />}
-      {eleccion !== null && <div className={styles.eleccion}>
-        {/* <ul>
-          {eleccionLegisladores.map((e) => (<li key={`${e.Apellido} ${e.Nombres} (${e.Bloque})`}>
-            {e.Apellido} {e.Nombres} ({e.Bloque})
-          </li>))}
-        </ul> */}
-        <ul>
-          {Object.keys(datos.elecciones[eleccion].partidos).map((p) => (<li key={p}>
-            <input type="checkbox" checked={locked.some((l) => l[0] === eleccion && l[1] === p)} onChange={
-              (ev) => ev.target.checked ?
-                setLocked(locked.concat([[eleccion, p]])) :
-                setLocked(locked.filter((l) => !(l[0] === eleccion && l[1] === p)))
-            } />
-            {p} ({Math.abs(votos[eleccion][p] / 100).toFixed(2)}%)<br />
-            <input type="range" min={0} max={100 * 100} value={votos[eleccion][p]} onChange={(ev) => {
-              const v = Object.fromEntries(Object.entries(votos[eleccion]).filter((el) => locked.every((l) => l[1] === p || !(l[0] === eleccion && l[1] === el[0]))));
-              const keepLocked = Object.fromEntries(Object.entries(votos[eleccion]).filter((el) => locked.some((l) => l[1] !== p && l[0] === eleccion && l[1] === el[0])));
-              const newP = parseFloat(ev.target.value);
-              updateVotos(newP, p, v, keepLocked)
-            }
-            }></input>
-          </li>))}
-        </ul>
-      </div>}
-    </div >
+        {eleccion !== null && <Provincia
+          enJuego={
+            Object.fromEntries(datos.bloques.map((b) =>
+              [b.nombres[0], (datos.elecciones[eleccion].camara === 'diputados' ? datos.diputados : datos.senadores
+              ).filter((l) => b.nombres.includes(l.Bloque) &&
+                l.Distrito === datos.elecciones[eleccion].distrito &&
+                l.FinalizaMandato === datos.finalizaMandato).length]
+            ))}
+          finalizaMandatoNuevo={datos.elecciones[eleccion].finalizaMandatoNuevo}
+          bloques={datos.bloques}
+          legisladores={
+            datos.elecciones[eleccion].camara === 'diputados' ?
+              diputados.filter((d) => d.Distrito === datos.elecciones[eleccion].distrito) :
+              senadores.filter((d) => d.Distrito === datos.elecciones[eleccion].distrito)
+          } />}
+        {eleccion === null && <div>
+          {[
+            ['Jujuy'],
+            ['Salta', 'Tucumán', 'Formosa', 'Misiones'],
+            ['Catamarca', 'Santiago del Estero', 'Chaco', 'Corrientes'],
+            ['La Rioja', 'Córdoba', 'Santa Fe', 'Entre Ríos'],
+            ['San Juan', 'San Luis', 'Buenos Aires', 'Ciudad Autónoma de Buenos Aires'],
+            ['Mendoza', 'La Pampa'],
+            ['Neuquén', 'Río Negro'],
+            ['Chubut'],
+            ['Santa Cruz', 'Tierra del Fuego'],
+          ].map((row: string[]) => <div key={JSON.stringify(row)} style={{ display: 'flex' }}>
+            {row.map((provincia: string) => <div style={{ cursor: 'pointer' }} onClick={() => setEleccion(Object.entries(datos.elecciones).find((e) => e[1].camara === 'diputados' && e[1].distrito === provincia)![0])}>
+              <ProvinciaChart key={provincia} provincia={provincia} bloques={datos.bloques} votos={
+                votos[Object.entries(datos.elecciones).find((e) => e[1].camara === 'diputados' && e[1].distrito === provincia)![0]]
+              } />
+            </div>)}
+          </div>)}
+        </div>}
+        {eleccion !== null && <div className={styles.eleccion}>
+          <a href="#" onClick={() => setEleccion(null)}>Volver</a>
+          <ul>
+            {Object.keys(datos.elecciones[eleccion].partidos).map((p) => (<li key={p}>
+              <input type="checkbox" checked={locked.some((l) => l[0] === eleccion && l[1] === p)} onChange={
+                (ev) => ev.target.checked ?
+                  setLocked(locked.concat([[eleccion, p]])) :
+                  setLocked(locked.filter((l) => !(l[0] === eleccion && l[1] === p)))
+              } />
+              {p} ({Math.abs(votos[eleccion][p] / 100).toFixed(2)}%)<br />
+              <input type="range" min={0} max={100 * 100} value={votos[eleccion][p]} onChange={(ev) => {
+                const v = Object.fromEntries(Object.entries(votos[eleccion]).filter((el) => locked.every((l) => l[1] === p || !(l[0] === eleccion && l[1] === el[0]))));
+                const keepLocked = Object.fromEntries(Object.entries(votos[eleccion]).filter((el) => locked.some((l) => l[1] !== p && l[0] === eleccion && l[1] === el[0])));
+                const newP = parseFloat(ev.target.value);
+                updateVotos(newP, p, v, keepLocked)
+              }
+              }></input>
+            </li>))}
+          </ul>
+        </div>}
+      </div >
     </div>
   );
 }

@@ -1,6 +1,7 @@
 {
   "bloques": [
     {
+      "corto": "FIT",
       "nombres": [
         "IZQUIERDA SOCIALISTA FIT-UNIDAD",
         "MST - FRENTE DE IZQUIERDA Y TRABAJADORES UNIDAD",
@@ -16,6 +17,7 @@
       "color": "#ed4d57"
     },
     {
+      "corto": "FP",
       "nombres": [
         "FRENTE FUERZA PATRIA",
         "FUERZA PATRIA",
@@ -30,6 +32,7 @@
       "color": "#009FE3"
     },
     {
+      "corto": "Otros",
       "nombres": [
         "OTROS",
         "ACCION PARA EL CAMBIO",
@@ -185,6 +188,7 @@
       "color": "#cccccc"
     },
     {
+      "corto": "UCR",
       "nombres": [
         "UCR - UNIÓN CÍVICA RADICAL",
         "UNIÓN CÍVICA RADICAL"
@@ -192,6 +196,7 @@
       "color": "#FFD700"
     },
     {
+      "corto": "PRO",
       "nombres": [
         "FRENTE PRO",
         "PRO"
@@ -199,6 +204,7 @@
       "color": "#FFD700"
     },
     {
+      "corto": "LLA",
       "nombres": [
         "PARTIDO LA LIBERTAD AVANZA",
         "LIBERTAD, TRABAJO Y PROGRESO",
