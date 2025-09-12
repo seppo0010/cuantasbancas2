@@ -100,7 +100,6 @@ export default function Home() {
   const senadores = datos.senadores.filter((d) => d.FinalizaMandato !== datos.finalizaMandato).concat(
     ...Object.entries(datos.elecciones).filter((e) => e[1].camara === 'senadores').map((e) => legisladoresEleccion[e[0]])).filter((x) => !!x)
   senadores.sort((d1, d2) => datos.bloques.findIndex((b) => b.nombres.includes(d1.Bloque)) - datos.bloques.findIndex((b) => b.nombres.includes(d2.Bloque)))
-  const eleccionLegisladores = eleccion === null ? [] : legisladoresEleccion[eleccion];
   return (
 
     <div className={styles.container}>
