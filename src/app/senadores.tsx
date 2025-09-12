@@ -1,5 +1,3 @@
-import styles from "./senadores.module.css";
-
 export const Senadores = ({ senadores }: {
   senadores: {
     nombre: string,

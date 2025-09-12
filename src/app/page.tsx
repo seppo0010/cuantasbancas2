@@ -91,10 +91,10 @@ export default function Home() {
       setLegisladoresEleccion(Object.fromEntries(Object.keys(datos.elecciones).map((e) => [e, calcEleccion(e)])))
       return;
     }
-    setLegisladoresEleccion({
-      ...legisladoresEleccion,
+    setLegisladoresEleccion((l) => ({
+      ...l,
       [eleccion]: calcEleccion(eleccion)
-    })
+    }))
   }, [eleccion, votos])
 
   const diputados = datos.diputados.filter((d) => d.FinalizaMandato !== datos.finalizaMandato).concat(
