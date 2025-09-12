@@ -166,7 +166,22 @@ export default function Home() {
                   </span>
                 </div>
                 <div className={styles.sliderRest}>
-                  <input type="range" className={styles.slider} min={0} max={100 * 100} step="1" style={{ background: `linear-gradient(to right, ${datos.bloques.find((b) => b.nombres.includes(p))?.color ?? '#000'} 0%, ${datos.bloques.find((b) => b.nombres.includes(p))?.color ?? '#000'} ${votos[eleccion][p] / 100}%, rgb(170, 170, 170) ${votos[eleccion][p] / 100}%, rgb(170, 170, 170) 100%, rgb(224, 224, 224) 100%, rgb(224, 224, 224) 100%)` }} value={votos[eleccion][p]} onChange={(ev) => {
+                  <input type="range" className={styles.slider} min={0} max={100 * 100} step="1" style={{
+                    background: `linear-gradient(to right, ${
+                      datos.bloques.find((b) => b.nombres.includes(p))?.color ?? '#000'
+                    } 0%, ${
+                      datos.bloques.find((b) => b.nombres.includes(p))?.color ?? '#000'
+                    } ${
+                      votos[eleccion][p] / 100
+                    }%, rgb(170, 170, 170) ${
+                      votos[eleccion][p] / 100
+                    }%, rgb(170, 170, 170) ${
+                      100 - Object.entries(votos[eleccion]).filter((v) => locked.some((el) => el[0] === eleccion && el[1] === v[0] && v[0] !== p)).reduce((acc, v) => acc + v[1], 0) / 100
+                    }%, rgb(224, 224, 224) ${
+                      100 - Object.entries(votos[eleccion]).filter((v) => locked.some((el) => el[0] === eleccion && el[1] === v[0] && v[0] !== p)).reduce((acc, v) => acc + v[1], 0) / 100
+                    }%, rgb(224, 224, 224) ${
+                      100
+                    }%)` }} value={votos[eleccion][p]} onChange={(ev) => {
                     const v = Object.fromEntries(Object.entries(votos[eleccion]).filter((el) => locked.every((l) => l[1] === p || !(l[0] === eleccion && l[1] === el[0]))));
                     const keepLocked = Object.fromEntries(Object.entries(votos[eleccion]).filter((el) => locked.some((l) => l[1] !== p && l[0] === eleccion && l[1] === el[0])));
                     const newP = parseFloat(ev.target.value);
