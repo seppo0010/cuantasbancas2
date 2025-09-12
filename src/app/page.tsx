@@ -10,6 +10,8 @@ import { Bloque } from "./Bloque";
 import { Legislador } from "./Legislador";
 import { Provincia } from "./provincia";
 import ProvinciaChart from "./ProvinciaChart";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLock } from '@fortawesome/free-solid-svg-icons';
 
 const datos: {
   diputados: Legislador[],
@@ -145,8 +147,8 @@ export default function Home() {
             ['Chubut'],
             ['Santa Cruz', 'Tierra del Fuego'],
           ].map((row: string[]) => <div key={JSON.stringify(row)} style={{ display: 'flex' }}>
-            {row.map((provincia: string) => <div style={{ cursor: 'pointer' }} onClick={() => setEleccion(Object.entries(datos.elecciones).find((e) => e[1].camara === 'diputados' && e[1].distrito === provincia)![0])}>
-              <ProvinciaChart key={provincia} provincia={provincia} bloques={datos.bloques} votos={
+            {row.map((provincia: string) => <div key={provincia} style={{ cursor: 'pointer' }} onClick={() => setEleccion(Object.entries(datos.elecciones).find((e) => e[1].camara === 'diputados' && e[1].distrito === provincia)![0])}>
+              <ProvinciaChart provincia={provincia} bloques={datos.bloques} votos={
                 votos[Object.entries(datos.elecciones).find((e) => e[1].camara === 'diputados' && e[1].distrito === provincia)![0]]
               } />
             </div>)}
@@ -154,23 +156,37 @@ export default function Home() {
         </div>}
         {eleccion !== null && <div className={styles.eleccion}>
           <a href="#" onClick={() => setEleccion(null)}>Volver</a>
-          <ul>
-            {Object.keys(datos.elecciones[eleccion].partidos).map((p) => (<li key={p}>
-              <input type="checkbox" checked={locked.some((l) => l[0] === eleccion && l[1] === p)} onChange={
-                (ev) => ev.target.checked ?
-                  setLocked(locked.concat([[eleccion, p]])) :
-                  setLocked(locked.filter((l) => !(l[0] === eleccion && l[1] === p)))
-              } />
-              {p} ({Math.abs(votos[eleccion][p] / 100).toFixed(2)}%)<br />
-              <input type="range" min={0} max={100 * 100} value={votos[eleccion][p]} onChange={(ev) => {
-                const v = Object.fromEntries(Object.entries(votos[eleccion]).filter((el) => locked.every((l) => l[1] === p || !(l[0] === eleccion && l[1] === el[0]))));
-                const keepLocked = Object.fromEntries(Object.entries(votos[eleccion]).filter((el) => locked.some((l) => l[1] !== p && l[0] === eleccion && l[1] === el[0])));
-                const newP = parseFloat(ev.target.value);
-                updateVotos(newP, p, v, keepLocked)
-              }
-              }></input>
-            </li>))}
-          </ul>
+          <div>
+            {Object.keys(datos.elecciones[eleccion].partidos).map((p) => (<div key={p}>
+              <div className={styles.sliderContainer}>
+                <div className={styles.sliderLabel}>
+                  <span style={{ color: datos.bloques.find((b) => b.nombres.includes(p))?.color ?? '#000' }}>{p}</span>
+                  <span className={styles.candidatoLabel} style={{ color: datos.bloques.find((b) => b.nombres.includes(p))?.color ?? '#000' }}>
+                    {datos.elecciones[eleccion].partidos[p].candidatos[0].Apellido}
+                  </span>
+                </div>
+                <div className={styles.sliderRest}>
+                  <input type="range" className={styles.slider} min={0} max={100 * 100} step="1" style={{ background: `linear-gradient(to right, ${datos.bloques.find((b) => b.nombres.includes(p))?.color ?? '#000'} 0%, ${datos.bloques.find((b) => b.nombres.includes(p))?.color ?? '#000'} ${votos[eleccion][p] / 100}%, rgb(170, 170, 170) ${votos[eleccion][p] / 100}%, rgb(170, 170, 170) 100%, rgb(224, 224, 224) 100%, rgb(224, 224, 224) 100%)` }} value={votos[eleccion][p]} onChange={(ev) => {
+                    const v = Object.fromEntries(Object.entries(votos[eleccion]).filter((el) => locked.every((l) => l[1] === p || !(l[0] === eleccion && l[1] === el[0]))));
+                    const keepLocked = Object.fromEntries(Object.entries(votos[eleccion]).filter((el) => locked.some((l) => l[1] !== p && l[0] === eleccion && l[1] === el[0])));
+                    const newP = parseFloat(ev.target.value);
+                    updateVotos(newP, p, v, keepLocked)
+                    if (!locked.some((l) => l[0] === eleccion && l[1] === p)) {
+                      setLocked(locked.concat([[eleccion, p]]))
+                    }
+                  }} />
+                  <span className={styles.lockIcon} id="lock-0" style={{ visibility: 'visible', color: locked.some((l) => l[0] === eleccion && l[1] === p) ? 'rgb(85, 85, 85)' : 'rgb(204, 204, 204)' }} onClick={
+                    () => !locked.some((l) => l[0] === eleccion && l[1] === p) ?
+                      setLocked(locked.concat([[eleccion, p]])) :
+                      setLocked(locked.filter((l) => !(l[0] === eleccion && l[1] === p)))
+                  }>
+                    <FontAwesomeIcon icon={faLock} />
+                  </span>
+                  <div className={styles.valueDisplay}>{Math.abs(votos[eleccion][p] / 100).toFixed(2)}%</div>
+                </div>
+              </div>
+            </div>))}
+          </div>
         </div>}
       </div >
     </div>
