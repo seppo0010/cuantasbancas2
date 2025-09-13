@@ -28,6 +28,7 @@ export default function Home() {
       Object.fromEntries(Object.entries(value.partidos).map(([k, v]) => [k, v.votos * 100]))
     ])))
   });
+  const [camara, setCamara] = useState<'diputados' | 'senadores'>('diputados');
   const [locked, setLocked] = useState<[string, string][]>([]);
   const updateVotos = (newP: number, p: string, v: { [partido: string]: number }, keepLocked: { [partido: string]: number }) => {
     if (eleccion === null) return;
@@ -107,17 +108,20 @@ export default function Home() {
     <div className={styles.container}>
       <h1>¿Cuántas bancas? v2.0</h1>
       <p>Simulador de distribución de las elecciones legislativas de 2025: <a href="https://www.visualizando.ar/cuantasbancas">www.visualizando.ar/cuantasbancas</a></p>
-
+      {eleccion === null && <div className={styles.camaraPickerContainer}>
+        <a href="#" onClick={(ev) => { setCamara('diputados'); ev.preventDefault(); }}><span className={`${styles.camaraPicker} ${camara === 'diputados' ? styles.camaraPickerSelected : ''}`}>Diputados</span></a>
+        <a href="#" onClick={(ev) => { setCamara('senadores'); ev.preventDefault(); }}><span className={`${styles.camaraPicker} ${camara !== 'diputados' ? styles.camaraPickerSelected : ''}`}>Senadores</span></a>
+      </div>}
       <div className={styles.page}>
         <div className={styles.camara}>
-          <Senadores senadores={senadores.map((d) => ({
+          {camara !== 'diputados' && <Senadores senadores={senadores.map((d) => ({
             nombre: `${d.Apellido}, ${d.Nombres}`,
             color: datos.bloques.find((f) => f.nombres.includes(d.Bloque))?.color ?? '#000',
-          }))} />
-          <Diputados diputados={diputados.map((d) => ({
+          }))} />}
+          {camara === 'diputados' && <Diputados diputados={diputados.map((d) => ({
             nombre: `${d.Apellido}, ${d.Nombres}`,
             color: datos.bloques.find((f) => f.nombres.includes(d.Bloque))?.color ?? '#000',
-          }))} />
+          }))} />}
         </div>
 
         {eleccion !== null && <Provincia
@@ -147,7 +151,8 @@ export default function Home() {
             ['Chubut'],
             ['Santa Cruz', 'Tierra del Fuego'],
           ].map((row: string[]) => <div key={JSON.stringify(row)} style={{ display: 'flex' }}>
-            {row.map((provincia: string) => <div key={provincia} style={{ cursor: 'pointer' }} onClick={() => setEleccion(Object.entries(datos.elecciones).find((e) => e[1].camara === 'diputados' && e[1].distrito === provincia)![0])}>
+            {row.filter((provincia: string) => Object.values(datos.elecciones).some((e) => e.camara === camara && e.distrito === provincia)
+          ).map((provincia: string) => <div key={provincia} style={{ cursor: 'pointer' }} onClick={() => setEleccion(Object.entries(datos.elecciones).find((e) => e[1].camara === camara && e[1].distrito === provincia)![0])}>
               <ProvinciaChart provincia={provincia} bloques={datos.bloques} votos={
                 votos[Object.entries(datos.elecciones).find((e) => e[1].camara === 'diputados' && e[1].distrito === provincia)![0]]
               } />

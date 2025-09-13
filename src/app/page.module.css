@@ -64,3 +64,28 @@
   text-align: right;
   font-weight: bold;
 }
+
+.camaraPickerContainer {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.camaraPicker {
+  background: #d3d3d3;
+  color: #444;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 0 8px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  min-width: 60px;
+  justify-content: center;
+  margin: 0 2px;
+  text-transform: uppercase;
+}
+
+.camaraPickerSelected {
+  background-color: bisque;
+}
