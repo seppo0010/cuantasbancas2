@@ -7,6 +7,10 @@ import { Bloque } from './Bloque';
 export const Provincia = ({ legisladores, bloques, finalizaMandatoNuevo, enJuego }: {
     legisladores: Legislador[] , bloques: Bloque[], finalizaMandatoNuevo: string, enJuego: { [bloque: string]: number }
 }) => {
+    const maxLegislador = (
+        Math.max(...bloques.map((bloque) => legisladores.filter((l) => bloque.nombres.includes(l.Bloque) && l.FinalizaMandato !== finalizaMandatoNuevo).length)) +
+        legisladores.filter((l) => l.FinalizaMandato === finalizaMandatoNuevo).length
+    );
     return (
         <div className={styles.modal}>
             <h3>Bancas por partido</h3>
@@ -19,7 +23,7 @@ export const Provincia = ({ legisladores, bloques, finalizaMandatoNuevo, enJuego
                     <span className={`${styles.renueva} ${styles.banca}`}>renueva</span>
                 </span>
             </div>
-            <div className={styles.containerViz}>
+            <div className={styles.containerViz} style={{height: 74 + maxLegislador * 20}}>
                 {bloques.map((bloque) => (<div key={bloque.nombres[0]} className={styles.bloque}>
                     <div className={styles.stack}>
                         {legisladores.filter((l) => bloque.nombres.includes(l.Bloque)

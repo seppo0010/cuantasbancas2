@@ -74,11 +74,11 @@
 .containerViz {
     display: flex;
     align-items: flex-end;
-    height: auto;
     gap: 4px;
     margin-top: 10px;
     justify-content: center;
     max-width: 100%;
+    overflow: hidden;
 }
 
 .stack {
