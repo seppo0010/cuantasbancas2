@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002F[camara]","\u002F[camara]\u002F[distrito]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
