@@ -28,6 +28,8 @@ export async function generateStaticParams() {
             "Santiago del Estero",
             "Tierra del Fuego",
             "Tucumán"]) {
+            // idk, one works for rendering, the other one for routing? idk
+            res.push({ camara, distrito: distrito })
             res.push({ camara, distrito: encodeURI(distrito) })
         }
     }
