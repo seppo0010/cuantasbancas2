@@ -28,7 +28,7 @@ export async function generateStaticParams() {
             "Santiago del Estero",
             "Tierra del Fuego",
             "Tucumán"]) {
-            res.push({ camara, distrito })
+            res.push({ camara, distrito: encodeURI(distrito) })
         }
     }
     return res;
@@ -39,7 +39,11 @@ export default async function Home({
 }: {
     params: Promise<{
         camara: 'senadores' | 'diputados',
-        distrito:
+        distrito: string
+    }>
+}) {
+    const { camara, distrito } = await params
+    return <Mapa camara={camara} distrito={decodeURI(distrito) as
         "Buenos Aires" |
         "Catamarca" |
         "Chaco" |
@@ -64,8 +68,5 @@ export default async function Home({
         "Santiago del Estero" |
         "Tierra del Fuego" |
         "Tucumán"
-    }>
-}) {
-    const { camara, distrito } = await params
-    return <Mapa camara={camara} distrito={distrito} />
+    } />
 }
