@@ -1,12 +1,13 @@
 "use client";
 import dynamic from 'next/dynamic';
 import { Bloque } from "./Bloque";
+import { Distrito } from './Distrito';
 
 const DynamicApexCharts = dynamic(() => import('react-apexcharts'), {
   ssr: false, // Ensure ApexCharts is not imported during SSR
 });
 
-export default function ProvinciaChart({ provincia, bloques, votos }: { provincia: string, bloques: Bloque[], votos: { [partido: string]: number } }) {
+export default function ProvinciaChart({ provincia, bloques, votos }: { provincia: Distrito, bloques: Bloque[], votos: { [partido: string]: number } }) {
   return (
     <div style={{width: 200}}>
       <DynamicApexCharts options={{

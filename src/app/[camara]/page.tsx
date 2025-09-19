@@ -1,4 +1,5 @@
 import Mapa from "../Mapa";
+import { NoSsr } from "../nossr";
 
 export async function generateStaticParams() {
     return [{camara: 'diputados'}, {camara: 'senadores'}];
@@ -10,5 +11,5 @@ export default async function Home({
     params: Promise<{ camara: 'senadores' | 'diputados' }>
   }) {
     const { camara } = await params
-    return <Mapa camara={camara} distrito={null} />
+    return <NoSsr><Mapa camara={camara} distrito={null} /></NoSsr>
 }

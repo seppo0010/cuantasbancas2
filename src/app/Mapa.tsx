@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import styles from "./page.module.css";
 import { Diputados } from './diputados'
 import { Senadores } from './senadores'
@@ -14,6 +14,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLock } from '@fortawesome/free-solid-svg-icons';
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import { Distrito, slugs, DistritoSlug, slugsReverse } from "./Distrito";
+
 
 const datos: {
   diputados: Legislador[],
@@ -21,43 +23,60 @@ const datos: {
   elecciones: { [nombre: string]: Eleccion },
   finalizaMandato: string,
   bloques: Bloque[]
-} = datos_;
+} = datos_ as typeof datos;
 
 export default function Mapa({ camara, distrito }: {
   camara: 'senadores' | 'diputados',
-  distrito: null |
-  "Buenos Aires" |
-  "Catamarca" |
-  "Chaco" |
-  "Chubut" |
-  "Ciudad Autónoma de Buenos Aires" |
-  "Córdoba" |
-  "Corrientes" |
-  "Entre Ríos" |
-  "Formosa" |
-  "Jujuy" |
-  "La Pampa" |
-  "La Rioja" |
-  "Mendoza" |
-  "Misiones" |
-  "Neuquén" |
-  "Río Negro" |
-  "Salta" |
-  "San Juan" |
-  "San Luis" |
-  "Santa Cruz" |
-  "Santa Fe" |
-  "Santiago del Estero" |
-  "Tierra del Fuego" |
-  "Tucumán"
+  distrito: null | Distrito
 }) {
   const eleccion = (Object.entries(datos.elecciones).filter((e) => e[1].camara === camara && e[1].distrito == distrito)[0] || [null])[0];
-  console.log({ camara, distrito, eleccion: Object.entries(datos.elecciones).filter((e) => e[1].camara === camara && e[1].distrito == distrito) })
-  const [votos, setVotos] = useState<{ [eleccion: string]: { [partido: string]: number } }>(() => {
-    return Object.fromEntries(Object.entries(datos.elecciones).map(([key, value]) => ([key,
-      Object.fromEntries(Object.entries(value.partidos).map(([k, v]) => [k, v.votos * 100]))
-    ])))
-  });
+  const [votos, setVotos] = useState<null | { [eleccion: string]: { [partido: string]: number } }>(null);
+
+  useState(() => {
+    if (typeof window === 'undefined') return;
+    const storedData = sessionStorage.getItem('votos');
+    if (storedData && storedData !== 'undefined' && storedData !== 'null') {
+      setVotos(JSON.parse(storedData))
+    } else {
+      setVotos(Object.fromEntries(Object.entries(datos.elecciones).map(([key, value]) => ([key,
+        Object.fromEntries(Object.entries(value.partidos).map(([k, v]) => [k, v.votos * 100]))
+      ]))))
+    }
+  })
+
+  useEffect(() => {
+    sessionStorage.setItem('votos', JSON.stringify(votos));
+
+    if (votos === null) return;
+    const calcEleccion = (eleccion: string) => {
+      const el = datos.elecciones[eleccion];
+      if (el.camara === 'diputados') {
+        return calcularDhondt(Object.keys(el.partidos).map((p) => ({
+          partido: p,
+          votos: votos[eleccion][p] * el.electores,
+          porcentaje: votos[eleccion][p] / 100,
+        })), Object.values(el.partidos)[0].candidatos.length, el.electores
+        ).flatMap(({ partido, bancas }) => el.partidos[partido].candidatos.slice(0, bancas).map((c) => ({
+          ...c,
+          Distrito: el.distrito,
+          IniciaMandato: datos.finalizaMandato,
+          FinalizaMandato: el.finalizaMandatoNuevo,
+          Bloque: partido,
+        })))
+      } else {
+        const partidos = Object.values(Object.entries(votos[eleccion]).toSorted((a, b) => - a[1] + b[1])).map((x) => x[0]);
+        return el.partidos[partidos[0]].candidatos.slice(0, 2).concat(el.partidos[partidos[1]].candidatos.slice(0, 1)).map((c, i) => ({
+          ...c,
+          Distrito: el.distrito,
+          IniciaMandato: datos.finalizaMandato,
+          FinalizaMandato: el.finalizaMandatoNuevo,
+          Bloque: i < 2 ? partidos[0] : partidos[1],
+        }))
+      }
+    }
+    setLegisladoresEleccion(Object.fromEntries(Object.keys(datos.elecciones).map((e) => [e, calcEleccion(e)])))
+  }, [votos])
+
   const router = useRouter()
   const [locked, setLocked] = useState<[string, string][]>([]);
   const updateVotos = (newP: number, p: string, v: { [partido: string]: number }, keepLocked: { [partido: string]: number }) => {
@@ -90,43 +109,7 @@ export default function Mapa({ camara, distrito }: {
   }
   const [legisladoresEleccion, setLegisladoresEleccion] = useState<{ [eleccion: string]: Legislador[] }>({});
 
-  useEffect(() => {
-    const calcEleccion = (eleccion: string) => {
-      const el = datos.elecciones[eleccion];
-      if (el.camara === 'diputados') {
-        return calcularDhondt(Object.keys(el.partidos).map((p) => ({
-          partido: p,
-          votos: votos[eleccion][p] * el.electores,
-          porcentaje: votos[eleccion][p] / 100,
-        })), Object.values(el.partidos)[0].candidatos.length, el.electores
-        ).flatMap(({ partido, bancas }) => el.partidos[partido].candidatos.slice(0, bancas).map((c) => ({
-          ...c,
-          Distrito: el.distrito,
-          IniciaMandato: datos.finalizaMandato,
-          FinalizaMandato: el.finalizaMandatoNuevo,
-          Bloque: partido,
-        })))
-      } else {
-        const partidos = Object.values(Object.entries(votos[eleccion]).toSorted((a, b) => - a[1] + b[1])).map((x) => x[0]);
-        return el.partidos[partidos[0]].candidatos.slice(0, 2).concat(el.partidos[partidos[1]].candidatos.slice(0, 1)).map((c, i) => ({
-          ...c,
-          Distrito: el.distrito,
-          IniciaMandato: datos.finalizaMandato,
-          FinalizaMandato: el.finalizaMandatoNuevo,
-          Bloque: i < 2 ? partidos[0] : partidos[1],
-        }))
-      }
-    }
-
-    if (eleccion === null) {
-      setLegisladoresEleccion(Object.fromEntries(Object.keys(datos.elecciones).map((e) => [e, calcEleccion(e)])))
-      return;
-    }
-    setLegisladoresEleccion((l) => ({
-      ...l,
-      [eleccion]: calcEleccion(eleccion)
-    }))
-  }, [eleccion, votos])
+  if (votos === null) return <></>
 
   const diputados = datos.diputados.filter((d) => d.FinalizaMandato !== datos.finalizaMandato).concat(
     ...Object.entries(datos.elecciones).filter((e) => e[1].camara === 'diputados').map((e) => legisladoresEleccion[e[0]])).filter((x) => !!x)
@@ -170,7 +153,7 @@ export default function Mapa({ camara, distrito }: {
               senadores.filter((d) => d.Distrito === datos.elecciones[eleccion].distrito)
           } />}
         {eleccion === null && <div>
-          {[
+          {([
             ['Jujuy'],
             ['Salta', 'Tucumán', 'Formosa', 'Misiones'],
             ['Catamarca', 'Santiago del Estero', 'Chaco', 'Corrientes'],
@@ -180,9 +163,9 @@ export default function Mapa({ camara, distrito }: {
             ['Neuquén', 'Río Negro'],
             ['Chubut'],
             ['Santa Cruz', 'Tierra del Fuego'],
-          ].map((row: string[]) => <div key={JSON.stringify(row)} style={{ display: 'flex' }}>
-            {row.filter((provincia: string) => Object.values(datos.elecciones).some((e) => e.camara === camara && e.distrito === provincia)
-            ).map((provincia: string) => <div key={provincia} style={{ cursor: 'pointer' }} onClick={() => router.push(`/${camara}/${provincia}`)}>
+          ] as Distrito[][]).map((row: Distrito[]) => <div key={JSON.stringify(row)} style={{ display: 'flex' }}>
+            {row.filter((provincia: Distrito) => Object.values(datos.elecciones).some((e) => e.camara === camara && e.distrito === provincia)
+            ).map((provincia: Distrito) => <div key={provincia} style={{ cursor: 'pointer' }} onClick={() => router.push(`/${camara}/${slugsReverse[provincia]}`)}>
               <ProvinciaChart provincia={provincia} bloques={datos.bloques} votos={
                 votos[Object.entries(datos.elecciones).find((e) => e[1].camara === 'diputados' && e[1].distrito === provincia)![0]]
               } />
