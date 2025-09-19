@@ -14,7 +14,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLock } from '@fortawesome/free-solid-svg-icons';
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { Distrito, slugs, DistritoSlug, slugsReverse } from "./Distrito";
+import { Distrito, slugsReverse } from "./Distrito";
 
 
 const datos: {
