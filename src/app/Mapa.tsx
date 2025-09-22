@@ -43,7 +43,7 @@ export default function Mapa({ camara, distrito }: {
         Object.fromEntries(Object.entries(value.partidos).map(([k, v]) => [k, v.votos * 100]))
       ]))))
     }
-  })
+  }, [ready])
 
   useEffect(() => {
     sessionStorage.setItem('votos', JSON.stringify(votos));
