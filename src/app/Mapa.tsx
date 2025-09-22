@@ -111,7 +111,7 @@ export default function Mapa({ camara, distrito }: {
   }
   const [legisladoresEleccion, setLegisladoresEleccion] = useState<{ [eleccion: string]: Legislador[] }>({});
 
-  if (!ready) return <></>
+  if (!ready || votos === null) return <></>
 
   const diputados = datos.diputados.filter((d) => d.FinalizaMandato !== datos.finalizaMandato).concat(
     ...Object.entries(datos.elecciones).filter((e) => e[1].camara === 'diputados').map((e) => legisladoresEleccion[e[0]])).filter((x) => !!x)
