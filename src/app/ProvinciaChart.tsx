@@ -9,7 +9,7 @@ const DynamicApexCharts = dynamic(() => import('react-apexcharts'), {
 
 export default function ProvinciaChart({ provincia, bloques, votos }: { provincia: Distrito, bloques: Bloque[], votos: { [partido: string]: number } }) {
   return (
-    <div style={{width: 200}}>
+    <div style={{ width: 200 }}>
       <DynamicApexCharts options={{
         chart: {
           animations: {
@@ -47,6 +47,18 @@ export default function ProvinciaChart({ provincia, bloques, votos }: { provinci
         },
         yaxis: {
           show: true,
+        },
+        states: {
+          active: {
+            filter: {
+              type: 'none',
+            }
+          },
+          hover: {
+            filter: {
+              type: 'none',
+            }
+          },
         },
         title: {
           text: provincia,
