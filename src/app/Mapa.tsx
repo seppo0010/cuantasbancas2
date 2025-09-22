@@ -31,9 +31,10 @@ export default function Mapa({ camara, distrito }: {
 }) {
   const eleccion = (Object.entries(datos.elecciones).filter((e) => e[1].camara === camara && e[1].distrito == distrito)[0] || [null])[0];
   const [votos, setVotos] = useState<null | { [eleccion: string]: { [partido: string]: number } }>(null);
+  const [ready, setReady] = useState(false);
 
-  useState(() => {
-    if (typeof window === 'undefined') return;
+  useEffect(() => {
+    if (typeof window === 'undefined' || ready) return;
     const storedData = sessionStorage.getItem('votos');
     if (storedData && storedData !== 'undefined' && storedData !== 'null') {
       setVotos(JSON.parse(storedData))
@@ -75,6 +76,7 @@ export default function Mapa({ camara, distrito }: {
       }
     }
     setLegisladoresEleccion(Object.fromEntries(Object.keys(datos.elecciones).map((e) => [e, calcEleccion(e)])))
+    setReady(true);
   }, [votos])
 
   const router = useRouter()
@@ -109,7 +111,7 @@ export default function Mapa({ camara, distrito }: {
   }
   const [legisladoresEleccion, setLegisladoresEleccion] = useState<{ [eleccion: string]: Legislador[] }>({});
 
-  if (votos === null) return <></>
+  if (!ready) return <></>
 
   const diputados = datos.diputados.filter((d) => d.FinalizaMandato !== datos.finalizaMandato).concat(
     ...Object.entries(datos.elecciones).filter((e) => e[1].camara === 'diputados').map((e) => legisladoresEleccion[e[0]])).filter((x) => !!x)
