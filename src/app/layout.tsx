@@ -16,9 +16,9 @@ export const metadata: Metadata = {
   title: "¿Cuántas bancas?",
   description: "Simulador de distribución de las elecciones legislativas de 2025",
   openGraph: {
-    siteName: 'cuantasbancas2',
-    images: 'https://seppo0010.github.io/cuantasbancas2/card.png',
-    url: 'https://seppo0010.github.io/cuantasbancas2/',
+    siteName: '¿Cuántas bancas?',
+    images: 'http://simulador.poderciudadano.org/card.png',
+    url: 'http://simulador.poderciudadano.org/',
     countryName: 'Argentina',
     type: 'website',
   }

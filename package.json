@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://simulador.poderciudadano.org",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo 'simulador.poderciudadano.org' > out/CNAME",
     "deploy": "gh-pages -d out -t",
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
