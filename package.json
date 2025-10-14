@@ -2,7 +2,7 @@
   "name": "cuantasbancas2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://seppo0010.github.io/cuantasbancas2",
+  "homepage": "https://simulador.poderciudadano.org",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d out -t",
