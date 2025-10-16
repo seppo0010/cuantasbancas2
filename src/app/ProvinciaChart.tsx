@@ -73,7 +73,7 @@ export default function ProvinciaChart({ provincia, bloques, votos }: { provinci
         name: 'Porcentaje',
         data: bloques.map((b) => ({
           x: b.nombres[0],
-          y: (Object.entries(votos).filter((v) => b.nombres.includes(v[0])).reduce((x, y) => x + y[1], 0) / 100).toFixed(2),
+          y: (Object.entries(votos).filter((v) => b.nombres.includes(v[0])).reduce((x, y) => x + y[1], 0) / 100).toFixed(1),
         }))
       }]} type="bar" height={150} />
     </div>
