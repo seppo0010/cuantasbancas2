@@ -1,6 +1,8 @@
+import { Distrito } from "./Distrito";
+
 export interface Eleccion {
     camara: "diputados" | "senadores";
-    distrito: string;
+    distrito: Distrito;
     electores: number;
     partidos: {
         [partido: string]: {

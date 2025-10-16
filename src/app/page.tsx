@@ -9,7 +9,7 @@ import styles from './provincia.module.css';
 import homeStyles from './home.module.css';
 import { Legislador } from './Legislador';
 import { Bloque } from './Bloque';
-import { Distrito, DistritoSlug, slugsReverse } from './Distrito';
+import { Distrito, slugsReverse } from './Distrito';
 
 interface DatosType {
     diputados: Legislador[];
