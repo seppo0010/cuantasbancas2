@@ -13,6 +13,7 @@ import Sliders from './Sliders';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChair, faRecycle } from '@fortawesome/free-solid-svg-icons';
 import provinciaStyles from './provincia.module.css';
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 interface DatosType {
   diputados: Legislador[];
@@ -34,20 +35,35 @@ export default function Mapa({ camara, distrito }: {
   const [locked, setLocked] = useState<[string, string][]>([]);
   const [legisladoresEleccion, setLegisladoresEleccion] = useState<{ [eleccion: string]: Legislador[] }>({});
 
+  const pathname = usePathname()
+  const searchParams = useSearchParams()
+  const router = useRouter();
+
   // Efecto para cargar votos iniciales
   useEffect(() => {
     if (typeof window === 'undefined' || ready) return;
+    const eleccionVotos = new URLSearchParams(searchParams.toString()).get('votos')
+
     const storedData = sessionStorage.getItem('votos');
+    let votos;
     if (storedData && storedData !== 'undefined' && storedData !== 'null') {
-      setVotos(JSON.parse(storedData))
+      votos = JSON.parse(storedData)
     } else {
-      setVotos(Object.fromEntries(Object.entries(datos.elecciones).map(([key, value]) => {
+      votos = Object.fromEntries(Object.entries(datos.elecciones).map(([key, value]) => {
         const votosPartidos = Object.fromEntries(Object.entries(value.partidos).map(([k, v]) => [k, v.votos * 100]));
         const sumaVotos = Object.values(votosPartidos).reduce((sum, v) => sum + v, 0);
         const votoEnBlanco = 100 * 100 - sumaVotos;
         return [key, { ...votosPartidos, 'VOTO EN BLANCO': votoEnBlanco }];
-      })))
+      }))
     }
+    if (eleccionVotos) {
+      const partidos = Object.keys(votos[eleccion]).toSorted((p1, p2) => p1.localeCompare(p2));
+      const urlVotos = eleccionVotos.split(',').map((x) => parseFloat(x) * 100);
+      if (urlVotos.length === partidos.length) {
+        votos[eleccion] = Object.fromEntries(partidos.map((p, i) => [p, urlVotos[i]]))
+      }
+    }
+    setVotos(votos)
   }, [ready])
 
   // Efecto para calcular legisladores
@@ -55,6 +71,9 @@ export default function Mapa({ camara, distrito }: {
     if (!votos) return;
     sessionStorage.setItem('votos', JSON.stringify(votos));
 
+    const params = new URLSearchParams(searchParams.toString())
+    params.set('votos', Object.entries(votos[eleccion]).toSorted((p1, p2) => p1[0].localeCompare(p2[0])).map((p) => `${(p[1]/100).toFixed(2)}`).join(','))
+    router.replace(`${pathname}?${params}`, { scroll: false })
     const calcEleccion = (eleccion: string) => {
       const el = datos.elecciones[eleccion];
       if (el.camara === 'diputados') {
