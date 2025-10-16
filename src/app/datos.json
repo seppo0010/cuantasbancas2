@@ -1,7 +1,7 @@
 {
   "bloques": [
     {
-      "corto": "FIT",
+      "corto": "FIT-U",
       "nombres": [
         "IZQUIERDA SOCIALISTA FIT-UNIDAD",
         "MST - FRENTE DE IZQUIERDA Y TRABAJADORES UNIDAD",
@@ -12,12 +12,15 @@
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES UNIDAD",
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES-UNIDAD",
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD FIT",
-        "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD"
+        "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD",
+        "PARTIDO DEL OBRERO",
+        "PARTIDO DEL OBRERO (PDO)",
+        "DE IZQUIERDA Y DE TRABAJADORES - UNIDAD"
       ],
-      "color": "#ed4d57"
+      "color": "#fe5e5e"
     },
     {
-      "corto": "FP",
+      "corto": "FUERZA PATRIA",
       "nombres": [
         "FRENTE FUERZA PATRIA",
         "FUERZA PATRIA",
@@ -27,10 +30,38 @@
         "CONVICCIÓN FEDERAL",
         "FUERZA ENTRE RIOS",
         "FRENTE FUERZA PATRIA PERONISTA",
-        "UNIDAD CIUDADANA"
+        "UNIDAD CIUDADANA",
+        "FRENTE DEFENDEMOS La Pampa",
+        "FEDERALES DEFENDAMOS La Rioja",
+        "FRENTE DE LA VICTORIA",
+        "FRENTE JUSTICIALISTA",
+        "FRENTE Tucumán PRIMERO",
+        "FRENTE UNIDOS PODEMOS",
+        "FUERZA San Juan",
+        "FUERZA SANTACRUCEñA"
       ],
-      "color": "#009FE3"
+      "color": "#2fb9f4"
     },
+    {
+      "corto": "PROVINCIAS UNIDAS",
+      "nombres": [
+        "ALIANZA DEFENDAMOS Mendoza - PROVINCIAS UNIDAS",
+        "ALIANZA PROVINCIAS UNIDAS",
+        "SOMOS PROVINCIAS UNIDAS - Catamarca",
+        "PROVINCIAS UNIDAS",
+        "CIUDADANOS UNIDOS",
+        "CAMBIA La Pampa",
+        "DESPIERTA Chubut",
+        "DESPIERTA SANTIAGO",
+        "FRENTE Jujuy CRECE",
+        "JUNTOS POR LA LIBERTAD Y LA REPUBLICA",
+        "POR Santa Cruz",
+        "UCR - UNIÓN CÍVICA RADICAL",
+        "UNIDOS POR TUCUMAN",
+        "VAMOS Corrientes"
+      ],
+      "color": "#13b53b"
+    },   
     {
       "corto": "Otros",
       "nombres": [
@@ -39,63 +70,41 @@
         "ACTIVAR",
         "AHORA",
         "AHORA 503",
-        "ALIANZA DEFENDAMOS Mendoza - PROVINCIAS UNIDAS",
+        "POR LA JUSTICIA SOCIAL",
         "ALIANZA NUEVOS AIRES",
         "ALIANZA POTENCIA",
-        "ALIANZA PROVINCIAS UNIDAS",
         "ALIANZA UNIÓN FEDERAL",
-        "CAMBIA La Pampa",
         "CAMBIO FEDERAL",
         "CIUDADANOS",
-        "CIUDADANOS UNIDOS",
         "COALICION CIVICA",
         "COALICION CIVICA - AFIRMACION PARA UNA REPUBLICA IGUALITARIA (ARI)",
         "COALICION CIVICA - AFIRMACION PARA UNA REPUBLICA IGUALITARIA -ARI-",
         "COHERENCIA",
         "COMPROMISO FEDERAL",
         "CORDOBA TE QUIERO",
-        "Corrientes NOS UNE",
         "CREO",
-        "DEFENDAMOS CORDOBA",
         "DEFENDAMOS Santa Fe",
-        "DEFENDAMOS TIERRA DEL FUEGO",
         "DE IZQUIERDA Y DE TRABAJADORES - UNIDAD",
         "DE LA CONCERTACION FORJA",
         "DEL TRABAJO Y DEL PUEBLO",
         "DEMOCRACIA PARA SIEMPRE",
         "DESARROLLO CIUDADANO",
-        "DESPIERTA Chubut",
-        "DESPIERTA SANTIAGO",
         "ENCUENTRO FEDERAL",
         "ENCUENTRO POR LA REPUBLICA",
         "FE",
-        "FEDERALES DEFENDAMOS La Rioja",
         "FRENTE AMPLIO POR LA SOBERANIA",
-        "FRENTE CIVICO POR SANTIAGO",
-        "FRENTE DEFENDEMOS La Pampa",
-        "FRENTE DE LA VICTORIA",
         "FRENTE DEL PUEBLO UNIDO",
         "FRENTE FEDERAL DE ACCION SOLIDARIA",
         "FRENTE INTEGRADOR",
-        "FRENTE Jujuy CRECE",
-        "FRENTE JUSTICIALISTA",
         "FRENTE LIBERAL",
         "FRENTE LIBERTARIO DEMÓCRATA",
         "FRENTE PATRIOTA FEDERAL",
         "FRENTE POPULAR AGRARIO Y SOCIAL",
         "FRENTE POR LA VIDA Y LOS VALORES POR UN NUEVO OCTUBRE",
-        "FRENTE PRIMERO Jujuy AVANZA",
         "FRENTE RENOVADOR DE LA CONCORDIA SOCIAL",
         "FRENTE TRANSFORMACIóN LIBERTARIA",
-        "FRENTE Tucumán PRIMERO",
-        "FRENTE UNIDOS PODEMOS",
-        "FRENTE VERDE",
-        "FUERZA ENTRE RIOS",
         "FUERZA JUSTICIALISTA Mendoza",
         "FUERZA LIBERTARIA",
-        "FUERZA REPUBLICANA",
-        "FUERZA San Juan",
-        "FUERZA SANTACRUCEñA",
         "FUTURO Y LIBERTAD",
         "GEN",
         "HACEMOS POR SANTIAGO",
@@ -106,13 +115,8 @@
         "INNOVACIÓN FEDERAL",
         "INSTRUMENTO ELECTORAL POR LA UNIDAD POPULAR",
         "INTEGRAR",
-        "JUNTOS DEFENDEMOS RIO NEGRO",
-        "JUNTOS POR LA LIBERTAD Y LA REPUBLICA",
         "JUNTOS SOMOS Río Negro",
-        "LA FUERZA DEL TRABAJO ChubutENSE",
         "LA IZQUIERDA EN LA CIUDAD",
-        "LA NEUQUINIDAD",
-        "LAS FUERZAS DEL CENTRO",
         "LIBER.AR",
         "LIGA DEL INTERIOR ELI",
         "MAS POR NEUQUEN",
@@ -124,7 +128,6 @@
         "MOVIMIENTO INDEPENDIENTE RENOVADOR",
         "MOVIMIENTO NEUQUINO",
         "MOVIMIENTO PLURAL",
-        "MOVIMIENTO POLÍTICO SOCIAL Y CULTURAL PROYECTO SUR",
         "MOVIMIENTO POPULAR  NEUQUINO",
         "NUEVA IZQUIERDA",
         "NUEVAS IDEAS",
@@ -134,8 +137,6 @@
         "PARTIDO COMUNISTA",
         "PARTIDO CRUZADA RENOVADORA",
         "PARTIDO DE LA VICTORIA",
-        "PARTIDO DEL OBRERO",
-        "PARTIDO DEL OBRERO (PDO)",
         "PARTIDO DEMOCRATA",
         "PARTIDO DIGNIDAD POPULAR",
         "PARTIDO EVOLUCION LIBERAL",
@@ -154,12 +155,8 @@
         "PARTIDO SOCIALISTA AUTENTICO",
         "POLITICA ABIERTA PARA LA INTEGRIDAD SOCIAL",
         "POLITICA OBRERA",
-        "POR LA JUSTICIA SOCIAL",
-        "POR San Juan",
-        "POR Santa Cruz",
         "POTENCIA",
         "PRIMERO Catamarca",
-        "PRIMERO LOS SALTEÑOS",
         "PRIMERO RIO NEGRO",
         "PRINCIPIOS Y CONVICCIÓN",
         "PRO - PROPUESTA REPUBLICANA",
@@ -167,25 +164,19 @@
         "PRODUCCION Y TRABAJO",
         "PROPUESTA FEDERAL PARA EL CAMBIO",
         "PROTECTORA FUERZA POLITICA",
-        "PROVINCIAS UNIDAS",
         "PROYECTO ALTERNATIVO",
         "RENOVADOR DE LA CONCORDIA NEO",
         "REPUBLICANOS UNIDOS",
         "SOMOS FUEGUINOS",
-        "SOMOS PROVINCIAS UNIDAS - Catamarca",
         "UNIDAD FEDERAL",
         "UNIDOS",
-        "UNIDOS POR TUCUMAN",
-        "UNION CIVICA RADICAL",
         "UNION DEL CENTRO DEMOCRATICO",
         "UNIÓN LIBERAL",
         "UNION POPULAR FEDERAL",
         "UNIR",
-        "UNITE POR LA LIBERTAD Y LA DIGNIDAD",
-        "VAMOS Chaco",
-        "VAMOS Corrientes"
+        "UNITE POR LA LIBERTAD Y LA DIGNIDAD"
       ],
-      "color": "#cccccc"
+      "color": "#aaa"
     },
     {
       "corto": "UCR",
@@ -193,7 +184,7 @@
         "UCR - UNIÓN CÍVICA RADICAL",
         "UNIÓN CÍVICA RADICAL"
       ],
-      "color": "#FFD700"
+      "color": "#f84a26"
     },
     {
       "corto": "PRO",
@@ -201,17 +192,39 @@
         "FRENTE PRO",
         "PRO"
       ],
-      "color": "#FFD700"
+      "color": "#ffb800"
     },
     {
-      "corto": "LLA",
+      "corto": "LA LIBERTAD AVANZA",
       "nombres": [
         "PARTIDO LA LIBERTAD AVANZA",
         "LIBERTAD, TRABAJO Y PROGRESO",
         "ALIANZA LA LIBERTAD AVANZA",
         "LA LIBERTAD AVANZA"
       ],
-      "color": "#6C4C99"
+      "color": "#ac7be9"
+    },
+    {
+      "corto": "PROYECTO SUR",
+      "nombres": [
+        "Corrientes NOS UNE",
+        "DEFENDAMOS CORDOBA",
+        "DEFENDAMOS TIERRA DEL FUEGO",
+        "FRENTE CIVICO POR SANTIAGO",
+        "FRENTE PRIMERO Jujuy AVANZA",
+        "FRENTE VERDE",
+        "FUERZA REPUBLICANA",
+        "FUERZA San Juan",
+        "JUNTOS DEFENDEMOS RIO NEGRO",
+        "LA FUERZA DEL TRABAJO ChubutENSE",
+        "LA NEUQUINIDAD",
+        "LAS FUERZAS DEL CENTRO",
+        "MOVIMIENTO POLÍTICO SOCIAL Y CULTURAL PROYECTO SUR",
+        "POR San Juan",
+        "PRIMERO LOS SALTEÑOS",
+        "VAMOS Chaco"
+      ],
+      "color": "#45c594"
     }
   ],
   "finalizaMandato": "09/12/2025",

@@ -12,6 +12,11 @@
     margin: 10px 7px;
 }
 
+.principal h3{
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 6px;
+}
 .referenciaBancas {
     margin-top: 6px;
     display: flex;
@@ -19,39 +24,62 @@
     justify-content: center;
     gap: 7px;
     width: 100%;
+    flex-wrap: wrap;
 }
 
+.referenciaMetricas {
+    margin-top: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    width: 100%;
+}
 
 .referenciaBancasLabel {
-    font-size: 0.9em;
+    font-size: 0.8em;
+    color:#555
 }
 
 .banca {
-    background: #d3d3d3;
-    color: #444;
+    /* Estilos base comunes para todas las bancas */
     font-size: 10px;
-    border-radius: 4px;
     padding: 0 8px;
     height: 16px;
     display: flex;
     align-items: center;
-    min-width: 60px;
+    width: 100%;
     justify-content: center;
     margin: 0 2px;
     text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+    user-select: none;
+
 }
 
-.renueva {
+.banca.actual {
+    /* Bancas que no renuevan */
+    background: #d3d3d3;
+    color: #000;
+    font-weight: normal;
+    opacity: 0.5;
+    border-radius: 1px;
+}
+
+.banca.renueva {
+    /* Bancas que renuevan */
     background: #888;
     color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
-.actual {
-    color: #000;
-    opacity: 0.7;
-    border-radius: 2px;
+.referenciaBancas .banca{
+    min-width:80px;
 }
-
 .actualTop {
     margin-top: 2px;
 }
@@ -60,7 +88,6 @@
     color: white;
     text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.7);
     border-radius: 6px;
-    font-weight: bold;
 }
 
 .bloque {
@@ -68,12 +95,13 @@
     flex-direction: column;
     align-items: center;
     flex: 1;
+    min-width: 0;
 }
 
 .containerViz {
     display: flex;
     align-items: flex-end;
-    gap: 4px;
+    gap: 6px;
     margin-top: 10px;
     justify-content: center;
     max-width: 100%;
@@ -100,6 +128,8 @@
     font-size: 12px;
     font-weight: normal;
     width: 85%;
+    user-select: none;
+
   }
 
   .title {
@@ -110,8 +140,8 @@
   .metricasFlex {
     display: flex;
     flex-direction: row;
-    gap: 4px;
-    border-radius: 2px;
+    gap: 1px;
+    border-radius: 1px;
     justify-content: space-between;
     align-items: center;
     margin: auto;
@@ -124,16 +154,17 @@
   }
 
   .metricaItem {
-    flex: 1 1 0;
-    display: flex;
+    flex: 0 1 auto;
+    display: inline-flex;
     background-color: #eee;
     color: #666;
-    padding: 2px;
+    padding: 2px 8px;
     align-items: center;
     justify-content: center;
     min-width: 0;
-    height: 14px;
     font-size: 12px;
     border-radius: 2px;
-    gap: 2px;
+    gap: 4px;
+    user-select: none;
+    white-space: nowrap;
   }
