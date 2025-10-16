@@ -221,19 +221,20 @@
   }
 /* Mobile styles */
 @media (max-width: 768px) {
-   .metricasFlex {
+   /* Solo aplicar wrap a las métricas dentro de bloques, no al breadcrumb */
+   .bloque .metricasFlex {
       flex-wrap: wrap;
       justify-content: center;
       gap: 4px;
       margin: 0;
    }
 
-   .metricaItem {
+   .bloque .metricaItem {
       flex: 0 1 auto;
       font-size: 10px;
    }
 
-   .metricaItem:nth-child(3) {
+   .bloque .metricaItem:nth-child(3) {
       flex: 0 1 auto;
       min-width: auto;
    }

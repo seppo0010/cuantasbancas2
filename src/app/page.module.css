@@ -206,5 +206,6 @@
 
     .breadcrumbMetricas {
         align-self: flex-end;
+        flex-wrap: nowrap !important;
     }
 }
