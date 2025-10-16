@@ -56,13 +56,18 @@ export default function Mapa({ camara, distrito }: {
     const calcEleccion = (eleccion: string) => {
       const el = datos.elecciones[eleccion];
       if (el.camara === 'diputados') {
+        // Calcular cuántas bancas se renuevan en esta provincia
+        const bancasEnJuego = datos.diputados.filter((d) => 
+          d.Distrito === el.distrito && d.FinalizaMandato === datos.finalizaMandato
+        ).length;
+        
         return calcularDhondt(
           Object.keys(el.partidos).map((p) => ({
             partido: p,
-            votos: votos[eleccion][p] * el.electores,
+            votos: (votos[eleccion][p] / 100) * el.electores,
             porcentaje: votos[eleccion][p] / 100,
           })),
-          Object.values(el.partidos)[0].candidatos.length,
+          bancasEnJuego,
           el.electores
         ).flatMap(({ partido, bancas }) => 
           el.partidos[partido].candidatos.slice(0, bancas).map((c) => ({
@@ -157,9 +162,8 @@ export default function Mapa({ camara, distrito }: {
             <div className={provinciaStyles.metricaItem}>
               <FontAwesomeIcon icon={faChair} />
               <span>
-                {datos.elecciones[eleccion].camara === 'diputados' 
-                  ? diputados.filter((d) => d.Distrito === distrito).length
-                  : senadores.filter((d) => d.Distrito === distrito).length
+                {(datos.elecciones[eleccion].camara === 'diputados' ? datos.diputados : datos.senadores)
+                  .filter((l) => l.Distrito === distrito).length
                 }
               </span>
             </div>

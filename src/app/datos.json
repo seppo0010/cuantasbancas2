@@ -4384,68 +4384,60 @@
           "votos": 6.67,
           "candidatos": [
             {
-              "Nombres": "JOSÉ LUIS",
-              "Apellido": "ESPERT"
+              "Nombres": "DIEGO CÉSAR",
+              "Apellido": "SANTILLI"
             },
             {
               "Nombres": "KARINA CELIA",
               "Apellido": "VAZQUEZ"
             },
             {
-              "Nombres": "DIEGO CÉSAR",
-              "Apellido": "SANTILLI"
+              "Nombres": "SEBASTIAN MIGUEL",
+              "Apellido": "PAREJA"
             },
             {
               "Nombres": "GLADYS NOEMI",
               "Apellido": "HUMENUK"
             },
             {
-              "Nombres": "SEBASTIAN MIGUEL",
-              "Apellido": "PAREJA"
+              "Nombres": "ALEJANDRO ANGEL",
+              "Apellido": "CARRANCIO"
             },
             {
               "Nombres": "JOHANNA SABRINA",
               "Apellido": "LONGO"
             },
             {
-              "Nombres": "ALEJANDRO ANGEL",
-              "Apellido": "CARRANCIO"
+              "Nombres": "ALEJANDRO OSCAR",
+              "Apellido": "FINOCCHIARO"
             },
             {
               "Nombres": "MIRIAM DEL CARMEN",
               "Apellido": "NIVEYRO"
             },
             {
-              "Nombres": "ALEJANDRO OSCAR",
-              "Apellido": "FINOCCHIARO"
+              "Nombres": "SERGIO DANIEL",
+              "Apellido": "FIGLIUOLO"
             },
             {
               "Nombres": "GISELLE",
               "Apellido": "CASTELNUOVO"
             },
             {
-              "Nombres": "SERGIO DANIEL",
-              "Apellido": "FIGLIUOLO"
+              "Nombres": "ALVARO",
+              "Apellido": "GARCIA"
             },
             {
               "Nombres": "MARIA FLORENCIA",
               "Apellido": "DE SENSI"
             },
             {
-              "Nombres": "ALVARO",
-              "Apellido": "GARCIA"
-            },
-            {
-              "Nombres": "MARIA LUISA",
-              "Apellido": "GONZALEZ ESTEVARENA"
-            },
-            {
               "Nombres": "JOAQUIN PATRICIO",
               "Apellido": "OJEDA"
             },
             {
-              "Nombres": "ANDREA FERNANDA",
-              "Apellido": "VERA"
+              "Nombres": "MARIA LUISA",
+              "Apellido": "GONZALEZ ESTEVARENA"
             },
             {
               "Nombres": "HERNAN",
@@ -4458,6 +4450,10 @@
             {
               "Nombres": "JAVIER",
               "Apellido": "SANCHEZ WRBA"
+            },
+            {
+              "Nombres": "ANDREA FERNANDA",
+              "Apellido": "VERA"
             },
             {
               "Nombres": "MARTINA DANIELA",
