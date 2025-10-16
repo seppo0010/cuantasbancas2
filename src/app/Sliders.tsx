@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLock } from '@fortawesome/free-solid-svg-icons';
 import styles from "./page.module.css";
 import { Bloque } from './Bloque';
-import { Eleccion } from './Eleccion';
+import { Eleccion } from './types';
 
 interface SlidersProps {
   eleccion: string;

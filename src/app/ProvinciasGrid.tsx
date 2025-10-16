@@ -2,18 +2,18 @@
 import { useRouter } from 'next/navigation';
 import { Distrito } from './Distrito';
 import { Bloque } from './Bloque';
+import { Legislador } from './Legislador';
+import { Eleccion } from './types';
 import ProvinciaChart from './ProvinciaChart';
 import { slugsReverse } from './Distrito';
 
 interface ProvinciasGridProps {
   camara: 'senadores' | 'diputados';
   datos: {
-    elecciones: {
-      [key: string]: {
-        camara: 'senadores' | 'diputados';
-        distrito: Distrito;
-      };
-    };
+    diputados: Legislador[];
+    senadores: Legislador[];
+    elecciones: { [nombre: string]: Eleccion };
+    finalizaMandato: string;
     bloques: Bloque[];
   };
   votos: { [eleccion: string]: { [partido: string]: number } };
@@ -26,7 +26,7 @@ export default function ProvinciasGrid({ camara, datos, votos }: ProvinciasGridP
     ['Salta', 'Tucumán', 'Formosa', 'Misiones'],
     ['Catamarca', 'Santiago del Estero', 'Chaco', 'Corrientes'],
     ['La Rioja', 'Córdoba', 'Santa Fe', 'Entre Ríos'],
-    ['San Juan', 'San Luis', 'Buenos Aires', 'Ciudad Autónoma de Buenos Aires'],
+    ['San Juan', 'San Luis', 'Buenos Aires', 'CABA'],
     ['Mendoza', 'La Pampa'],
     ['Neuquén', 'Río Negro'],
     ['Chubut'],

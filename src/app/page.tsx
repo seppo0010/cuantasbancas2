@@ -7,27 +7,36 @@ import { faChair, faRecycle } from '@fortawesome/free-solid-svg-icons';
 import datos_ from './datos.json';
 import styles from './provincia.module.css';
 import homeStyles from './home.module.css';
+import { Legislador } from './Legislador';
+import { Bloque } from './Bloque';
 
-const datos = datos_ as any;
+interface DatosType {
+    diputados: Legislador[];
+    senadores: Legislador[];
+    finalizaMandato: string;
+    bloques: Bloque[];
+}
+
+const datos = datos_ as DatosType;
 
 export default function Home() {
     const [selectedChamber, setSelectedChamber] = useState<'diputados' | 'senadores'>('diputados');
     
     const provincias = Array.from(new Set([
-        ...datos.diputados.map((d: any) => d.Distrito), 
-        ...datos.senadores.map((s: any) => s.Distrito)
+        ...datos.diputados.map((d) => d.Distrito), 
+        ...datos.senadores.map((s) => s.Distrito)
     ]));
 
-    const getDiputadosPorProvincia = (pcia: string) => {
-        return datos.diputados.filter((d: any) => d.Distrito === pcia);
+    const getDiputadosPorProvincia = (pcia: string): Legislador[] => {
+        return datos.diputados.filter((d) => d.Distrito === pcia);
     };
 
-    const getSenadoresPorProvincia = (pcia: string) => {
-        return datos.senadores.filter((s: any) => s.Distrito === pcia);
+    const getSenadoresPorProvincia = (pcia: string): Legislador[] => {
+        return datos.senadores.filter((s) => s.Distrito === pcia);
     };
 
-    const getBloqueColor = (bloque: string) => {
-        const b = datos.bloques.find((bl: any) => bl.nombres.includes(bloque) || bl.corto === bloque);
+    const getBloqueColor = (bloque: string): string => {
+        const b = datos.bloques.find((bl) => bl.nombres.includes(bloque) || bl.corto === bloque);
         return b?.color || '#aaa';
     };
     
@@ -92,7 +101,7 @@ export default function Home() {
                 <div>
                     <strong className={homeStyles.referenciaTitle}>Bloques políticos:</strong>
                     <div className={homeStyles.bloquesItems}>
-                        {datos.bloques.map((bloque: any) => (
+                        {datos.bloques.map((bloque) => (
                             <div key={bloque.nombres[0]} className={homeStyles.bloqueItem}>
                                 <div 
                                     className={homeStyles.bloqueSwatch}
@@ -111,10 +120,10 @@ export default function Home() {
                     const senadores = getSenadoresPorProvincia(pcia);
                     const isShowingDiputados = selectedChamber === 'diputados';
                     const currentData = isShowingDiputados ? diputados : senadores;
-                    const bancasEnJuego = currentData.filter((d: any) => d.FinalizaMandato === datos.finalizaMandato).length;
+                    const bancasEnJuego = currentData.filter((d) => d.FinalizaMandato === datos.finalizaMandato).length;
                     
                     // Agrupar por bloque y contar
-                    const bloqueGroups = currentData.reduce((acc: any, leg: any) => {
+                    const bloqueGroups = currentData.reduce((acc: Record<string, Legislador[]>, leg) => {
                         if (!acc[leg.Bloque]) {
                             acc[leg.Bloque] = [];
                         }
@@ -124,12 +133,12 @@ export default function Home() {
                     
                     // Ordenar bloques por cantidad (mayor a menor)
                     const sortedBloques = Object.entries(bloqueGroups)
-                        .sort((a: any, b: any) => b[1].length - a[1].length);
+                        .sort((a, b) => b[1].length - a[1].length);
                     
                     // Ordenar legisladores: primero por bloque (mayor a menor), luego dentro de cada bloque: primero no renuevan, luego renuevan
-                    const sortedLegisladores = sortedBloques.flatMap(([bloque, legs]: any) => {
-                        const noRenuevan = legs.filter((l: any) => l.FinalizaMandato !== datos.finalizaMandato);
-                        const renuevan = legs.filter((l: any) => l.FinalizaMandato === datos.finalizaMandato);
+                    const sortedLegisladores = sortedBloques.flatMap(([, legs]) => {
+                        const noRenuevan = legs.filter((l) => l.FinalizaMandato !== datos.finalizaMandato);
+                        const renuevan = legs.filter((l) => l.FinalizaMandato === datos.finalizaMandato);
                         return [...noRenuevan, ...renuevan];
                     });
                     
@@ -139,7 +148,7 @@ export default function Home() {
                                 <h3 className={`${styles.title} ${styles.provinciaTitle}`}>{pcia}</h3>
                                 
                                 <div className={`${styles.referenciaBancas} ${styles.provinciaBancas}`}>
-                                    {sortedLegisladores.map((legislador: any, idx: number) => {
+                                    {sortedLegisladores.map((legislador, idx: number) => {
                                         const renueva = legislador.FinalizaMandato === datos.finalizaMandato;
                                         const color = getBloqueColor(legislador.Bloque);
                                         return (
