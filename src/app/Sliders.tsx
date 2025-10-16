@@ -57,10 +57,28 @@ export default function Sliders({ eleccion, datos, votos, locked, setLocked, set
   const sumaVotosPartidos = Object.values(votos[eleccion] || {}).reduce((sum, v) => sum + v, 0);
   const votoEnBlanco = votos[eleccion]?.['VOTO EN BLANCO'] ?? (100 * 100 - sumaVotosPartidos);
 
+  // Ordenar partidos: primero los que tienen bloque nombrado, luego "otros", voto en blanco al final
+  const partidosOrdenados = Object.keys(datos.elecciones[eleccion].partidos).sort((a, b) => {
+    const bloqueA = datos.bloques.find((bloque) => bloque.nombres.includes(a));
+    const bloqueB = datos.bloques.find((bloque) => bloque.nombres.includes(b));
+    
+    // Si ambos tienen bloque nombrado, mantener orden original
+    if (bloqueA && bloqueB) return 0;
+    
+    // Si solo A tiene bloque, va primero
+    if (bloqueA && !bloqueB) return -1;
+    
+    // Si solo B tiene bloque, va primero
+    if (!bloqueA && bloqueB) return 1;
+    
+    // Si ninguno tiene bloque (ambos son "otros"), mantener orden original
+    return 0;
+  });
+
   return (
     <div className={styles.eleccion}>
       <div>
-        {Object.keys(datos.elecciones[eleccion].partidos).map((p) => (
+        {partidosOrdenados.map((p) => (
           <div key={p}>
             <div className={styles.sliderContainer}>
               <div className={styles.sliderLabel}>

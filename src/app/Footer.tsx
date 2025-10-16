@@ -6,8 +6,26 @@ export default function Footer() {
       <div className={styles.container}>
         <div className={styles.credits}>
           <h3>Créditos:</h3>
-          <p>Idea, diseño y visualizaciones - Andres Snitcofsky</p>
-          <p>Adaptación a versión 2.0 - Sebastian Waisbrot</p>
+          <p>
+            Idea, diseño y visualizaciones - <a 
+              href="https://visualizando.ar" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className={styles.creditLink}
+            >
+              Andres Snitcofsky
+            </a>
+          </p>
+          <p>
+            Adaptación a versión 2.0 - <a 
+              href="https://github.com/seppo0010" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className={styles.creditLink}
+            >
+              Sebastian Waisbrot
+            </a>
+          </p>
           <p>
             <a 
               href="https://github.com/seppo0010/cuantasbancas2" 

@@ -76,10 +76,56 @@
 
 .referenciaBox {
     box-shadow: none;
-    margin-top: 12px;
-    margin-bottom: 8px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    padding: 0;
+    background-color: #f7f7f7;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.referenciaToggle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 16px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.referenciaToggle:hover {
+    background-color: #efefef;
+}
+
+.referenciaToggleText {
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #333;
+}
+
+.referenciaToggleIcon {
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.referenciaToggleIconOpen {
+    transform: rotate(180deg);
+}
+
+.referenciaContent {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 16px;
+}
+
+.referenciaContentOpen {
+    max-height: 500px;
     padding: 12px 16px;
-    background-color: #f8f8f8;
 }
 
 .referenciaSection {
@@ -145,4 +191,62 @@
     width: 12px;
     height: 12px;
     border-radius: 2px;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .mainTitle {
+        font-size: 2rem !important;
+    }
+
+    .subtitle {
+        font-size: 1.5rem !important;
+    }
+
+    .version {
+        font-size: 0.9em;
+    }
+
+    .projectLink {
+        font-size: 0.85em;
+    }
+
+    .description {
+        font-size: 0.9rem !important;
+        padding: 0 10px;
+    }
+
+    .selectorBox {
+        padding: 12px 8px;
+    }
+
+    .selectorLabel {
+        font-size: 0.95em;
+    }
+
+    .button {
+        font-size: 0.75em !important;
+        padding: 0.5rem 0.75rem !important;
+        white-space: nowrap;
+    }
+
+    .referenciaBox {
+        padding: 10px 12px;
+    }
+
+    .referenciaTitle {
+        font-size: 0.8em;
+    }
+
+    .referenciaText {
+        font-size: 0.75em;
+    }
+
+    .referenciaItems {
+        gap: 8px;
+    }
+
+    .bloquesItems {
+        gap: 4px;
+    }
 }

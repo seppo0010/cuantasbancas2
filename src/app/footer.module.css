@@ -27,6 +27,16 @@
   font-size: 0.95rem;
 }
 
+.creditLink {
+  color: #0969da;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.creditLink:hover {
+  text-decoration: underline;
+}
+
 .githubLink {
   color: #0969da;
   text-decoration: none;

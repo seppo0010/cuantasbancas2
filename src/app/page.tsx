@@ -21,6 +21,7 @@ const datos = datos_ as DatosType;
 
 export default function Home() {
     const [selectedChamber, setSelectedChamber] = useState<'diputados' | 'senadores'>('diputados');
+    const [isReferenceOpen, setIsReferenceOpen] = useState(false);
     
     const provincias = Array.from(new Set([
         ...datos.diputados.map((d) => d.Distrito), 
@@ -50,11 +51,11 @@ export default function Home() {
     return (
         <div className="container is-max-desktop px-4">
             <header className="hero is-light">
-                <div className={`hero-body ${homeStyles.heroBody}`}>
+                <div className={`hero-body p-1 ${homeStyles.heroBody}`}>
                     <div className={homeStyles.headerContent}>
                         <h1 className={`title is-1 ${homeStyles.mainTitle}`}>¿Cuántas bancas?</h1>
                         <h2 className={`subtitle is-3 ${homeStyles.subtitle}`}>El simulador electoral</h2>
-                        <div className={`has-text-grey mb-4 ${homeStyles.version}`}>Versión 2025 de elecciones nacionales argentinas</div>
+                        <div className={`has-text-grey mb-2 ${homeStyles.version}`}>Versión 2025 de elecciones nacionales argentinas</div>
                         <div className={homeStyles.projectLink}>
                             Es parte del proyecto electoral{' '}
                             <a 
@@ -66,7 +67,7 @@ export default function Home() {
                             </a>
                             {' '}de Poder Ciudadano
                         </div>
-                        <p className={`content is-size-6 mb-5 ${homeStyles.description}`}>
+                        <p className={`content is-size-6 mb-1 ${homeStyles.description}`}>
                             Esta página te permite explorar y simular la distribución de bancas legislativas en Argentina para cada provincia. Podés ver cuántos diputados y senadores elige cada provincia, de qué partido son y simular cómo se repartirían según los resultados.
                         </p>
                     </div>
@@ -95,37 +96,52 @@ export default function Home() {
                 </div>
             </header>
 
-            <div className={`${styles.modal} ${homeStyles.referenciaBox}`}>
-                <div className={homeStyles.referenciaSection}>
-                    <strong className={homeStyles.referenciaTitle}>Referencia:</strong>
-                    <div className={homeStyles.referenciaItems}>
-                        <div className={homeStyles.referenciaItem}>
-                            <div className={`${homeStyles.referenciaSwatch} ${homeStyles.referenciaSwatchRenueva}`} />
-                            <span className={homeStyles.referenciaText}>Renueva (en juego)</span>
-                        </div>
-                        <div className={homeStyles.referenciaItem}>
-                            <div className={`${homeStyles.referenciaSwatch} ${homeStyles.referenciaSwatchActual}`} />
-                            <span className={homeStyles.referenciaText}>No renueva</span>
+            <div className={homeStyles.referenciaBox}>
+                <button 
+                    className={homeStyles.referenciaToggle}
+                    onClick={() => setIsReferenceOpen(!isReferenceOpen)}
+                    aria-expanded={isReferenceOpen}
+                >
+                    <span className={homeStyles.referenciaToggleText}>Ver referencias</span>
+                    <span className={`icon ${homeStyles.referenciaToggleIcon} ${isReferenceOpen ? homeStyles.referenciaToggleIconOpen : ''}`}>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </span>
+                </button>
+                
+                <div className={`${homeStyles.referenciaContent} ${isReferenceOpen ? homeStyles.referenciaContentOpen : ''}`}>
+                    <div className={homeStyles.referenciaSection}>
+                        <strong className={homeStyles.referenciaTitle}>Referencia:</strong>
+                        <div className={homeStyles.referenciaItems}>
+                            <div className={homeStyles.referenciaItem}>
+                                <div className={`${homeStyles.referenciaSwatch} ${homeStyles.referenciaSwatchRenueva}`} />
+                                <span className={homeStyles.referenciaText}>Renueva (en juego)</span>
+                            </div>
+                            <div className={homeStyles.referenciaItem}>
+                                <div className={`${homeStyles.referenciaSwatch} ${homeStyles.referenciaSwatchActual}`} />
+                                <span className={homeStyles.referenciaText}>No renueva</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div>
-                    <strong className={homeStyles.referenciaTitle}>Bloques políticos:</strong>
-                    <div className={homeStyles.bloquesItems}>
-                        {datos.bloques.map((bloque) => (
-                            <div key={bloque.nombres[0]} className={homeStyles.bloqueItem}>
-                                <div 
-                                    className={homeStyles.bloqueSwatch}
-                                    style={{ backgroundColor: bloque.color }}
-                                />
-                                <span className={homeStyles.referenciaText}>{bloque.corto || bloque.nombres[0]}</span>
-                            </div>
-                        ))}
+                    <div>
+                        <strong className={homeStyles.referenciaTitle}>Bloques políticos:</strong>
+                        <div className={homeStyles.bloquesItems}>
+                            {datos.bloques.map((bloque) => (
+                                <div key={bloque.nombres[0]} className={homeStyles.bloqueItem}>
+                                    <div 
+                                        className={homeStyles.bloqueSwatch}
+                                        style={{ backgroundColor: bloque.color }}
+                                    />
+                                    <span className={homeStyles.referenciaText}>{bloque.corto || bloque.nombres[0]}</span>
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div className="columns is-multiline mt-4">
+            <div className="columns is-multiline mt-2">
                 {filteredProvincias.map((pcia: string) => {
                     const diputados = getDiputadosPorProvincia(pcia);
                     const senadores = getSenadoresPorProvincia(pcia);
