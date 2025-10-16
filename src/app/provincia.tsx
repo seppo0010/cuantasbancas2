@@ -35,7 +35,7 @@ export const Provincia = ({ legisladores, bloques, finalizaMandatoNuevo, enJuego
                     <FontAwesomeIcon icon={faTrophy} /> nuevas
                 </span>
             </div>
-            <div className={styles.containerViz} style={{height: 74 + maxLegislador * 20}}>
+            <div className={styles.containerViz} style={{minHeight: Math.min(686, 74 + maxLegislador * 20)}}>
                 {bloques.filter(bloque => {
                     const bancasARenovar = legisladores.filter(l => bloque.nombres.includes(l.Bloque) && l.FinalizaMandato === finalizaMandatoNuevo).length;
                     const bancasNuevas = enJuego[bloque.nombres[0]];
