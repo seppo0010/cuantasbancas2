@@ -24,12 +24,18 @@ export default function Sliders({ eleccion, datos, votos, locked, setLocked, set
     if (newP < 0) newP = 0;
     if (newP > sum) newP = sum;
     const delta = v[p] - newP;
+    
+    // Si este es el único partido sin bloquear, no hacer nada (no puede redistribuir)
+    if (Object.keys(v).length === 1) {
+      return;
+    }
+    
     if (v[p] === sum) {
       setVotos({
         ...votos,
         [eleccion]: {
           ...keepLocked,
-          ...Object.fromEntries(Object.keys(v).map((k) => [k, k === p ? newP : delta / eleccion.length]))
+          ...Object.fromEntries(Object.keys(v).map((k) => [k, k === p ? newP : delta / (Object.keys(v).length - 1)]))
         },
       })
       return
@@ -46,6 +52,10 @@ export default function Sliders({ eleccion, datos, votos, locked, setLocked, set
     }
     setVotos(newVotos)
   }
+
+  // Calcular el voto en blanco (100% - suma de votos de partidos)
+  const sumaVotosPartidos = Object.values(votos[eleccion] || {}).reduce((sum, v) => sum + v, 0);
+  const votoEnBlanco = votos[eleccion]?.['VOTO EN BLANCO'] ?? (100 * 100 - sumaVotosPartidos);
 
   return (
     <div className={styles.eleccion}>
@@ -103,6 +113,48 @@ export default function Sliders({ eleccion, datos, votos, locked, setLocked, set
             </div>
           </div>
         ))}
+        {/* Voto en blanco - slider interactivo */}
+        <div key="VOTO EN BLANCO">
+          <div className={styles.sliderContainer}>
+            <div className={styles.sliderLabel}>
+              <span style={{ color: '#999' }}>VOTO EN BLANCO</span>
+            </div>
+            <div className={styles.sliderRest}>
+              <input
+                type="range"
+                className={styles.slider}
+                min={0}
+                max={100 * 100}
+                step="1"
+                style={{
+                  background: `linear-gradient(to right, #999 0%, #999 ${votoEnBlanco / 100}%, rgb(170, 170, 170) ${votoEnBlanco / 100}%, rgb(170, 170, 170) ${100 - Object.entries(votos[eleccion]).filter((v) => locked.some((el) => el[0] === eleccion && el[1] === v[0] && v[0] !== 'VOTO EN BLANCO')).reduce((acc, v) => acc + v[1], 0) / 100}%, rgb(224, 224, 224) ${100 - Object.entries(votos[eleccion]).filter((v) => locked.some((el) => el[0] === eleccion && el[1] === v[0] && v[0] !== 'VOTO EN BLANCO')).reduce((acc, v) => acc + v[1], 0) / 100}%, rgb(224, 224, 224) 100%)`
+                }}
+                value={votoEnBlanco}
+                onChange={(ev) => {
+                  const v = Object.fromEntries(Object.entries(votos[eleccion]).filter((el) => locked.every((l) => l[1] === 'VOTO EN BLANCO' || !(l[0] === eleccion && l[1] === el[0]))));
+                  const keepLocked = Object.fromEntries(Object.entries(votos[eleccion]).filter((el) => locked.some((l) => l[1] !== 'VOTO EN BLANCO' && l[0] === eleccion && l[1] === el[0])));
+                  const newP = parseFloat(ev.target.value);
+                  updateVotos(newP, 'VOTO EN BLANCO', v, keepLocked)
+                  if (!locked.some((l) => l[0] === eleccion && l[1] === 'VOTO EN BLANCO')) {
+                    setLocked(locked.concat([[eleccion, 'VOTO EN BLANCO']]))
+                  }
+                }}
+              />
+              <span
+                className={styles.lockIcon}
+                style={{ visibility: 'visible', color: locked.some((l) => l[0] === eleccion && l[1] === 'VOTO EN BLANCO') ? 'rgb(85, 85, 85)' : 'rgb(204, 204, 204)' }}
+                onClick={() =>
+                  !locked.some((l) => l[0] === eleccion && l[1] === 'VOTO EN BLANCO')
+                    ? setLocked(locked.concat([[eleccion, 'VOTO EN BLANCO']]))
+                    : setLocked(locked.filter((l) => !(l[0] === eleccion && l[1] === 'VOTO EN BLANCO')))
+                }
+              >
+                <FontAwesomeIcon icon={faLock} />
+              </span>
+              <div className={styles.valueDisplay}>{Math.abs(votoEnBlanco / 100).toFixed(1)}%</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

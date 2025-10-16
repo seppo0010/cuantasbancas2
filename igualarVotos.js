@@ -12,7 +12,8 @@ for (const eleccion in elecciones) {
   const keys = Object.keys(partidos).filter(p => partidos[p] && typeof partidos[p] === 'object');
   const cantidad = keys.length;
   if (cantidad === 0) continue;
-  const porcentaje = +(100 / cantidad).toFixed(2);
+  // Normalizar a 99% en lugar de 100% para dejar 1% de voto en blanco
+  const porcentaje = +(99 / cantidad).toFixed(2);
   keys.forEach(p => {
     if ('votos' in partidos[p]) {
       partidos[p].votos = porcentaje;
@@ -22,4 +23,5 @@ for (const eleccion in elecciones) {
 
 json.elecciones = elecciones;
 fs.writeFileSync(filePath, JSON.stringify(json, null, 2), 'utf8');
-console.log('Porcentajes igualados correctamente.');
+console.log('Porcentajes igualados correctamente a 99% (1% voto en blanco).');
+

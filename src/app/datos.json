@@ -61,7 +61,7 @@
         "VAMOS Corrientes"
       ],
       "color": "#13b53b"
-    },   
+    },
     {
       "corto": "Otros",
       "nombres": [
@@ -2872,7 +2872,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "LA LIBERTAD AVANZA": {
-          "votos": 5.88,
+          "votos": 5.82,
           "candidatos": [
             {
               "Nombres": "ALEJANDRO EDUARDO",
@@ -2961,7 +2961,7 @@
           ]
         },
         "FUERZA PATRIA": {
-          "votos": 5.88,
+          "votos": 5.82,
           "candidatos": [
             {
               "Nombres": "ITAI",
@@ -3050,7 +3050,7 @@
           ]
         },
         "CIUDADANOS UNIDOS": {
-          "votos": 5.88,
+          "votos": 5.82,
           "candidatos": [
             {
               "Nombres": "MARTIN",
@@ -3139,7 +3139,7 @@
           ]
         },
         "HAGAMOS FUTURO": {
-          "votos": 5.88,
+          "votos": 5.82,
           "candidatos": [
             {
               "Nombres": "HERNAN LEANDRO",
@@ -3228,7 +3228,7 @@
           ]
         },
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD": {
-          "votos": 5.88,
+          "votos": 5.82,
           "candidatos": [
             {
               "Nombres": "MYRIAM TERESA",
@@ -3317,7 +3317,7 @@
           ]
         },
         "POTENCIA": {
-          "votos": 5.88,
+          "votos": 5.82,
           "candidatos": [
             {
               "Nombres": "RICARDO HIPÓLITO",
@@ -3406,7 +3406,7 @@
           ]
         },
         "GEN": {
-          "votos": 5.88,
+          "votos": 5.82,
           "candidatos": [
             {
               "Nombres": "SERGIO FERNANDO",
@@ -3495,7 +3495,7 @@
           ]
         },
         "LA IZQUIERDA EN LA CIUDAD": {
-          "votos": 5.88,
+          "votos": 5.82,
           "candidatos": [
             {
               "Nombres": "FEDERICO",
@@ -3584,7 +3584,7 @@
           ]
         },
         "UNION DEL CENTRO DEMOCRATICO": {
-          "votos": 5.88,
+          "votos": 5.82,
           "candidatos": [
             {
               "Nombres": "MARCELO EDUARDO",
@@ -3673,7 +3673,7 @@
           ]
         },
         "PARTIDO COMUNISTA": {
-          "votos": 5.88,
+          "votos": 5.82,
           "candidatos": [
             {
               "Nombres": "ANTONELLA",
@@ -3762,7 +3762,7 @@
           ]
         },
         "FRENTE PATRIOTA FEDERAL": {
-          "votos": 5.88,
+          "votos": 5.82,
           "candidatos": [
             {
               "Nombres": "ALEJANDRO CESAR",
@@ -3851,7 +3851,7 @@
           ]
         },
         "MOVIMIENTO PLURAL": {
-          "votos": 5.88,
+          "votos": 5.82,
           "candidatos": [
             {
               "Nombres": "MARCELO DANIEL",
@@ -3936,7 +3936,7 @@
           ]
         },
         "MOVIMIENTO DE JUBILADOS Y JUVENTUD": {
-          "votos": 5.88,
+          "votos": 5.82,
           "candidatos": [
             {
               "Nombres": "GABRIEL ALEJANDRO",
@@ -4025,7 +4025,7 @@
           ]
         },
         "PARTIDO SOCIALISTA AUTENTICO": {
-          "votos": 5.88,
+          "votos": 5.82,
           "candidatos": [
             {
               "Nombres": "MARIO FRANCISCO",
@@ -4114,7 +4114,7 @@
           ]
         },
         "INSTRUMENTO ELECTORAL POR LA UNIDAD POPULAR": {
-          "votos": 5.88,
+          "votos": 5.82,
           "candidatos": [
             {
               "Nombres": "CLAUDIO RAUL",
@@ -4203,7 +4203,7 @@
           ]
         },
         "INTEGRAR": {
-          "votos": 5.88,
+          "votos": 5.82,
           "candidatos": [
             {
               "Nombres": "CLAUDIO OMAR",
@@ -4292,7 +4292,7 @@
           ]
         },
         "PARTIDO FEDERAL": {
-          "votos": 5.88,
+          "votos": 5.82,
           "candidatos": [
             {
               "Nombres": "DANIEL ANDRES",
@@ -4381,7 +4381,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "ALIANZA LA LIBERTAD AVANZA": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "DIEGO CÉSAR",
@@ -4558,7 +4558,7 @@
           ]
         },
         "ALIANZA NUEVOS AIRES": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "SIXTO",
@@ -4739,7 +4739,7 @@
           ]
         },
         "ALIANZA POTENCIA": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "MARIA EUGENIA",
@@ -4924,7 +4924,7 @@
           ]
         },
         "ALIANZA PROVINCIAS UNIDAS": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "ANIBAL FLORENCIO",
@@ -5109,7 +5109,7 @@
           ]
         },
         "ALIANZA UNIÓN FEDERAL": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "FERNANDO",
@@ -5286,7 +5286,7 @@
           ]
         },
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES -UNIDAD-": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "NICOLAS",
@@ -5471,7 +5471,7 @@
           ]
         },
         "FRENTE PATRIOTA FEDERAL": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "ALBERTO",
@@ -5656,7 +5656,7 @@
           ]
         },
         "FUERZA PATRIA": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "JORGE ENRIQUE",
@@ -5841,7 +5841,7 @@
           ]
         },
         "LIBER.AR": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "MARIA FERNANDA",
@@ -6026,7 +6026,7 @@
           ]
         },
         "MOVIMIENTO AVANZADA SOCIALISTA": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "MANUELA",
@@ -6211,7 +6211,7 @@
           ]
         },
         "MOVIMIENTO POLÍTICO SOCIAL Y CULTURAL PROYECTO SUR": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "RICARDO LUIS",
@@ -6396,7 +6396,7 @@
           ]
         },
         "PARTIDO COALICIÓN CÍVICA -AFIRMACIÓN PARA UNA REPÚBLICA IGUALITARIA- ARI": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "JUAN MANUEL",
@@ -6581,7 +6581,7 @@
           ]
         },
         "PARTIDO NUEVO Buenos Aires": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "SANTIAGO \"DOGO\"",
@@ -6766,7 +6766,7 @@
           ]
         },
         "PROPUESTA FEDERAL PARA EL CAMBIO": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "FERNANDO ANDRES",
@@ -6947,7 +6947,7 @@
           ]
         },
         "UNIÓN LIBERAL": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "ROBERTO HORACIO",
@@ -7140,7 +7140,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES-UNIDAD": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "JOSEFA ALEJANDRINA",
@@ -7165,7 +7165,7 @@
           ]
         },
         "FRENTE PATRIOTA FEDERAL": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "JOSE ALBERTO",
@@ -7194,7 +7194,7 @@
           ]
         },
         "FUERZA PATRIA": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "FERNANDO EDGARDO",
@@ -7223,7 +7223,7 @@
           ]
         },
         "HACEMOS RENACER Catamarca": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "VICTOR JAVIER",
@@ -7252,7 +7252,7 @@
           ]
         },
         "LA LIBERTAD AVANZA": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "CARLOS ADRIAN NICOLAS",
@@ -7281,7 +7281,7 @@
           ]
         },
         "MOVIMIENTO DE INTEGRACION Y DESARROLLO": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "FERNANDO DANIEL",
@@ -7310,7 +7310,7 @@
           ]
         },
         "POLITICA OBRERA": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "LUCÍA CAMILA",
@@ -7335,7 +7335,7 @@
           ]
         },
         "PRIMERO Catamarca": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "JOSE",
@@ -7364,7 +7364,7 @@
           ]
         },
         "SOMOS PROVINCIAS UNIDAS - Catamarca": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "FERNANDO AUGUSTO",
@@ -7401,7 +7401,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "FRENTE FUERZA PATRIA": {
-          "votos": 10,
+          "votos": 9.9,
           "candidatos": [
             {
               "Nombres": "SERGIO ANDRÉS",
@@ -7434,7 +7434,7 @@
           ]
         },
         "FRENTE INTEGRADOR": {
-          "votos": 10,
+          "votos": 9.9,
           "candidatos": [
             {
               "Nombres": "JUAN CARLOS",
@@ -7467,7 +7467,7 @@
           ]
         },
         "LA LIBERTAD AVANZA": {
-          "votos": 10,
+          "votos": 9.9,
           "candidatos": [
             {
               "Nombres": "MERCEDES DEL ROSARIO",
@@ -7500,7 +7500,7 @@
           ]
         },
         "MOVIMIENTO POLÍTICO SOCIAL Y CULTURAL PROYECTO SUR": {
-          "votos": 10,
+          "votos": 9.9,
           "candidatos": [
             {
               "Nombres": "FABRICIO NELSON",
@@ -7533,7 +7533,7 @@
           ]
         },
         "NUEVO ESPACIO DE PARTICIPACIÓN -NEPAR": {
-          "votos": 10,
+          "votos": 9.9,
           "candidatos": [
             {
               "Nombres": "ERIKA ISABEL",
@@ -7566,7 +7566,7 @@
           ]
         },
         "PARTIDO DEL OBRERO (PDO)": {
-          "votos": 10,
+          "votos": 9.9,
           "candidatos": [
             {
               "Nombres": "OSCAR HUMBERTO",
@@ -7599,7 +7599,7 @@
           ]
         },
         "PARTIDO DIGNIDAD POPULAR": {
-          "votos": 10,
+          "votos": 9.9,
           "candidatos": [
             {
               "Nombres": "WALDEMAR",
@@ -7632,7 +7632,7 @@
           ]
         },
         "PARTIDO POLO SOCIAL - MOVIMIENTO DE BASES": {
-          "votos": 10,
+          "votos": 9.9,
           "candidatos": [
             {
               "Nombres": "MODESTO",
@@ -7665,7 +7665,7 @@
           ]
         },
         "UNIR": {
-          "votos": 10,
+          "votos": 9.9,
           "candidatos": [
             {
               "Nombres": "LUIS ALBERTO",
@@ -7698,7 +7698,7 @@
           ]
         },
         "VAMOS Chaco": {
-          "votos": 10,
+          "votos": 9.9,
           "candidatos": [
             {
               "Nombres": "CLAUDIA LORENA",
@@ -7739,7 +7739,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "DESPIERTA Chubut": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "ANA CLARA",
@@ -7760,7 +7760,7 @@
           ]
         },
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "SANTIAGO",
@@ -7781,7 +7781,7 @@
           ]
         },
         "FRENTE UNIDOS PODEMOS": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "JUAN PABLO",
@@ -7802,7 +7802,7 @@
           ]
         },
         "GEN": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "OSCAR CARLOS",
@@ -7823,7 +7823,7 @@
           ]
         },
         "LA FUERZA DEL TRABAJO ChubutENSE": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "CARLOS ALFREDO",
@@ -7844,7 +7844,7 @@
           ]
         },
         "LA LIBERTAD AVANZA": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "MAIRA RAQUEL",
@@ -7865,7 +7865,7 @@
           ]
         },
         "PARTIDO INDEPENDIENTE DEL Chubut": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "HECTOR RAFAEL",
@@ -7886,7 +7886,7 @@
           ]
         },
         "PARTIDO LIBERTARIO": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "ARIANA BETTINA",
@@ -7915,7 +7915,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "AHORA": {
-          "votos": 20,
+          "votos": 19.8,
           "candidatos": [
             {
               "Nombres": "BRUNO GABRIEL",
@@ -7940,7 +7940,7 @@
           ]
         },
         "Corrientes NOS UNE": {
-          "votos": 20,
+          "votos": 19.8,
           "candidatos": [
             {
               "Nombres": "FRANCISCO ANGEL",
@@ -7969,7 +7969,7 @@
           ]
         },
         "FUERZA PATRIA": {
-          "votos": 20,
+          "votos": 19.8,
           "candidatos": [
             {
               "Nombres": "RAUL EDUARDO",
@@ -7998,7 +7998,7 @@
           ]
         },
         "LA LIBERTAD AVANZA": {
-          "votos": 20,
+          "votos": 19.8,
           "candidatos": [
             {
               "Nombres": "MARIA VIRGINIA",
@@ -8027,7 +8027,7 @@
           ]
         },
         "VAMOS Corrientes": {
-          "votos": 20,
+          "votos": 19.8,
           "candidatos": [
             {
               "Nombres": "DIOGENES IGNACIO",
@@ -8064,7 +8064,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "ACCION PARA EL CAMBIO": {
-          "votos": 5.56,
+          "votos": 5.5,
           "candidatos": [
             {
               "Nombres": "ALFREDO PABLO",
@@ -8129,7 +8129,7 @@
           ]
         },
         "ALIANZA LA LIBERTAD AVANZA": {
-          "votos": 5.56,
+          "votos": 5.5,
           "candidatos": [
             {
               "Nombres": "GONZALO GABRIEL ",
@@ -8194,7 +8194,7 @@
           ]
         },
         "CIUDADANOS": {
-          "votos": 5.56,
+          "votos": 5.5,
           "candidatos": [
             {
               "Nombres": "HECTOR WALTER",
@@ -8259,7 +8259,7 @@
           ]
         },
         "CORDOBA TE QUIERO": {
-          "votos": 5.56,
+          "votos": 5.5,
           "candidatos": [
             {
               "Nombres": "JULIO GERARDO",
@@ -8324,7 +8324,7 @@
           ]
         },
         "DEFENDAMOS CORDOBA": {
-          "votos": 5.56,
+          "votos": 5.5,
           "candidatos": [
             {
               "Nombres": "NATALIA",
@@ -8389,7 +8389,7 @@
           ]
         },
         "ENCUENTRO POR LA REPUBLICA": {
-          "votos": 5.56,
+          "votos": 5.5,
           "candidatos": [
             {
               "Nombres": "AURELIO FRANCISCO",
@@ -8454,7 +8454,7 @@
           ]
         },
         "FE": {
-          "votos": 5.56,
+          "votos": 5.5,
           "candidatos": [
             {
               "Nombres": "JUAN CARLOS",
@@ -8519,7 +8519,7 @@
           ]
         },
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD": {
-          "votos": 5.56,
+          "votos": 5.5,
           "candidatos": [
             {
               "Nombres": "MARIA LILIANA",
@@ -8584,7 +8584,7 @@
           ]
         },
         "FRENTE FEDERAL DE ACCION SOLIDARIA": {
-          "votos": 5.56,
+          "votos": 5.5,
           "candidatos": [
             {
               "Nombres": "STEFANO MICAEL",
@@ -8649,7 +8649,7 @@
           ]
         },
         "FUERZA PATRIA": {
-          "votos": 5.56,
+          "votos": 5.5,
           "candidatos": [
             {
               "Nombres": "JOSE PABLO",
@@ -8714,7 +8714,7 @@
           ]
         },
         "MOVIMIENTO AVANZADA SOCIALISTA": {
-          "votos": 5.56,
+          "votos": 5.5,
           "candidatos": [
             {
               "Nombres": "JULIA",
@@ -8779,7 +8779,7 @@
           ]
         },
         "PARTIDO DEMOCRATA": {
-          "votos": 5.56,
+          "votos": 5.5,
           "candidatos": [
             {
               "Nombres": "PABLO HORACIO",
@@ -8844,7 +8844,7 @@
           ]
         },
         "PARTIDO LIBERTARIO": {
-          "votos": 5.56,
+          "votos": 5.5,
           "candidatos": [
             {
               "Nombres": "AGUSTIN ALEJANDRO",
@@ -8909,7 +8909,7 @@
           ]
         },
         "POLITICA ABIERTA PARA LA INTEGRIDAD SOCIAL": {
-          "votos": 5.56,
+          "votos": 5.5,
           "candidatos": [
             {
               "Nombres": "EDGAR DAVID",
@@ -8974,7 +8974,7 @@
           ]
         },
         "PRO PROPUESTA REPUBLICANA": {
-          "votos": 5.56,
+          "votos": 5.5,
           "candidatos": [
             {
               "Nombres": "OSCAR",
@@ -9039,7 +9039,7 @@
           ]
         },
         "PROVINCIAS UNIDAS": {
-          "votos": 5.56,
+          "votos": 5.5,
           "candidatos": [
             {
               "Nombres": "JUAN",
@@ -9104,7 +9104,7 @@
           ]
         },
         "UNION CIVICA RADICAL": {
-          "votos": 5.56,
+          "votos": 5.5,
           "candidatos": [
             {
               "Nombres": "RAMON JAVIER",
@@ -9169,7 +9169,7 @@
           ]
         },
         "UNION POPULAR FEDERAL": {
-          "votos": 5.56,
+          "votos": 5.5,
           "candidatos": [
             {
               "Nombres": "MARIO ALFREDO",
@@ -9242,7 +9242,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "AHORA 503": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "VERONICA PAOLA",
@@ -9279,7 +9279,7 @@
           ]
         },
         "ALIANZA LA LIBERTAD AVANZA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "ANDRES ARIEL",
@@ -9316,7 +9316,7 @@
           ]
         },
         "FUERZA ENTRE RIOS": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "GUILLERMO",
@@ -9353,7 +9353,7 @@
           ]
         },
         "MOVIMIENTO AL SOCIALISMO": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "NAHUEL PABLO",
@@ -9390,7 +9390,7 @@
           ]
         },
         "NUEVA IZQUIERDA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "NADIA GISEL",
@@ -9427,7 +9427,7 @@
           ]
         },
         "PARTIDO SOCIALISTA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "GUSTAVO RAUL",
@@ -9464,7 +9464,7 @@
           ]
         },
         "UNION POPULAR FEDERAL": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "SILVIO FABIAN",
@@ -9509,7 +9509,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "ALIANZA LA LIBERTAD AVANZA": {
-          "votos": 20,
+          "votos": 19.8,
           "candidatos": [
             {
               "Nombres": "ATILIO",
@@ -9530,7 +9530,7 @@
           ]
         },
         "FRENTE DE LA VICTORIA": {
-          "votos": 20,
+          "votos": 19.8,
           "candidatos": [
             {
               "Nombres": "MARIA GRACIELA",
@@ -9551,7 +9551,7 @@
           ]
         },
         "JUNTOS POR LA LIBERTAD Y LA REPUBLICA": {
-          "votos": 20,
+          "votos": 19.8,
           "candidatos": [
             {
               "Nombres": "ENZO MARIANO",
@@ -9572,7 +9572,7 @@
           ]
         },
         "PARTIDO DEL OBRERO": {
-          "votos": 20,
+          "votos": 19.8,
           "candidatos": [
             {
               "Nombres": "CARLOS FABIAN",
@@ -9593,7 +9593,7 @@
           ]
         },
         "PRINCIPIOS Y CONVICCIÓN": {
-          "votos": 20,
+          "votos": 19.8,
           "candidatos": [
             {
               "Nombres": "VICTOR DANIEL",
@@ -9622,7 +9622,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "ALIANZA LA LIBERTAD AVANZA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "ALFREDO",
@@ -9647,7 +9647,7 @@
           ]
         },
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES – UNIDAD": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "ALEJANDRO ARIEL",
@@ -9676,7 +9676,7 @@
           ]
         },
         "FRENTE FUERZA PATRIA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "LEILA SUSANA",
@@ -9705,7 +9705,7 @@
           ]
         },
         "FRENTE Jujuy CRECE": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "MARIA INES",
@@ -9734,7 +9734,7 @@
           ]
         },
         "FRENTE LIBERAL": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "OSVALDO RAUL",
@@ -9763,7 +9763,7 @@
           ]
         },
         "FRENTE PRIMERO Jujuy AVANZA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "JOSE PEDRO DEL MILAGRO",
@@ -9792,7 +9792,7 @@
           ]
         },
         "FRENTE TRANSFORMACIóN LIBERTARIA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "MARIA MERCEDES",
@@ -9829,7 +9829,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "ALIANZA LA LIBERTAD AVANZA": {
-          "votos": 20,
+          "votos": 19.8,
           "candidatos": [
             {
               "Nombres": "ADRIAN OSVALDO",
@@ -9858,7 +9858,7 @@
           ]
         },
         "CAMBIA La Pampa": {
-          "votos": 20,
+          "votos": 19.8,
           "candidatos": [
             {
               "Nombres": "FEDERICO",
@@ -9887,7 +9887,7 @@
           ]
         },
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD": {
-          "votos": 20,
+          "votos": 19.8,
           "candidatos": [
             {
               "Nombres": "CLAUDIA EUGENIA",
@@ -9916,7 +9916,7 @@
           ]
         },
         "FRENTE DEFENDEMOS La Pampa": {
-          "votos": 20,
+          "votos": 19.8,
           "candidatos": [
             {
               "Nombres": "ABELARDO MARIO",
@@ -9945,7 +9945,7 @@
           ]
         },
         "MOVIMIENTO AL SOCIALISMO": {
-          "votos": 20,
+          "votos": 19.8,
           "candidatos": [
             {
               "Nombres": "AYELEN",
@@ -9982,7 +9982,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "FEDERALES DEFENDAMOS La Rioja": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "GABRIELA",
@@ -10003,7 +10003,7 @@
           ]
         },
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "ANA CAROLINA DEL CARMEN",
@@ -10024,7 +10024,7 @@
           ]
         },
         "LA LIBERTAD AVANZA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "GINO",
@@ -10045,7 +10045,7 @@
           ]
         },
         "LAS FUERZAS DEL CENTRO": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "GUSTAVO GABRIEL",
@@ -10066,7 +10066,7 @@
           ]
         },
         "PROVINCIAS UNIDAS": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "RUBEN EDUARDO",
@@ -10087,7 +10087,7 @@
           ]
         },
         "REPUBLICANOS UNIDOS": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "DANIEL ALEJANDRO",
@@ -10108,7 +10108,7 @@
           ]
         },
         "UNION CIVICA RADICAL": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "MARIO GUSTAVO",
@@ -10137,7 +10137,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "ALIANZA DEFENDAMOS Mendoza - PROVINCIAS UNIDAS": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "JORGE ANDRES",
@@ -10174,7 +10174,7 @@
           ]
         },
         "ALIANZA LA LIBERTAD AVANZA": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "LUIS ALFONSO",
@@ -10211,7 +10211,7 @@
           ]
         },
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "MICAELA",
@@ -10248,7 +10248,7 @@
           ]
         },
         "FRENTE LIBERTARIO DEMÓCRATA": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "JOSE GABRIEL",
@@ -10285,7 +10285,7 @@
           ]
         },
         "FRENTE VERDE": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "MARIO NICOLAS",
@@ -10322,7 +10322,7 @@
           ]
         },
         "FUERZA JUSTICIALISTA Mendoza": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "EMIR ROBERTO",
@@ -10359,7 +10359,7 @@
           ]
         },
         "MOVIMIENTO AL SOCIALISMO": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "SUSANA MABEL",
@@ -10396,7 +10396,7 @@
           ]
         },
         "PROTECTORA FUERZA POLITICA": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "CAROLINA",
@@ -10441,7 +10441,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "ACTIVAR": {
-          "votos": 9.09,
+          "votos": 9,
           "candidatos": [
             {
               "Nombres": "FEDERICO RAMON",
@@ -10470,7 +10470,7 @@
           ]
         },
         "ALIANZA LA LIBERTAD AVANZA": {
-          "votos": 9.09,
+          "votos": 9,
           "candidatos": [
             {
               "Nombres": "DIEGO GABRIEL",
@@ -10499,7 +10499,7 @@
           ]
         },
         "DE LA CONCERTACION FORJA": {
-          "votos": 9.09,
+          "votos": 9,
           "candidatos": [
             {
               "Nombres": "DALILA FERNANDA",
@@ -10528,7 +10528,7 @@
           ]
         },
         "FRENTE POPULAR AGRARIO Y SOCIAL": {
-          "votos": 9.09,
+          "votos": 9,
           "candidatos": [
             {
               "Nombres": "HECTOR ORLANDO",
@@ -10557,7 +10557,7 @@
           ]
         },
         "FRENTE POR LA VIDA Y LOS VALORES POR UN NUEVO OCTUBRE": {
-          "votos": 9.09,
+          "votos": 9,
           "candidatos": [
             {
               "Nombres": "NICOLÁS CARMELO",
@@ -10586,7 +10586,7 @@
           ]
         },
         "FUERZA PATRIA": {
-          "votos": 9.09,
+          "votos": 9,
           "candidatos": [
             {
               "Nombres": "MARIA CRISTINA",
@@ -10615,7 +10615,7 @@
           ]
         },
         "PARTIDO DEL OBRERO": {
-          "votos": 9.09,
+          "votos": 9,
           "candidatos": [
             {
               "Nombres": "ZULEMA FLORENCIA",
@@ -10644,7 +10644,7 @@
           ]
         },
         "PARTIDO FE": {
-          "votos": 9.09,
+          "votos": 9,
           "candidatos": [
             {
               "Nombres": "GERMAN CARLOS",
@@ -10673,7 +10673,7 @@
           ]
         },
         "PARTIDO LIBERTARIO": {
-          "votos": 9.09,
+          "votos": 9,
           "candidatos": [
             {
               "Nombres": "NINFA ZUNILDA",
@@ -10702,7 +10702,7 @@
           ]
         },
         "RENOVADOR DE LA CONCORDIA NEO": {
-          "votos": 9.09,
+          "votos": 9,
           "candidatos": [
             {
               "Nombres": "OSCAR ALBERTO",
@@ -10731,7 +10731,7 @@
           ]
         },
         "UNION CIVICA RADICAL": {
-          "votos": 9.09,
+          "votos": 9,
           "candidatos": [
             {
               "Nombres": "GUSTAVO ALBERTO",
@@ -10768,7 +10768,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "DESARROLLO CIUDADANO": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "GLORIA ARGENTINA",
@@ -10797,7 +10797,7 @@
           ]
         },
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "JULIETA",
@@ -10826,7 +10826,7 @@
           ]
         },
         "FUERZA LIBERTARIA": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "JOAQUIN BAUTISTA",
@@ -10855,7 +10855,7 @@
           ]
         },
         "FUERZA PATRIA": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "MARIA BEATRIZ",
@@ -10884,7 +10884,7 @@
           ]
         },
         "INSTRUMENTO ELECTORAL POR LA UNIDAD POPULAR": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "CLAUDIO ALEJANDRO",
@@ -10913,7 +10913,7 @@
           ]
         },
         "LA LIBERTAD AVANZA": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "GASTON ANTONIO",
@@ -10942,7 +10942,7 @@
           ]
         },
         "LA NEUQUINIDAD": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "KARINA ALEJANDRA",
@@ -10971,7 +10971,7 @@
           ]
         },
         "MAS POR NEUQUEN": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "ERICA AMANCAY",
@@ -11000,7 +11000,7 @@
           ]
         },
         "MOVIMIENTO AL SOCIALISMO": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "KEILA TAMAR MACARENA",
@@ -11037,7 +11037,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "ALIANZA LA LIBERTAD AVANZA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "ANIBAL ANTONIO",
@@ -11058,7 +11058,7 @@
           ]
         },
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES UNIDAD": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "PAULA ROXANA",
@@ -11079,7 +11079,7 @@
           ]
         },
         "FUERZA PATRIA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "ADRIANA CRISTINA",
@@ -11100,7 +11100,7 @@
           ]
         },
         "JUNTOS DEFENDEMOS RIO NEGRO": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "JUAN PABLO",
@@ -11121,7 +11121,7 @@
           ]
         },
         "MOVIMIENTO AL SOCIALISMO": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "AQUILES",
@@ -11142,7 +11142,7 @@
           ]
         },
         "PRIMERO RIO NEGRO": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "FACUNDO TIBURCIO",
@@ -11163,7 +11163,7 @@
           ]
         },
         "PRO PROPUESTA REPUBLICANA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "MARTINA VALERIA",
@@ -11192,7 +11192,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "DESPIERTA SANTIAGO": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "HECTOR EDUARDO",
@@ -11213,7 +11213,7 @@
           ]
         },
         "FRENTE CIVICO POR SANTIAGO": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "JORGE ALEJANDRO",
@@ -11242,7 +11242,7 @@
           ]
         },
         "FRENTE FUERZA PATRIA PERONISTA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "MARCELO ALEJANDRO",
@@ -11271,7 +11271,7 @@
           ]
         },
         "HACEMOS POR SANTIAGO": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "CARLOS EDUARDO",
@@ -11300,7 +11300,7 @@
           ]
         },
         "LA LIBERTAD AVANZA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "LAURA CONSUELO",
@@ -11329,7 +11329,7 @@
           ]
         },
         "NUEVA IZQUIERDA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "JEANETTE GABRIELA",
@@ -11358,7 +11358,7 @@
           ]
         },
         "UNITE POR LA LIBERTAD Y LA DIGNIDAD": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "YOVANI",
@@ -11395,7 +11395,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "ANDREA CAROLINA",
@@ -11424,7 +11424,7 @@
           ]
         },
         "FUERZA PATRIA": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "EMILIANO RAFAEL",
@@ -11453,7 +11453,7 @@
           ]
         },
         "LA LIBERTAD AVANZA": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "MARIA GABRIELA",
@@ -11482,7 +11482,7 @@
           ]
         },
         "MOVIMIENTO AL SOCIALISMO": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "EMILIO ULISES",
@@ -11511,7 +11511,7 @@
           ]
         },
         "PARTIDO DE LA VICTORIA": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "MARCELA ELIZABETH",
@@ -11540,7 +11540,7 @@
           ]
         },
         "PARTIDO RENACER": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "NICOLAS CEFERINO",
@@ -11569,7 +11569,7 @@
           ]
         },
         "POLITICA OBRERA": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "JULIO OSCAR",
@@ -11598,7 +11598,7 @@
           ]
         },
         "PRIMERO LOS SALTEÑOS": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "BERNARDO JOSE",
@@ -11627,7 +11627,7 @@
           ]
         },
         "UNION CIVICA RADICAL": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "ADRIANA SOLEDAD",
@@ -11664,7 +11664,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "DE IZQUIERDA Y DE TRABAJADORES - UNIDAD": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "CRISTIAN ROBERTO",
@@ -11693,7 +11693,7 @@
           ]
         },
         "FUERZA San Juan": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "CRISTIAN FELIPE",
@@ -11722,7 +11722,7 @@
           ]
         },
         "PARTIDO CRUZADA RENOVADORA": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "ALFREDO",
@@ -11751,7 +11751,7 @@
           ]
         },
         "PARTIDO EVOLUCION LIBERAL": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "SERGIO GUILLERMO",
@@ -11780,7 +11780,7 @@
           ]
         },
         "PARTIDO HACEMOS": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "EMILIO JAVIER",
@@ -11809,7 +11809,7 @@
           ]
         },
         "PARTIDO IDEAS DE LA LIBERTAD": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "GASTON ORESTE",
@@ -11838,7 +11838,7 @@
           ]
         },
         "PARTIDO LA LIBERTAD AVANZA": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "RICARDO ABEL",
@@ -11867,7 +11867,7 @@
           ]
         },
         "PARTIDO LIBERTARIO": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "ANTONIA YOLANDA",
@@ -11896,7 +11896,7 @@
           ]
         },
         "POR San Juan": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "JOSE FABIAN",
@@ -11933,7 +11933,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "ALIANZA LA LIBERTAD AVANZA": {
-          "votos": 16.67,
+          "votos": 16.5,
           "candidatos": [
             {
               "Nombres": "MONICA MARIELA",
@@ -11962,7 +11962,7 @@
           ]
         },
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD": {
-          "votos": 16.67,
+          "votos": 16.5,
           "candidatos": [
             {
               "Nombres": "JOHANA ANAHI",
@@ -11991,7 +11991,7 @@
           ]
         },
         "FRENTE JUSTICIALISTA": {
-          "votos": 16.67,
+          "votos": 16.5,
           "candidatos": [
             {
               "Nombres": "JORGE OMAR",
@@ -12020,7 +12020,7 @@
           ]
         },
         "FUERZA PATRIA San Luis": {
-          "votos": 16.67,
+          "votos": 16.5,
           "candidatos": [
             {
               "Nombres": "HECTOR DANIEL",
@@ -12049,7 +12049,7 @@
           ]
         },
         "MOVIMIENTO AL SOCIALISMO": {
-          "votos": 16.67,
+          "votos": 16.5,
           "candidatos": [
             {
               "Nombres": "ITALO ALBERTO",
@@ -12078,7 +12078,7 @@
           ]
         },
         "PROVINCIAS UNIDAS": {
-          "votos": 16.67,
+          "votos": 16.5,
           "candidatos": [
             {
               "Nombres": "ANDRES ALBERTO",
@@ -12115,7 +12115,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "COALICION CIVICA - AFIRMACION PARA UNA REPUBLICA IGUALITARIA -ARI-": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "SEGUNDO PEDRO",
@@ -12144,7 +12144,7 @@
           ]
         },
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "GABRIELA AYELEN",
@@ -12173,7 +12173,7 @@
           ]
         },
         "FUERZA SANTACRUCEñA": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "JUAN CARLOS",
@@ -12202,7 +12202,7 @@
           ]
         },
         "LA LIBERTAD AVANZA": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "JAIRO HENOCH",
@@ -12231,7 +12231,7 @@
           ]
         },
         "MOVIMIENTO AL SOCIALISMO": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "JORGE JESUS",
@@ -12260,7 +12260,7 @@
           ]
         },
         "POR Santa Cruz": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "JOSE DANIEL",
@@ -12289,7 +12289,7 @@
           ]
         },
         "PRO - PROPUESTA REPUBLICANA": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "LEONARDO DAVID",
@@ -12318,7 +12318,7 @@
           ]
         },
         "PROYECTO ALTERNATIVO": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "JORGE FERNANDO",
@@ -12347,7 +12347,7 @@
           ]
         },
         "UNIR": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "DIEGO",
@@ -12384,7 +12384,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "COALICION CIVICA - AFIRMACION PARA UNA REPUBLICA IGUALITARIA (ARI)": {
-          "votos": 6.25,
+          "votos": 6.19,
           "candidatos": [
             {
               "Nombres": "EUGENIO DANIEL",
@@ -12449,7 +12449,7 @@
           ]
         },
         "COMPROMISO FEDERAL": {
-          "votos": 6.25,
+          "votos": 6.19,
           "candidatos": [
             {
               "Nombres": "GABRIEL FELIPE",
@@ -12514,7 +12514,7 @@
           ]
         },
         "DEFENDAMOS Santa Fe": {
-          "votos": 6.25,
+          "votos": 6.19,
           "candidatos": [
             {
               "Nombres": "JOSE GASPAR",
@@ -12579,7 +12579,7 @@
           ]
         },
         "FRENTE AMPLIO POR LA SOBERANIA": {
-          "votos": 6.25,
+          "votos": 6.19,
           "candidatos": [
             {
               "Nombres": "CARLOS ALFREDO",
@@ -12644,7 +12644,7 @@
           ]
         },
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD": {
-          "votos": 6.25,
+          "votos": 6.19,
           "candidatos": [
             {
               "Nombres": "FRANCO EMANUEL",
@@ -12709,7 +12709,7 @@
           ]
         },
         "FUERZA PATRIA": {
-          "votos": 6.25,
+          "votos": 6.19,
           "candidatos": [
             {
               "Nombres": "CAREN ESTEFANIA",
@@ -12774,7 +12774,7 @@
           ]
         },
         "IGUALDAD Y PARTICIPACIÓN": {
-          "votos": 6.25,
+          "votos": 6.19,
           "candidatos": [
             {
               "Nombres": "AGUSTINA MICAELA",
@@ -12839,7 +12839,7 @@
           ]
         },
         "LA LIBERTAD AVANZA": {
-          "votos": 6.25,
+          "votos": 6.19,
           "candidatos": [
             {
               "Nombres": "AGUSTÍN ANDRES",
@@ -12904,7 +12904,7 @@
           ]
         },
         "MOVIMIENTO AL SOCIALISMO": {
-          "votos": 6.25,
+          "votos": 6.19,
           "candidatos": [
             {
               "Nombres": "CESAR",
@@ -12969,7 +12969,7 @@
           ]
         },
         "MOVIMIENTO INDEPENDIENTE RENOVADOR": {
-          "votos": 6.25,
+          "votos": 6.19,
           "candidatos": [
             {
               "Nombres": "JUAN CARLOS",
@@ -13034,7 +13034,7 @@
           ]
         },
         "NUEVAS IDEAS": {
-          "votos": 6.25,
+          "votos": 6.19,
           "candidatos": [
             {
               "Nombres": "EZEQUIEL MARTIN",
@@ -13099,7 +13099,7 @@
           ]
         },
         "PARTIDO AUTONOMISTA": {
-          "votos": 6.25,
+          "votos": 6.19,
           "candidatos": [
             {
               "Nombres": "RAIMAR",
@@ -13164,7 +13164,7 @@
           ]
         },
         "PARTIDO FE": {
-          "votos": 6.25,
+          "votos": 6.19,
           "candidatos": [
             {
               "Nombres": "PAMELA IVANA",
@@ -13229,7 +13229,7 @@
           ]
         },
         "POLITICA OBRERA": {
-          "votos": 6.25,
+          "votos": 6.19,
           "candidatos": [
             {
               "Nombres": "MARILIN",
@@ -13294,7 +13294,7 @@
           ]
         },
         "PROVINCIAS UNIDAS": {
-          "votos": 6.25,
+          "votos": 6.19,
           "candidatos": [
             {
               "Nombres": "GISELA",
@@ -13359,7 +13359,7 @@
           ]
         },
         "REPUBLICANOS UNIDOS": {
-          "votos": 6.25,
+          "votos": 6.19,
           "candidatos": [
             {
               "Nombres": "LUCIANO MARCOS",
@@ -13424,7 +13424,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "ALIANZA LA LIBERTAD AVANZA": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "LUIS MIGUEL",
@@ -13445,7 +13445,7 @@
           ]
         },
         "DEFENDAMOS TIERRA DEL FUEGO": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "GUILLERMO DANIEL",
@@ -13466,7 +13466,7 @@
           ]
         },
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "MARIA LUISA",
@@ -13487,7 +13487,7 @@
           ]
         },
         "FRENTE PATRIOTA FEDERAL": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "LEANDRO EMANUEL",
@@ -13508,7 +13508,7 @@
           ]
         },
         "FUERZA PATRIA": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "PAULO AGUSTIN",
@@ -13529,7 +13529,7 @@
           ]
         },
         "MOVIMIENTO AL SOCIALISMO": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "ADRIANA MONICA",
@@ -13550,7 +13550,7 @@
           ]
         },
         "PARTIDO FRENTE GRANDE": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "WALTER JAVIER",
@@ -13571,7 +13571,7 @@
           ]
         },
         "PROVINCIAS UNIDAS": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "FEDERICO RICARDO",
@@ -13600,7 +13600,7 @@
       "finalizaMandatoNuevo": "09/12/2029",
       "partidos": {
         "ALIANZA LA LIBERTAD AVANZA": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "FEDERICO AGUSTIN",
@@ -13633,7 +13633,7 @@
           ]
         },
         "CREO": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "PAULA",
@@ -13666,7 +13666,7 @@
           ]
         },
         "DEL TRABAJO Y DEL PUEBLO": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "SEBASTIAN",
@@ -13699,7 +13699,7 @@
           ]
         },
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD FIT": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "ALEJANDRA",
@@ -13732,7 +13732,7 @@
           ]
         },
         "FRENTE DEL PUEBLO UNIDO": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "SILVIO CESAR",
@@ -13765,7 +13765,7 @@
           ]
         },
         "FRENTE Tucumán PRIMERO": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "OSVALDO FRANCISCO",
@@ -13798,7 +13798,7 @@
           ]
         },
         "FUERZA REPUBLICANA": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "RICARDO ARGENTINO",
@@ -13831,7 +13831,7 @@
           ]
         },
         "PARTIDO POLITICA PARA LA CLASE OBRERA": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "MARGARITA RAQUEL",
@@ -13864,7 +13864,7 @@
           ]
         },
         "UNIDOS POR TUCUMAN": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "ROBERTO ANTONIO",
@@ -13905,7 +13905,7 @@
       "electores": 2533092,
       "partidos": {
         "CIUDADANOS UNIDOS": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "MARIA GRACIELA",
@@ -13926,7 +13926,7 @@
           ]
         },
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "CHRISTIAN CARLOS HERNAN",
@@ -13947,7 +13947,7 @@
           ]
         },
         "FRENTE PATRIOTA FEDERAL": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "ANGEL JAVIER",
@@ -13968,7 +13968,7 @@
           ]
         },
         "FUERZA PATRIA": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "MARIANO",
@@ -13989,7 +13989,7 @@
           ]
         },
         "GEN": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "FACUNDO FRANCISCO",
@@ -14010,7 +14010,7 @@
           ]
         },
         "HAGAMOS FUTURO": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "MARIA MARCELA",
@@ -14031,7 +14031,7 @@
           ]
         },
         "LA IZQUIERDA EN LA CIUDAD": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "HECTOR ANTONIO",
@@ -14052,7 +14052,7 @@
           ]
         },
         "LA LIBERTAD AVANZA": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "PATRICIA",
@@ -14073,7 +14073,7 @@
           ]
         },
         "MOVIMIENTO DE JUBILADOS Y JUVENTUD": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "ESTEBAN",
@@ -14094,7 +14094,7 @@
           ]
         },
         "MOVIMIENTO PLURAL": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "GUSTAVO RAUL",
@@ -14115,7 +14115,7 @@
           ]
         },
         "PARTIDO COMUNISTA": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "ARIEL SEBASTIAN",
@@ -14136,7 +14136,7 @@
           ]
         },
         "PARTIDO FEDERAL": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "AGUSTIN DANTE",
@@ -14157,7 +14157,7 @@
           ]
         },
         "PARTIDO SOCIALISTA AUTENTICO": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "FRANCISCO",
@@ -14178,7 +14178,7 @@
           ]
         },
         "POTENCIA": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "JUAN MARTIN",
@@ -14199,7 +14199,7 @@
           ]
         },
         "UNION DEL CENTRO DEMOCRATICO": {
-          "votos": 6.67,
+          "votos": 6.6,
           "candidatos": [
             {
               "Nombres": "DIEGO RAMIRO",
@@ -14228,7 +14228,7 @@
       "electores": 1001813,
       "partidos": {
         "FRENTE FUERZA PATRIA": {
-          "votos": 10,
+          "votos": 9.9,
           "candidatos": [
             {
               "Nombres": "JORGE MILTON",
@@ -14249,7 +14249,7 @@
           ]
         },
         "FRENTE INTEGRADOR": {
-          "votos": 10,
+          "votos": 9.9,
           "candidatos": [
             {
               "Nombres": "BENITO RAMON CESAR",
@@ -14270,7 +14270,7 @@
           ]
         },
         "LA LIBERTAD AVANZA": {
-          "votos": 10,
+          "votos": 9.9,
           "candidatos": [
             {
               "Nombres": "JUAN CRUZ",
@@ -14291,7 +14291,7 @@
           ]
         },
         "MOVIMIENTO POLÍTICO SOCIAL Y CULTURAL PROYECTO SUR": {
-          "votos": 10,
+          "votos": 9.9,
           "candidatos": [
             {
               "Nombres": "MERCEDES GUADALUPE",
@@ -14312,7 +14312,7 @@
           ]
         },
         "NUEVO ESPACIO DE PARTICIPACIÓN -NEPAR": {
-          "votos": 10,
+          "votos": 9.9,
           "candidatos": [
             {
               "Nombres": "MIGUEL MILES",
@@ -14333,7 +14333,7 @@
           ]
         },
         "PARTIDO DEL OBRERO (PDO)": {
-          "votos": 10,
+          "votos": 9.9,
           "candidatos": [
             {
               "Nombres": "CESAR GERMAN",
@@ -14354,7 +14354,7 @@
           ]
         },
         "PARTIDO DIGNIDAD POPULAR": {
-          "votos": 10,
+          "votos": 9.9,
           "candidatos": [
             {
               "Nombres": "JORGE GUSTAVO",
@@ -14375,7 +14375,7 @@
           ]
         },
         "PARTIDO POLO SOCIAL - MOVIMIENTO DE BASES": {
-          "votos": 10,
+          "votos": 9.9,
           "candidatos": [
             {
               "Nombres": "ISMAEL WALTER",
@@ -14396,7 +14396,7 @@
           ]
         },
         "UNIR": {
-          "votos": 10,
+          "votos": 9.9,
           "candidatos": [
             {
               "Nombres": "JUAN MARIO",
@@ -14417,7 +14417,7 @@
           ]
         },
         "VAMOS Chaco": {
-          "votos": 10,
+          "votos": 9.9,
           "candidatos": [
             {
               "Nombres": "EDUARDO ALBERTO",
@@ -14446,7 +14446,7 @@
       "electores": 1143459,
       "partidos": {
         "AHORA 503": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "ANA CAROLINA",
@@ -14467,7 +14467,7 @@
           ]
         },
         "ALIANZA LA LIBERTAD AVANZA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "JOAQUIN ALBERTO",
@@ -14488,7 +14488,7 @@
           ]
         },
         "FUERZA ENTRE RIOS": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "ADAN HUMBERTO",
@@ -14509,7 +14509,7 @@
           ]
         },
         "MOVIMIENTO AL SOCIALISMO": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "JUAN CRUZ",
@@ -14530,7 +14530,7 @@
           ]
         },
         "NUEVA IZQUIERDA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "SOFIA",
@@ -14551,7 +14551,7 @@
           ]
         },
         "PARTIDO SOCIALISTA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "HECTOR MARIA",
@@ -14572,7 +14572,7 @@
           ]
         },
         "UNION POPULAR FEDERAL": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "EMILIO RAUL",
@@ -14601,7 +14601,7 @@
       "electores": 553748,
       "partidos": {
         "DESARROLLO CIUDADANO": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "LUIS ALBERTO",
@@ -14622,7 +14622,7 @@
           ]
         },
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "TOMAS ANDRES",
@@ -14643,7 +14643,7 @@
           ]
         },
         "FUERZA LIBERTARIA": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "CARLOS ALBERTO",
@@ -14664,7 +14664,7 @@
           ]
         },
         "FUERZA PATRIA": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "SILVIA ESTELA",
@@ -14685,7 +14685,7 @@
           ]
         },
         "LA LIBERTAD AVANZA": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "NADIA JUDITH",
@@ -14706,7 +14706,7 @@
           ]
         },
         "LA NEUQUINIDAD": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "JULIETA",
@@ -14727,7 +14727,7 @@
           ]
         },
         "MAS POR NEUQUEN": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "CARLOS ENRIQUE",
@@ -14748,7 +14748,7 @@
           ]
         },
         "MOVIMIENTO AL SOCIALISMO": {
-          "votos": 12.5,
+          "votos": 12.38,
           "candidatos": [
             {
               "Nombres": "MAXIMILIANO ARIEL",
@@ -14777,7 +14777,7 @@
       "electores": 595081,
       "partidos": {
         "ALIANZA LA LIBERTAD AVANZA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "MARIA LORENA",
@@ -14798,7 +14798,7 @@
           ]
         },
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES UNIDAD": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "ALHUE",
@@ -14819,7 +14819,7 @@
           ]
         },
         "FUERZA PATRIA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "MARTIN IGNACIO",
@@ -14840,7 +14840,7 @@
           ]
         },
         "JUNTOS DEFENDEMOS RIO NEGRO": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "FACUNDO MANUEL",
@@ -14861,7 +14861,7 @@
           ]
         },
         "MOVIMIENTO AL SOCIALISMO": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "MÓNICA TERESITA",
@@ -14882,7 +14882,7 @@
           ]
         },
         "PRIMERO RIO NEGRO": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "SERGIO ARIEL",
@@ -14903,7 +14903,7 @@
           ]
         },
         "PRO PROPUESTA REPUBLICANA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "JUAN CARLOS",
@@ -14932,7 +14932,7 @@
       "electores": 812080,
       "partidos": {
         "DESPIERTA SANTIAGO": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "FACUNDO JOSE",
@@ -14953,7 +14953,7 @@
           ]
         },
         "FRENTE CIVICO POR SANTIAGO": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "GERARDO",
@@ -14974,7 +14974,7 @@
           ]
         },
         "FRENTE FUERZA PATRIA PERONISTA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "JOSE EMILIO",
@@ -14995,7 +14995,7 @@
           ]
         },
         "HACEMOS POR SANTIAGO": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "FRANCISCO ALBERTO",
@@ -15016,7 +15016,7 @@
           ]
         },
         "LA LIBERTAD AVANZA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "TOMAS ISE",
@@ -15037,7 +15037,7 @@
           ]
         },
         "NUEVA IZQUIERDA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "CLAUDIA ROXANA",
@@ -15058,7 +15058,7 @@
           ]
         },
         "UNITE POR LA LIBERTAD Y LA DIGNIDAD": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "RAMON LISANDRO",
@@ -15087,7 +15087,7 @@
       "electores": 1090057,
       "partidos": {
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "CLAUDIO ARIEL",
@@ -15108,7 +15108,7 @@
           ]
         },
         "FUERZA PATRIA": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "JUAN MANUEL",
@@ -15129,7 +15129,7 @@
           ]
         },
         "LA LIBERTAD AVANZA": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "MARIA EMILIA",
@@ -15150,7 +15150,7 @@
           ]
         },
         "MOVIMIENTO AL SOCIALISMO": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "MARCOS",
@@ -15171,7 +15171,7 @@
           ]
         },
         "PARTIDO DE LA VICTORIA": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "SERGIO NAPOLEON",
@@ -15192,7 +15192,7 @@
           ]
         },
         "PARTIDO RENACER": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "FRANCISCO SOLANO MARTIN",
@@ -15213,7 +15213,7 @@
           ]
         },
         "POLITICA OBRERA": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "VIOLETA",
@@ -15234,7 +15234,7 @@
           ]
         },
         "PRIMERO LOS SALTEÑOS": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "FLAVIA GABRIELA",
@@ -15255,7 +15255,7 @@
           ]
         },
         "UNION CIVICA RADICAL": {
-          "votos": 11.11,
+          "votos": 11,
           "candidatos": [
             {
               "Nombres": "JOSÉ NATALIO",
@@ -15284,7 +15284,7 @@
       "electores": 148020,
       "partidos": {
         "ALIANZA LA LIBERTAD AVANZA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "AGUSTIN PEDRO",
@@ -15305,7 +15305,7 @@
           ]
         },
         "DEFENDAMOS TIERRA DEL FUEGO": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "GASTON ALEJANDRO",
@@ -15326,7 +15326,7 @@
           ]
         },
         "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "VICTOR HUGO",
@@ -15347,7 +15347,7 @@
           ]
         },
         "FRENTE PATRIOTA FEDERAL": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "HORACIO JAVIER",
@@ -15368,7 +15368,7 @@
           ]
         },
         "FUERZA PATRIA": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "CANDIDA CRISTINA",
@@ -15389,7 +15389,7 @@
           ]
         },
         "PARTIDO FRENTE GRANDE": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "ROGELIO MAURICIO",
@@ -15410,7 +15410,7 @@
           ]
         },
         "PROVINCIAS UNIDAS": {
-          "votos": 14.29,
+          "votos": 14.14,
           "candidatos": [
             {
               "Nombres": "PABLO DANIEL",

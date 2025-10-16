@@ -42,9 +42,12 @@ export default function Mapa({ camara, distrito }: {
     if (storedData && storedData !== 'undefined' && storedData !== 'null') {
       setVotos(JSON.parse(storedData))
     } else {
-      setVotos(Object.fromEntries(Object.entries(datos.elecciones).map(([key, value]) => ([key,
-        Object.fromEntries(Object.entries(value.partidos).map(([k, v]) => [k, v.votos * 100]))
-      ]))))
+      setVotos(Object.fromEntries(Object.entries(datos.elecciones).map(([key, value]) => {
+        const votosPartidos = Object.fromEntries(Object.entries(value.partidos).map(([k, v]) => [k, v.votos * 100]));
+        const sumaVotos = Object.values(votosPartidos).reduce((sum, v) => sum + v, 0);
+        const votoEnBlanco = 100 * 100 - sumaVotos;
+        return [key, { ...votosPartidos, 'VOTO EN BLANCO': votoEnBlanco }];
+      })))
     }
   }, [ready])
 
@@ -61,12 +64,16 @@ export default function Mapa({ camara, distrito }: {
           d.Distrito === el.distrito && d.FinalizaMandato === datos.finalizaMandato
         ).length;
         
+        // Filtrar solo los partidos (excluir voto en blanco) para el cálculo
+        const partidosKeys = Object.keys(el.partidos);
+        const partidosConVotos = partidosKeys.map((p) => ({
+          partido: p,
+          votos: (votos[eleccion][p] / 100) * el.electores,
+          porcentaje: votos[eleccion][p] / 100,
+        }));
+        
         return calcularDhondt(
-          Object.keys(el.partidos).map((p) => ({
-            partido: p,
-            votos: (votos[eleccion][p] / 100) * el.electores,
-            porcentaje: votos[eleccion][p] / 100,
-          })),
+          partidosConVotos,
           bancasEnJuego,
           el.electores
         ).flatMap(({ partido, bancas }) => 
