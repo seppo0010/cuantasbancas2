@@ -9,6 +9,7 @@ import styles from './provincia.module.css';
 import homeStyles from './home.module.css';
 import { Legislador } from './Legislador';
 import { Bloque } from './Bloque';
+import { Distrito, DistritoSlug, slugsReverse } from './Distrito';
 
 interface DatosType {
     diputados: Legislador[];
@@ -28,11 +29,11 @@ export default function Home() {
         ...datos.senadores.map((s) => s.Distrito)
     ]));
 
-    const getDiputadosPorProvincia = (pcia: string): Legislador[] => {
+    const getDiputadosPorProvincia = (pcia: Distrito): Legislador[] => {
         return datos.diputados.filter((d) => d.Distrito === pcia);
     };
 
-    const getSenadoresPorProvincia = (pcia: string): Legislador[] => {
+    const getSenadoresPorProvincia = (pcia: Distrito): Legislador[] => {
         return datos.senadores.filter((s) => s.Distrito === pcia);
     };
 
@@ -142,7 +143,7 @@ export default function Home() {
             </div>
 
             <div className="columns is-multiline mt-2">
-                {filteredProvincias.map((pcia: string) => {
+                {filteredProvincias.map((pcia: Distrito) => {
                     const diputados = getDiputadosPorProvincia(pcia);
                     const senadores = getSenadoresPorProvincia(pcia);
                     const isShowingDiputados = selectedChamber === 'diputados';
@@ -188,26 +189,29 @@ export default function Home() {
                                         );
                                     })}
                                 </div>
-                                
-                                <div className={`${styles.metricasFlex} ${styles.provinciaMetricas}`}>
-                                    <div className={styles.metricaItem}>
-                                        <FontAwesomeIcon icon={faChair} />
-                                        <span>{currentData.length}</span>
+
+                                <div className={`${styles.metricasButton}`}>
+                                    <div className={`${styles.metricasFlex}`}>
+                                        <div className={styles.metricaItem}>
+                                            <FontAwesomeIcon icon={faChair} />
+                                            <span>{currentData.length}</span>
+                                        </div>
+                                        <div className={styles.metricaItem}>
+                                            <FontAwesomeIcon icon={faRecycle} />
+                                            <span>{bancasEnJuego}</span>
+                                        </div>
                                     </div>
-                                    <div className={styles.metricaItem}>
-                                        <FontAwesomeIcon icon={faRecycle} />
-                                        <span>{bancasEnJuego}</span>
-                                    </div>
-                                </div>
-                                
-                                <div className={styles.provinciaButton}>
-                                    <Link 
-                                        href={`/${selectedChamber}/${pcia.toLowerCase().replace(/ /g, '').replace(/á/g,'a').replace(/é/g,'e').replace(/í/g,'i').replace(/ó/g,'o').replace(/ú/g,'u')}`}
-                                    >
-                                        <button className={`button is-fullwidth ${homeStyles.button} ${homeStyles.selected}`}>
-                                            Simular distribución
-                                        </button>
-                                    </Link>
+                                    {sortedLegisladores.some((legislador) => legislador.FinalizaMandato === datos.finalizaMandato) && (
+                                        <div className={styles.provinciaButton}>
+                                            <Link 
+                                                href={`/${selectedChamber}/${slugsReverse[pcia]}`}
+                                            >
+                                                <button className={`button is-fullwidth ${homeStyles.button} ${homeStyles.selected}`}>
+                                                    Simular distribución
+                                                </button>
+                                            </Link>
+                                        </div>
+                                    )}
                                 </div>
                             </div>
                         </div>

@@ -8,9 +8,8 @@ import { Bloque } from "./Bloque";
 import { Legislador } from "./Legislador";
 import { Provincia } from "./provincia";
 import Link from "next/link";
-import { Distrito, slugsReverse } from "./Distrito";
+import { Distrito } from "./Distrito";
 import Sliders from './Sliders';
-import ProvinciasGrid from './ProvinciasGrid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChair, faRecycle } from '@fortawesome/free-solid-svg-icons';
 import provinciaStyles from './provincia.module.css';
@@ -130,7 +129,7 @@ export default function Mapa({ camara, distrito }: {
     datos.bloques.findIndex((b) => b.nombres.includes(d1.Bloque)) - 
     datos.bloques.findIndex((b) => b.nombres.includes(d2.Bloque))
   );
-
+console.log({ eleccion, distrito })
   return (
     <div className={styles.container}>
       <header className="hero is-light">
@@ -153,21 +152,6 @@ export default function Mapa({ camara, distrito }: {
           </div>
         </div>
       </header>
-      
-      {eleccion === null && (
-        <div className={styles.camaraPickerContainer}>
-          <Link href="/diputados">
-            <span className={`${styles.camaraPicker} ${camara === 'diputados' ? styles.camaraPickerSelected : ''}`}>
-              Diputados
-            </span>
-          </Link>
-          <Link href="/senadores">
-            <span className={`${styles.camaraPicker} ${camara !== 'diputados' ? styles.camaraPickerSelected : ''}`}>
-              Senadores
-            </span>
-          </Link>
-        </div>
-      )}
 
       {eleccion !== null && distrito && (
         <div className={styles.breadcrumbContainer}>
@@ -222,14 +206,6 @@ export default function Mapa({ camara, distrito }: {
                 ? diputados.filter((d) => d.Distrito === datos.elecciones[eleccion].distrito)
                 : senadores.filter((d) => d.Distrito === datos.elecciones[eleccion].distrito)
             }
-          />
-        )}
-
-        {eleccion === null && (
-          <ProvinciasGrid
-            camara={camara}
-            datos={datos}
-            votos={votos}
           />
         )}
 
