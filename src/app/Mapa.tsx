@@ -1,11 +1,9 @@
 'use client';
 import styles from "./page.module.css";
-import { Diputados } from './diputados'
-import { Senadores } from './senadores'
 import datos_ from './datos.json'
 import { useEffect, useState } from "react";
 import calcularDhondt from "./dhondt";
-import { Eleccion } from "./Eleccion";
+import { Eleccion } from "./types";
 import { Bloque } from "./Bloque";
 import { Legislador } from "./Legislador";
 import { Provincia } from "./provincia";
@@ -13,6 +11,9 @@ import Link from "next/link";
 import { Distrito, slugsReverse } from "./Distrito";
 import Sliders from './Sliders';
 import ProvinciasGrid from './ProvinciasGrid';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChair, faRecycle } from '@fortawesome/free-solid-svg-icons';
+import provinciaStyles from './provincia.module.css';
 
 interface DatosType {
   diputados: Legislador[];
@@ -120,11 +121,15 @@ export default function Mapa({ camara, distrito }: {
 
   return (
     <div className={styles.container}>
-      <h1>¿Cuántas bancas? v2.0</h1>
-      <p>
-        Simulador de distribución de las elecciones legislativas de 2025:{' '}
-        <a href="https://www.visualizando.ar/cuantasbancas">www.visualizando.ar/cuantasbancas</a>
-      </p>
+      <header className="hero is-light">
+        <div className="hero-body">
+          <div className={styles.headerContent}>
+            <h1 className={`title is-1 ${styles.mainTitle}`}>¿Cuántas bancas?</h1>
+            <h2 className={`subtitle is-3 ${styles.subtitle}`}>El simulador electoral</h2>
+            <div className={`has-text-grey mb-4 ${styles.version}`}>Versión 2025 de elecciones nacionales argentinas</div>
+          </div>
+        </div>
+      </header>
       
       {eleccion === null && (
         <div className={styles.camaraPickerContainer}>
@@ -141,25 +146,39 @@ export default function Mapa({ camara, distrito }: {
         </div>
       )}
 
-      <div className={styles.page}>
-        <div className={styles.camara}>
-          {camara !== 'diputados' && (
-            <Senadores
-              senadores={senadores.map((d) => ({
-                nombre: `${d.Apellido}, ${d.Nombres}`,
-                color: datos.bloques.find((f) => f.nombres.includes(d.Bloque))?.color ?? '#000',
-              }))}
-            />
-          )}
-          {camara === 'diputados' && (
-            <Diputados
-              diputados={diputados.map((d) => ({
-                nombre: `${d.Apellido}, ${d.Nombres}`,
-                color: datos.bloques.find((f) => f.nombres.includes(d.Bloque))?.color ?? '#000',
-              }))}
-            />
-          )}
+      {eleccion !== null && distrito && (
+        <div className={styles.breadcrumbContainer}>
+          <div className={styles.breadcrumb}>
+            <Link href="/">Inicio</Link>
+            <span className={styles.breadcrumbSeparator}> &gt; </span>
+            <span className={styles.breadcrumbCurrent}>{distrito}</span>
+          </div>
+          <div className={`${provinciaStyles.metricasFlex} ${styles.breadcrumbMetricas}`}>
+            <div className={provinciaStyles.metricaItem}>
+              <FontAwesomeIcon icon={faChair} />
+              <span>
+                {datos.elecciones[eleccion].camara === 'diputados' 
+                  ? diputados.filter((d) => d.Distrito === distrito).length
+                  : senadores.filter((d) => d.Distrito === distrito).length
+                }
+              </span>
+            </div>
+            <div className={provinciaStyles.metricaItem}>
+              <FontAwesomeIcon icon={faRecycle} />
+              <span>
+                {(datos.elecciones[eleccion].camara === 'diputados' ? datos.diputados : datos.senadores)
+                  .filter((l) =>
+                    l.Distrito === distrito &&
+                    l.FinalizaMandato === datos.finalizaMandato
+                  ).length
+                }
+              </span>
+            </div>
+          </div>
         </div>
+      )}
+
+      <div className={styles.page}>
 
         {eleccion !== null && (
           <Provincia

@@ -1,0 +1,121 @@
+.headerContent {
+    text-align: center;
+}
+
+.mainTitle {
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.version {
+    font-size: 1em;
+}
+
+.description {
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.selectorBox {
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: transparent;
+    box-shadow: none;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.selectorLabel {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.selectorPrompt {
+    text-align: center;
+}
+
+.button {
+    background-color: #ddd;
+    color: #555;
+    border: none;
+    font-size: 0.9em;
+}
+
+.button.selected {
+    background-color: #555;
+    color: #ddd;
+}
+
+.referenciaBox {
+    box-shadow: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+}
+
+.referenciaSection {
+    margin-bottom: 10px;
+}
+
+.referenciaTitle {
+    margin-bottom: 6px;
+    display: block;
+    font-size: 0.85em;
+}
+
+.referenciaItems {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.referenciaItem {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.referenciaSwatch {
+    width: 10px;
+    height: 10px;
+    background-color: #888;
+}
+
+.referenciaSwatchRenueva {
+    border-radius: 10px;
+}
+
+.referenciaSwatchActual {
+    border-radius: 1px;
+    opacity: 0.5;
+}
+
+.referenciaText {
+    font-size: 0.8em;
+}
+
+.bloquesItems {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.bloqueItem {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.bloqueSwatch {
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+}

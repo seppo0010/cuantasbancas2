@@ -3,7 +3,7 @@ export const slugs: { [slug in DistritoSlug]: Distrito } = {
   "catamarca": "Catamarca",
   "chaco": "Chaco",
   "chubut": "Chubut",
-  "caba": "Ciudad Autónoma de Buenos Aires",
+  "caba": "CABA",
   "cordoba": "Córdoba",
   "corrientes": "Corrientes",
   "entrerios": "Entre Ríos",
@@ -30,7 +30,7 @@ export const slugsReverse: { [slug in Distrito]: DistritoSlug } = {
   "Catamarca": "catamarca",
   "Chaco": "chaco",
   "Chubut": "chubut",
-  "Ciudad Autónoma de Buenos Aires": "caba",
+  "CABA": "caba",
   "Córdoba": "cordoba",
   "Corrientes": "corrientes",
   "Entre Ríos": "entrerios",
@@ -56,7 +56,7 @@ export type Distrito = "Buenos Aires" |
   "Catamarca" |
   "Chaco" |
   "Chubut" |
-  "Ciudad Autónoma de Buenos Aires" |
+  "CABA" |
   "Córdoba" |
   "Corrientes" |
   "Entre Ríos" |

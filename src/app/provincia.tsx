@@ -49,10 +49,10 @@ export const Provincia = ({ legisladores, bloques, finalizaMandatoNuevo, enJuego
                     </div>
                     
                     <div className={styles.metricasFlex}>
-                            <span className={styles.metricaItem}><FontAwesomeIcon icon={faChair} /> {legisladores.filter((l) => bloque.nombres.includes(l.Bloque)).length}</span>
-                            <span className={styles.metricaItem}><FontAwesomeIcon icon={faRecycle} /> {enJuego[bloque.nombres[0]]}</span>
-                            <span className={styles.metricaItem}><FontAwesomeIcon icon={faTrophy} /> {legisladores.filter((l) => bloque.nombres.includes(l.Bloque) && l.FinalizaMandato === finalizaMandatoNuevo).length}</span>
-                        </div>
+                        <span className={styles.metricaItem}><FontAwesomeIcon icon={faChair} /> {legisladores.filter((l) => bloque.nombres.includes(l.Bloque)).length}</span>
+                        <span className={styles.metricaItem}><FontAwesomeIcon icon={faRecycle} /> {enJuego[bloque.nombres[0]]}</span>
+                        <span className={styles.metricaItem}><FontAwesomeIcon icon={faTrophy} /> {legisladores.filter((l) => bloque.nombres.includes(l.Bloque) && l.FinalizaMandato === finalizaMandatoNuevo).length}</span>
+                    </div>
                         <div className={styles.label}>
                         <span className={styles.title}>{bloque.corto}</span>
                         

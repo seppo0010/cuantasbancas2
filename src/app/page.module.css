@@ -89,3 +89,63 @@
 .camaraPickerSelected {
   background-color: bisque;
 }
+.headerContent {
+    text-align: center;
+}
+
+.mainTitle {
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.version {
+    font-size: 1em;
+}
+
+.breadcrumbContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
+.breadcrumb {
+    font-size: 0.9em;
+    color: #666;
+    flex: 1;
+    min-width: 0;
+}
+
+.breadcrumb a {
+    color: #3273dc;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumbSeparator {
+    color: #999;
+    padding: 0 6px;
+}
+
+.breadcrumbCurrent {
+    color: #333;
+    font-weight: 600;
+}
+
+.breadcrumbMetricas {
+    flex-shrink: 0;
+    margin: 0;
+    width: auto !important;
+}

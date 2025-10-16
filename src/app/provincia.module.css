@@ -17,23 +17,72 @@
     font-size: 1.2em;
     margin-bottom: 6px;
 }
+
+.provinciaColumn {
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+}
+
+.provinciaTitle {
+    text-align: left;
+    font-size: 1.3em;
+}
+
+.provinciaBancas {
+    display: flex;
+    gap: 2px;
+    justify-content: flex-start !important;
+}
+
+.provinciaBanca {
+    min-width: 12px;
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    font-size: 0;
+    margin: 0;
+    display: block;
+}
+
+.provinciaBanca.actual {
+    opacity: 0.5;
+    border-radius: 1px;
+}
+
+.provinciaBanca.renueva {
+    border-radius: 10px;
+}
+
+.provinciaButton {
+    margin-top: 12px;
+}
+
 .referenciaBancas {
     margin-top: 6px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 7px;
+    gap: 2px 2px;
     width: 100%;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .referenciaMetricas {
     margin-top: 4px;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     gap: 1px;
     width: 100%;
+}
+
+.referenciaMetricas > div {
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+    align-items: center;
 }
 
 .referenciaBancasLabel {
@@ -138,33 +187,34 @@
   }
 
   .metricasFlex {
-    display: flex;
-    flex-direction: row;
-    gap: 1px;
-    border-radius: 1px;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-      margin-top: auto;
-      margin-bottom: auto;
-    margin-top: 3px;
-    margin-bottom: 1px;
-    padding: 2px 0;
-    width: 100%;
+     display: flex;
+     flex-direction: row;
+     gap: 1px;
+     border-radius: 1px;
+     justify-content: flex-start;
+     align-items: center;
+     margin: 3px auto 1px;
+     padding: 2px 0;
+     width: 100%;
+     flex-wrap: nowrap;
+     white-space: nowrap;
+     overflow-x: visible;
+     font-size: 1em;
   }
 
   .metricaItem {
-    flex: 0 1 auto;
-    display: inline-flex;
-    background-color: #eee;
-    color: #666;
-    padding: 2px 8px;
-    align-items: center;
-    justify-content: center;
-    min-width: 0;
-    font-size: 12px;
-    border-radius: 2px;
-    gap: 4px;
-    user-select: none;
-    white-space: nowrap;
+     flex: 0 1 auto;
+     display: inline-flex;
+     background-color: #eee;
+     color: #666;
+     padding: 2px 8px;
+     align-items: center;
+     justify-content: center;
+     min-width: 0;
+     font-size: 12px;
+     border-radius: 2px;
+     gap: 4px;
+     user-select: none;
+     white-space: nowrap;
+     overflow: visible;
   }
