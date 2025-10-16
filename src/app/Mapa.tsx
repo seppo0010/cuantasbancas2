@@ -129,7 +129,7 @@ export default function Mapa({ camara, distrito }: {
     datos.bloques.findIndex((b) => b.nombres.includes(d1.Bloque)) - 
     datos.bloques.findIndex((b) => b.nombres.includes(d2.Bloque))
   );
-console.log({ eleccion, distrito })
+
   return (
     <div className={styles.container}>
       <header className="hero is-light">
