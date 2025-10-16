@@ -50,12 +50,23 @@ export default function Home() {
     return (
         <div className="container is-max-desktop px-4">
             <header className="hero is-light">
-                <div className="hero-body">
+                <div className={`hero-body ${homeStyles.heroBody}`}>
                     <div className={homeStyles.headerContent}>
                         <h1 className={`title is-1 ${homeStyles.mainTitle}`}>¿Cuántas bancas?</h1>
                         <h2 className={`subtitle is-3 ${homeStyles.subtitle}`}>El simulador electoral</h2>
                         <div className={`has-text-grey mb-4 ${homeStyles.version}`}>Versión 2025 de elecciones nacionales argentinas</div>
-                        <p className={`content is-medium mb-5 ${homeStyles.description}`}>
+                        <div className={homeStyles.projectLink}>
+                            Es parte del proyecto electoral{' '}
+                            <a 
+                                href="https://financiamientopolitico.poderciudadano.org/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                            >
+                                Dinero y Política
+                            </a>
+                            {' '}de Poder Ciudadano
+                        </div>
+                        <p className={`content is-size-6 mb-5 ${homeStyles.description}`}>
                             Esta página te permite explorar y simular la distribución de bancas legislativas en Argentina para cada provincia. Podés ver cuántos diputados y senadores elige cada provincia, de qué partido son y simular cómo se repartirían según los resultados.
                         </p>
                     </div>

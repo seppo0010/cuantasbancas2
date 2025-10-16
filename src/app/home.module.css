@@ -2,6 +2,10 @@
     text-align: center;
 }
 
+.heroBody {
+    padding-bottom: 1.5rem !important;
+}
+
 .mainTitle {
     font-weight: 800;
     margin-bottom: 8px;
@@ -16,15 +20,32 @@
     font-size: 1em;
 }
 
+.projectLink {
+    font-size: 0.95em;
+    color: #555;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.projectLink a {
+    color: #0969da;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.projectLink a:hover {
+    text-decoration: underline;
+}
+
 .description {
     max-width: 700px;
-    margin: 0 auto 30px;
+    margin: 0 auto 20px;
 }
 
 .selectorBox {
     border: 1px solid white;
     border-radius: 8px;
-    padding: 20px;
+    padding: 15px;
     background-color: transparent;
     box-shadow: none;
     max-width: 600px;
@@ -55,32 +76,36 @@
 
 .referenciaBox {
     box-shadow: none;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    padding: 12px 16px;
     background-color: #f8f8f8;
 }
 
 .referenciaSection {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    line-height: 1.3;
 }
 
 .referenciaTitle {
-    margin-bottom: 6px;
+    margin-bottom: 4px;
     display: block;
     font-size: 0.85em;
+    line-height: 1.2;
 }
 
 .referenciaItems {
     display: flex;
-    gap: 16px;
+    gap: 12px;
     flex-wrap: wrap;
     align-items: center;
+    line-height: 1.2;
 }
 
 .referenciaItem {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 5px;
 }
 
 .referenciaSwatch {
@@ -100,18 +125,20 @@
 
 .referenciaText {
     font-size: 0.8em;
+    line-height: 1.2;
 }
 
 .bloquesItems {
     display: flex;
-    gap: 6px;
+    gap: 5px;
     flex-wrap: wrap;
+    line-height: 1.2;
 }
 
 .bloqueItem {
     display: flex;
     align-items: center;
-    gap: 4px;
+    gap: 3px;
 }
 
 .bloqueSwatch {

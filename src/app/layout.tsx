@@ -1,15 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Montserrat } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
+import Footer from "./Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800"],
 });
 
 export const metadata: Metadata = {
@@ -31,8 +29,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={montserrat.variable}>
         {children}
+        <Footer />
+        <Script
+          src="https://cdn.counter.dev/script.js"
+          data-id="9ad3c476-6612-4e72-a1eb-1316df12d4a9"
+          data-utcoffset="-3"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );

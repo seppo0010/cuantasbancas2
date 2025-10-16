@@ -139,6 +139,17 @@ export default function Mapa({ camara, distrito }: {
             <h1 className={`title is-1 ${styles.mainTitle}`}>¿Cuántas bancas?</h1>
             <h2 className={`subtitle is-3 ${styles.subtitle}`}>El simulador electoral</h2>
             <div className={`has-text-grey mb-4 ${styles.version}`}>Versión 2025 de elecciones nacionales argentinas</div>
+            <div className={styles.projectLink}>
+              Es parte del proyecto electoral{' '}
+              <a 
+                href="https://financiamientopolitico.poderciudadano.org/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Dinero y Política
+              </a>
+              {' '}de Poder Ciudadano
+            </div>
           </div>
         </div>
       </header>
