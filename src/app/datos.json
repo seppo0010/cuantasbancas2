@@ -57,6 +57,7 @@
         "JUNTOS POR LA LIBERTAD Y LA REPUBLICA",
         "POR Santa Cruz",
         "UCR - UNIÓN CÍVICA RADICAL",
+        "UNIÓN CÍVICA RADICAL",
         "UNIDOS POR TUCUMAN",
         "VAMOS Corrientes"
       ],
@@ -177,14 +178,6 @@
         "UNITE POR LA LIBERTAD Y LA DIGNIDAD"
       ],
       "color": "#aaa"
-    },
-    {
-      "corto": "UCR",
-      "nombres": [
-        "UCR - UNIÓN CÍVICA RADICAL",
-        "UNIÓN CÍVICA RADICAL"
-      ],
-      "color": "#f84a26"
     },
     {
       "corto": "PRO",
