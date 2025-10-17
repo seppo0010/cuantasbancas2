@@ -167,6 +167,72 @@
     width: auto !important;
 }
 
+.shareContainer {
+    position: relative;
+    margin-left: 12px;
+}
+
+.shareButton {
+    background-color: #0969da;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.shareButton:hover {
+    background-color: #0550ae;
+}
+
+.shareMenu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 4px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    min-width: 160px;
+    overflow: hidden;
+}
+
+.shareMenuItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px 16px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-align: left;
+    transition: background-color 0.2s;
+}
+
+.shareMenuItem:hover {
+    background-color: #f5f5f5;
+}
+
+.shareMenuItem svg {
+    width: 16px;
+    height: 16px;
+}
+
+.shareIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
 /* Mobile styles */
 @media (max-width: 768px) {
     .mainTitle {
@@ -207,5 +273,18 @@
     .breadcrumbMetricas {
         align-self: flex-end;
         flex-wrap: nowrap !important;
+    }
+
+    .shareContainer {
+        margin-left: 8px;
+    }
+
+    .shareButton span {
+        display: none;
+    }
+
+    .shareMenu {
+        right: auto;
+        left: 0;
     }
 }

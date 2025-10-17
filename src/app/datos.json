@@ -59,13 +59,20 @@
         "FRENTE Jujuy CRECE",
         "JUNTOS POR LA LIBERTAD Y LA REPUBLICA",
         "POR Santa Cruz",
-        "UNION CIVICA RADICAL",
-        "UCR - UNIÓN CÍVICA RADICAL",
-        "UNIÓN CÍVICA RADICAL",
         "UNIDOS POR TUCUMAN",
         "VAMOS Corrientes"
       ],
       "color": "#13b53b"
+    },
+        {
+      "muyCorto": "UCR",
+      "corto": "UNIÓN CÍVICA RADICAL",
+      "nombres": [
+        "UNION CIVICA RADICAL",
+        "UCR - UNIÓN CÍVICA RADICAL",
+        "UNIÓN CÍVICA RADICAL"
+      ],
+      "color": "#e5512b"
     },
     {
       "muyCorto": "Otros",

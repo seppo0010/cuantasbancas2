@@ -11,7 +11,7 @@ import Link from "next/link";
 import { Distrito } from "./Distrito";
 import Sliders from './Sliders';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChair, faRecycle } from '@fortawesome/free-solid-svg-icons';
+import { faChair, faRecycle, faShareNodes, faCopy } from '@fortawesome/free-solid-svg-icons';
 import provinciaStyles from './provincia.module.css';
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
@@ -35,6 +35,8 @@ export default function Mapa({ camara, distrito }: {
   const [ready, setReady] = useState(false);
   const [locked, setLocked] = useState<[string, string][]>([]);
   const [legisladoresEleccion, setLegisladoresEleccion] = useState<{ [eleccion: string]: Legislador[] }>({});
+  const [showShareMenu, setShowShareMenu] = useState(false);
+  const [copySuccess, setCopySuccess] = useState(false);
 
   const pathname = usePathname()
   const searchParams = useSearchParams()
@@ -124,6 +126,19 @@ export default function Mapa({ camara, distrito }: {
     setReady(true);
   }, [votos])
 
+  // Cerrar menú de compartir al hacer clic fuera
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as HTMLElement;
+      if (showShareMenu && !target.closest(`.${styles.shareContainer}`)) {
+        setShowShareMenu(false);
+      }
+    };
+
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, [showShareMenu]);
+
   if (!ready || votos === null) return <></>;
 
   const diputados = datos.diputados
@@ -149,6 +164,29 @@ export default function Mapa({ camara, distrito }: {
     datos.bloques.findIndex((b) => b.nombres.includes(d1.Bloque)) - 
     datos.bloques.findIndex((b) => b.nombres.includes(d2.Bloque))
   );
+
+  const shareUrl = typeof window !== 'undefined' ? window.location.href : '';
+  const shareText = eleccion && distrito ? `Simulá la distribución de bancas en ${distrito}` : 'Simulador electoral ¿Cuántas bancas?';
+
+  const handleCopyLink = async () => {
+    try {
+      await navigator.clipboard.writeText(shareUrl);
+      setCopySuccess(true);
+      setTimeout(() => setCopySuccess(false), 2000);
+    } catch (err) {
+      console.error('Error al copiar:', err);
+    }
+  };
+
+  const handleShareTwitter = () => {
+    const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`;
+    window.open(twitterUrl, '_blank');
+  };
+
+  const handleShareFacebook = () => {
+    const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`;
+    window.open(facebookUrl, '_blank');
+  };
 
   return (
     <div className={styles.container}>
@@ -199,6 +237,42 @@ export default function Mapa({ camara, distrito }: {
                   ).length
                 }
               </span>
+            </div>
+            
+            <div className={styles.shareContainer}>
+              <button 
+                className={`button is-small ${styles.shareButton}`}
+                onClick={() => setShowShareMenu(!showShareMenu)}
+              >
+                <FontAwesomeIcon icon={faShareNodes} />
+                <span className="ml-1">Compartir</span>
+              </button>
+              
+              {showShareMenu && (
+                <div className={styles.shareMenu}>
+                  <button 
+                    className={styles.shareMenuItem}
+                    onClick={handleShareTwitter}
+                  >
+                    <span className={styles.shareIcon}>𝕏</span>
+                    <span>Twitter</span>
+                  </button>
+                  <button 
+                    className={styles.shareMenuItem}
+                    onClick={handleShareFacebook}
+                  >
+                    <span className={styles.shareIcon}>f</span>
+                    <span>Facebook</span>
+                  </button>
+                  <button 
+                    className={styles.shareMenuItem}
+                    onClick={handleCopyLink}
+                  >
+                    <FontAwesomeIcon icon={faCopy} />
+                    <span>{copySuccess ? '¡Copiado!' : 'Copiar enlace'}</span>
+                  </button>
+                </div>
+              )}
             </div>
           </div>
         </div>
