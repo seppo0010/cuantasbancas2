@@ -22,7 +22,7 @@ const datos = datos_ as DatosType;
 
 export default function Home() {
     const [selectedChamber, setSelectedChamber] = useState<'diputados' | 'senadores'>('diputados');
-    const [isReferenceOpen, setIsReferenceOpen] = useState(false);
+    const [isReferenceOpen, setIsReferenceOpen] = useState(true);
     
     const provincias = Array.from(new Set([
         ...datos.diputados.map((d) => d.Distrito), 
@@ -42,12 +42,8 @@ export default function Home() {
         return b?.color || '#aaa';
     };
     
-    const filteredProvincias = provincias.filter(pcia => {
-        if (selectedChamber === 'diputados') {
-            return getDiputadosPorProvincia(pcia).length > 0;
-        }
-        return getSenadoresPorProvincia(pcia).length > 0;
-    }).sort((a, b) => a.localeCompare(b));
+    // Mostrar todas las provincias ordenadas alfabéticamente
+    const allProvincias = provincias.sort((a, b) => a.localeCompare(b));
 
     return (
         <div className="container is-max-desktop px-4">
@@ -72,10 +68,14 @@ export default function Home() {
                             Esta página te permite explorar y simular la distribución de bancas legislativas en Argentina para cada provincia. Podés ver cuántos diputados y senadores elige cada provincia, de qué partido son y simular cómo se repartirían según los resultados.
                         </p>
                     </div>
-                    <div className={homeStyles.selectorBox}>
-                        <div className="mb-4">
-                            <span className={`has-text-weight-semibold ${homeStyles.selectorLabel}`}>Elegí la cámara:</span>
-                            <div className="buttons has-addons is-centered mt-2">
+                   
+                </div>
+            </header>
+
+                <div className={homeStyles.selectorBox}>
+                        <div>
+                            <span className={`has-text-weight-semibold ${homeStyles.selectorLabel}`}>1. Elegí la cámara:</span>
+                            <div className="buttons has-addons is-centered">
                                 <button 
                                     className={`button ${homeStyles.button} ${selectedChamber === 'diputados' ? homeStyles.selected : ''}`}
                                     onClick={() => setSelectedChamber('diputados')}
@@ -90,14 +90,23 @@ export default function Home() {
                                 </button>
                             </div>
                         </div>
-                        <p className={`has-text-centered has-text-weight-medium ${homeStyles.selectorPrompt}`}>
-                            Elegí la provincia en la que querés simular el reparto de bancas:
+                        <p className={homeStyles.chamberHint}>
+                            {selectedChamber === 'diputados' 
+                                ? 'Se renueva la mitad de la cámara de diputados (127 de 257)'
+                                : 'Se renueva un tercio del senado, 8 de 24 provincias'
+                            }
                         </p>
+                       
                     </div>
-                </div>
-            </header>
+
+                <div className={`${homeStyles.selectorBox} mt-4`}>
+
+                    <p className={`has-text-centered has-text-weight-semibold ${homeStyles.selectorPrompt}`}>
+                            2. Elegí la provincia en la que querés simular el reparto de bancas:
+                        </p>
 
             <div className={homeStyles.referenciaBox}>
+                 
                 <button 
                     className={homeStyles.referenciaToggle}
                     onClick={() => setIsReferenceOpen(!isReferenceOpen)}
@@ -143,12 +152,13 @@ export default function Home() {
             </div>
 
             <div className="columns is-multiline mt-2">
-                {filteredProvincias.map((pcia: Distrito) => {
+                {allProvincias.map((pcia: Distrito) => {
                     const diputados = getDiputadosPorProvincia(pcia);
                     const senadores = getSenadoresPorProvincia(pcia);
                     const isShowingDiputados = selectedChamber === 'diputados';
                     const currentData = isShowingDiputados ? diputados : senadores;
                     const bancasEnJuego = currentData.filter((d) => d.FinalizaMandato === datos.finalizaMandato).length;
+                    const hasElection = bancasEnJuego > 0; // Solo hay elección si hay bancas que renuevan
                     
                     // Agrupar por bloque y contar
                     const bloqueGroups = currentData.reduce((acc: Record<string, Legislador[]>, leg) => {
@@ -201,8 +211,9 @@ export default function Home() {
                                             <span>{bancasEnJuego}</span>
                                         </div>
                                     </div>
-                                    {sortedLegisladores.some((legislador) => legislador.FinalizaMandato === datos.finalizaMandato) && (
-                                        <div className={styles.provinciaButton}>
+                                
+                                    <div className={styles.provinciaButton}>
+                                        {hasElection ? (
                                             <Link 
                                                 href={`/${selectedChamber}/${slugsReverse[pcia]}`}
                                             >
@@ -210,14 +221,23 @@ export default function Home() {
                                                     Simular distribución
                                                 </button>
                                             </Link>
-                                        </div>
-                                    )}
+                                        ) : (
+                                            <button 
+                                                className={`button is-fullwidth ${homeStyles.button}`}
+                                                disabled
+                                                style={{ opacity: 0.5, cursor: 'not-allowed' }}
+                                            >
+                                                No elige {selectedChamber}
+                                            </button>
+                                        )}
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     );
                 })}
             </div>
+             </div>
         </div>
     );
 }

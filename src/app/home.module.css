@@ -55,7 +55,16 @@
 .selectorLabel {
     display: block;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
+}
+
+.chamberHint {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    line-height: 0.9rem;
 }
 
 .selectorPrompt {
