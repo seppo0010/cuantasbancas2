@@ -24,6 +24,7 @@ interface DatosType {
 }
 
 const datos: DatosType = datos_ as DatosType;
+const blancoKey = 'VOTO EN BLANCO';
 
 export default function Mapa({ camara, distrito }: {
   camara: 'senadores' | 'diputados';
@@ -53,7 +54,7 @@ export default function Mapa({ camara, distrito }: {
         const votosPartidos = Object.fromEntries(Object.entries(value.partidos).map(([k, v]) => [k, v.votos * 100]));
         const sumaVotos = Object.values(votosPartidos).reduce((sum, v) => sum + v, 0);
         const votoEnBlanco = 100 * 100 - sumaVotos;
-        return [key, { ...votosPartidos, 'VOTO EN BLANCO': votoEnBlanco }];
+        return [key, { ...votosPartidos, [blancoKey]: votoEnBlanco }];
       }))
     }
     if (eleccionVotos) {
@@ -104,7 +105,7 @@ export default function Mapa({ camara, distrito }: {
           }))
         );
       } else {
-        const partidos = Object.values(Object.entries(votos[eleccion]).toSorted((a, b) => - a[1] + b[1])).map((x) => x[0]);
+        const partidos = Object.values(Object.entries(votos[eleccion]).toSorted((a, b) => - a[1] + b[1])).map((x) => x[0]).filter((p) => p != blancoKey);
         return el.partidos[partidos[0]].candidatos.slice(0, 2)
           .concat(el.partidos[partidos[1]].candidatos.slice(0, 1))
           .map((c, i) => ({
