@@ -97,7 +97,7 @@ export default function Home() {
                             }
                             {showChamberDetail && (
                                 <>
-                                    <br/><br/>
+                                    <br/>
                                     <span className={homeStyles.chamberDetailText}>
                                         {selectedChamber === 'diputados' ? (
                                             <>La Cámara de Diputados tiene 257 miembros que se renuevan por mitades cada 2 años. Este 26 de octubre se elegirán 127 representantes y en 2027 los restantes 130. La cantidad de bancas se distribuye según los votos que saca cada partido a través de una fórmula matemática llamada D&apos;Hont.</>

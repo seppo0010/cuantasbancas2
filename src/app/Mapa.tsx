@@ -205,40 +205,45 @@ export default function Mapa({ camara, distrito }: {
       )}
 
       <div className={styles.page}>
-
-        {eleccion !== null && (
-          <Provincia
-            enJuego={Object.fromEntries(
-              datos.bloques.map((b) => [
-                b.nombres[0],
-                (datos.elecciones[eleccion].camara === 'diputados' ? datos.diputados : datos.senadores)
-                  .filter((l) =>
-                    b.nombres.includes(l.Bloque) &&
-                    l.Distrito === datos.elecciones[eleccion].distrito &&
-                    l.FinalizaMandato === datos.finalizaMandato
-                  ).length,
-              ])
+        <div className="columns is-variable is-1-mobile is-1-tablet">
+          <div className="column is-half-widescreen">
+            {eleccion !== null && (
+              <Provincia
+                enJuego={Object.fromEntries(
+                  datos.bloques.map((b) => [
+                    b.nombres[0],
+                    (datos.elecciones[eleccion].camara === 'diputados' ? datos.diputados : datos.senadores)
+                      .filter((l) =>
+                        b.nombres.includes(l.Bloque) &&
+                        l.Distrito === datos.elecciones[eleccion].distrito &&
+                        l.FinalizaMandato === datos.finalizaMandato
+                      ).length,
+                  ])
+                )}
+                finalizaMandatoNuevo={datos.elecciones[eleccion].finalizaMandatoNuevo}
+                bloques={datos.bloques}
+                legisladores={
+                  datos.elecciones[eleccion].camara === 'diputados'
+                    ? diputados.filter((d) => d.Distrito === datos.elecciones[eleccion].distrito)
+                    : senadores.filter((d) => d.Distrito === datos.elecciones[eleccion].distrito)
+                }
+              />
             )}
-            finalizaMandatoNuevo={datos.elecciones[eleccion].finalizaMandatoNuevo}
-            bloques={datos.bloques}
-            legisladores={
-              datos.elecciones[eleccion].camara === 'diputados'
-                ? diputados.filter((d) => d.Distrito === datos.elecciones[eleccion].distrito)
-                : senadores.filter((d) => d.Distrito === datos.elecciones[eleccion].distrito)
-            }
-          />
-        )}
+          </div>
 
-        {eleccion !== null && (
-          <Sliders
-            eleccion={eleccion}
-            datos={datos}
-            votos={votos}
-            locked={locked}
-            setLocked={setLocked}
-            setVotos={setVotos}
-          />
-        )}
+          <div className="column is-half-widescreen">
+            {eleccion !== null && (
+              <Sliders
+                eleccion={eleccion}
+                datos={datos}
+                votos={votos}
+                locked={locked}
+                setLocked={setLocked}
+                setVotos={setVotos}
+              />
+            )}
+          </div>
+        </div>
       </div>
     </div>
   );

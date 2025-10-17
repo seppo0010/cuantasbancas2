@@ -2,31 +2,31 @@ import styles from './footer.module.css';
 
 export default function Footer() {
   return (
-    <footer className={styles.footer}>
-      <div className={styles.container}>
-        <div className={styles.credits}>
-          <h3>Créditos:</h3>
-          <p>
+    <footer className="footer has-background-light">
+      <div className="content has-text-centered">
+        <div className="mb-4">
+          <p className="title is-5 mb-3">Créditos</p>
+          <p className="mb-2">
             Idea, diseño y visualizaciones - <a 
               href="https://visualizando.ar" 
               target="_blank" 
               rel="noopener noreferrer"
-              className={styles.creditLink}
+              className="has-text-link"
             >
               Andres Snitcofsky
             </a>
           </p>
-          <p>
+          <p className="mb-2">
             Programación, soporte y procesamiento de datos - <a 
               href="https://github.com/seppo0010" 
               target="_blank" 
               rel="noopener noreferrer"
-              className={styles.creditLink}
+              className="has-text-link"
             >
               Sebastian Waisbrot
             </a>
           </p>
-          <p>
+          <p className="mb-2">
             Guía editorial y supervisión politológica - Poder Ciudadano
           </p>
           <p>
@@ -34,7 +34,7 @@ export default function Footer() {
               href="https://github.com/seppo0010/cuantasbancas2" 
               target="_blank" 
               rel="noopener noreferrer"
-              className={styles.githubLink}
+              className="has-text-link"
             >
               GitHub del proyecto
             </a>
@@ -109,8 +109,8 @@ export default function Footer() {
             </li>
           </ul>
 
-          <p className={styles.copyright}>
-            <a href="https://poderciudadano.org/" target="_blank" rel="noreferrer noopener">
+          <p className="mt-3">
+            <a href="https://poderciudadano.org/" target="_blank" rel="noreferrer noopener" className="has-text-grey">
               © Poder Ciudadano
             </a>
           </p>

@@ -12,6 +12,9 @@ export const Provincia = ({ legisladores, bloques, finalizaMandatoNuevo, enJuego
         Math.max(...bloques.map((bloque) => legisladores.filter((l) => bloque.nombres.includes(l.Bloque) && l.FinalizaMandato !== finalizaMandatoNuevo).length)) +
         legisladores.filter((l) => l.FinalizaMandato === finalizaMandatoNuevo).length
     );
+    
+    const useMuyCorto = bloques.length > 4;
+    
     return (
         <div className={`${styles.modal} ${styles.principal}`}>
             <h3>Bancas por alineación política</h3>
@@ -50,9 +53,8 @@ export const Provincia = ({ legisladores, bloques, finalizaMandatoNuevo, enJuego
                         <span className={styles.metricaItem}><FontAwesomeIcon icon={faRecycle} /> {enJuego[bloque.nombres[0]]}</span>
                         <span className={styles.metricaItem}><FontAwesomeIcon icon={faTrophy} /> {legisladores.filter((l) => bloque.nombres.includes(l.Bloque) && l.FinalizaMandato === finalizaMandatoNuevo).length}</span>
                     </div>
-                        <div className={styles.label}>
-                        <span className={`${styles.title} ${styles.wide}`}>{bloque.corto}</span>
-                        <span className={`${styles.title} ${styles.narrow}`}>{bloque.muyCorto}</span>
+                    <div className={styles.label}>
+                        <span className={`${styles.title} ${useMuyCorto ? styles.narrow : styles.wide}`}>{useMuyCorto ? bloque.muyCorto : bloque.corto}</span>
                     </div>
                 </div>))}
             </div>
