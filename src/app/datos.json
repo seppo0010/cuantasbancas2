@@ -160,8 +160,6 @@
         "PRIMERO Catamarca",
         "PRIMERO RIO NEGRO",
         "PRINCIPIOS Y CONVICCIÓN",
-        "PRO - PROPUESTA REPUBLICANA",
-        "PRO PROPUESTA REPUBLICANA",
         "PRODUCCION Y TRABAJO",
         "PROPUESTA FEDERAL PARA EL CAMBIO",
         "PROTECTORA FUERZA POLITICA",
@@ -180,20 +178,16 @@
       "color": "#aaa"
     },
     {
-      "corto": "PRO",
-      "nombres": [
-        "FRENTE PRO",
-        "PRO"
-      ],
-      "color": "#ffb800"
-    },
-    {
       "corto": "LA LIBERTAD AVANZA",
       "nombres": [
         "PARTIDO LA LIBERTAD AVANZA",
         "LIBERTAD, TRABAJO Y PROGRESO",
         "ALIANZA LA LIBERTAD AVANZA",
-        "LA LIBERTAD AVANZA"
+        "LA LIBERTAD AVANZA",
+        "PRO - PROPUESTA REPUBLICANA",
+        "PRO PROPUESTA REPUBLICANA",
+        "FRENTE PRO",
+        "PRO"
       ],
       "color": "#ac7be9"
     },
