@@ -22,7 +22,7 @@ const datos = datos_ as DatosType;
 
 export default function Home() {
     const [selectedChamber, setSelectedChamber] = useState<'diputados' | 'senadores'>('diputados');
-    const [isReferenceOpen, setIsReferenceOpen] = useState(true);
+    const [showChamberDetail, setShowChamberDetail] = useState(false);
     
     const provincias = Array.from(new Set([
         ...datos.diputados.map((d) => d.Distrito), 
@@ -95,63 +95,69 @@ export default function Home() {
                                 ? 'Se renueva la mitad de la cámara de diputados (127 de 257)'
                                 : 'Se renueva un tercio del senado, 8 de 24 provincias'
                             }
+                            {showChamberDetail && (
+                                <>
+                                    <br/><br/>
+                                    <span className={homeStyles.chamberDetailText}>
+                                        {selectedChamber === 'diputados' ? (
+                                            <>La Cámara de Diputados tiene 257 miembros que se renuevan por mitades cada 2 años. Este 26 de octubre se elegirán 127 representantes y en 2027 los restantes 130. La cantidad de bancas se distribuye según los votos que saca cada partido a través de una fórmula matemática llamada D'Hont.</>
+                                        ) : (
+                                            <>La Cámara de Senadores tiene 72 miembros que representan a las provincias y a la Ciudad de Buenos Aires. Cada uno de estos distritos tiene 3 bancas que se asignan 2 para el partido más votado y 1 para el que salga segundo, sin importar la cantidad de votos. Se renueva por tercios, es decir que el 26 de octubre se elegirán 24 senadores que corresponden a: Ciudad de Buenos Aires, Chaco, Entre Ríos, Neuquén, Río Negro, Salta, Santiago del Estero y Tierra del Fuego.</>
+                                        )}
+                                    </span>
+                                </>
+                            )}
                         </p>
+                        
+                        <div className={homeStyles.chamberDetailContainer}>
+                            <button 
+                                className={homeStyles.chamberDetailToggle}
+                                onClick={() => setShowChamberDetail(!showChamberDetail)}
+                            >
+                                {showChamberDetail ? 'Ver menos' : 'Ver más'}
+                            </button>
+                        </div>
                        
                     </div>
 
-                <div className={`${homeStyles.selectorBox} mt-4`}>
+            <div className={`${homeStyles.selectorBox} mt-4`}>
+                <p className={`has-text-centered has-text-weight-semibold ${homeStyles.selectorPrompt}`}>
+                    2. Elegí la provincia en la que querés simular el reparto de bancas:
+                </p>
 
-                    <p className={`has-text-centered has-text-weight-semibold ${homeStyles.selectorPrompt}`}>
-                            2. Elegí la provincia en la que querés simular el reparto de bancas:
-                        </p>
-
-            <div className={homeStyles.referenciaBox}>
-                 
-                <button 
-                    className={homeStyles.referenciaToggle}
-                    onClick={() => setIsReferenceOpen(!isReferenceOpen)}
-                    aria-expanded={isReferenceOpen}
-                >
-                    <span className={homeStyles.referenciaToggleText}>Ver referencias</span>
-                    <span className={`icon ${homeStyles.referenciaToggleIcon} ${isReferenceOpen ? homeStyles.referenciaToggleIconOpen : ''}`}>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                            <polyline points="6 9 12 15 18 9"></polyline>
-                        </svg>
-                    </span>
-                </button>
-                
-                <div className={`${homeStyles.referenciaContent} ${isReferenceOpen ? homeStyles.referenciaContentOpen : ''}`}>
-                    <div className={homeStyles.referenciaSection}>
-                        <strong className={homeStyles.referenciaTitle}>Referencia:</strong>
-                        <div className={homeStyles.referenciaItems}>
-                            <div className={homeStyles.referenciaItem}>
-                                <div className={`${homeStyles.referenciaSwatch} ${homeStyles.referenciaSwatchRenueva}`} />
-                                <span className={homeStyles.referenciaText}>Renueva (en juego)</span>
-                            </div>
-                            <div className={homeStyles.referenciaItem}>
-                                <div className={`${homeStyles.referenciaSwatch} ${homeStyles.referenciaSwatchActual}`} />
-                                <span className={homeStyles.referenciaText}>No renueva</span>
+                <div className={homeStyles.referenciaBox}>
+                    <div className="columns is-mobile is-multiline">
+                        <div className="column is-one-third-desktop is-12-mobile">
+                            <strong className={homeStyles.referenciaTitle}>Referencia bancas:</strong>
+                            <div className={homeStyles.referenciaItems}>
+                                <div className={homeStyles.referenciaItem}>
+                                    <div className={`${homeStyles.referenciaSwatch} ${homeStyles.referenciaSwatchRenueva}`} />
+                                    <span className={homeStyles.referenciaText}>Renueva (en juego)</span>
+                                </div>
+                                <div className={homeStyles.referenciaItem}>
+                                    <div className={`${homeStyles.referenciaSwatch} ${homeStyles.referenciaSwatchActual}`} />
+                                    <span className={homeStyles.referenciaText}>No renueva</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div>
-                        <strong className={homeStyles.referenciaTitle}>Bloques políticos:</strong>
-                        <div className={homeStyles.bloquesItems}>
-                            {datos.bloques.map((bloque) => (
-                                <div key={bloque.nombres[0]} className={homeStyles.bloqueItem}>
-                                    <div 
-                                        className={homeStyles.bloqueSwatch}
-                                        style={{ backgroundColor: bloque.color }}
-                                    />
-                                    <span className={homeStyles.referenciaText}>{bloque.muyCorto || bloque.nombres[0]}</span>
-                                </div>
-                            ))}
+                        <div className="column is-two-thirds-desktop is-12-mobile">
+                            <strong className={homeStyles.referenciaTitle}>Referencia partidos políticos:</strong>
+                            <div className={homeStyles.bloquesItems}>
+                                {datos.bloques.map((bloque) => (
+                                    <div key={bloque.nombres[0]} className={homeStyles.bloqueItem}>
+                                        <div 
+                                            className={homeStyles.bloqueSwatch}
+                                            style={{ backgroundColor: bloque.color }}
+                                        />
+                                        <span className={homeStyles.referenciaText}>{bloque.corto || bloque.nombres[0]}</span>
+                                    </div>
+                                ))}
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div className="columns is-multiline mt-2">
+                <div className="columns is-multiline mt-1">
                 {allProvincias.map((pcia: Distrito) => {
                     const diputados = getDiputadosPorProvincia(pcia);
                     const senadores = getSenadoresPorProvincia(pcia);
@@ -237,7 +243,7 @@ export default function Home() {
                     );
                 })}
             </div>
-             </div>
+            </div>
         </div>
     );
 }

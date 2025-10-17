@@ -17,7 +17,7 @@ export default function Footer() {
             </a>
           </p>
           <p>
-            Adaptación a versión 2.0 - <a 
+            Programación, soporte y procesamiento de datos - <a 
               href="https://github.com/seppo0010" 
               target="_blank" 
               rel="noopener noreferrer"
@@ -25,6 +25,9 @@ export default function Footer() {
             >
               Sebastian Waisbrot
             </a>
+          </p>
+          <p>
+            Guía editorial y supervisión politológica - Poder Ciudadano
           </p>
           <p>
             <a 
