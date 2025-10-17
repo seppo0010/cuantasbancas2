@@ -81,7 +81,7 @@ export default function Mapa({ camara, distrito }: {
         const bancasEnJuego = datos.diputados.filter((d) => 
           d.Distrito === el.distrito && d.FinalizaMandato === datos.finalizaMandato
         ).length;
-        
+
         // Filtrar solo los partidos (excluir voto en blanco) para el cálculo
         const partidosKeys = Object.keys(el.partidos);
         const partidosConVotos = partidosKeys.map((p) => ({

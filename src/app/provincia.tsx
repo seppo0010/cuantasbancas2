@@ -7,6 +7,7 @@ import { Bloque } from './Bloque';
 export const Provincia = ({ legisladores, bloques, finalizaMandatoNuevo, enJuego }: {
     legisladores: Legislador[] , bloques: Bloque[], finalizaMandatoNuevo: string, enJuego: { [bloque: string]: number }
 }) => {
+
     const maxLegislador = (
         Math.max(...bloques.map((bloque) => legisladores.filter((l) => bloque.nombres.includes(l.Bloque) && l.FinalizaMandato !== finalizaMandatoNuevo).length)) +
         legisladores.filter((l) => l.FinalizaMandato === finalizaMandatoNuevo).length
@@ -36,11 +37,7 @@ export const Provincia = ({ legisladores, bloques, finalizaMandatoNuevo, enJuego
                 </span>
             </div>
             <div className={styles.containerViz} style={{minHeight: Math.min(686, 74 + maxLegislador * 20)}}>
-                {bloques.filter(bloque => {
-                    const bancasARenovar = legisladores.filter(l => bloque.nombres.includes(l.Bloque) && l.FinalizaMandato === finalizaMandatoNuevo).length;
-                    const bancasNuevas = enJuego[bloque.nombres[0]];
-                    return bancasARenovar > 0 || bancasNuevas > 0;
-                }).map((bloque) => (<div key={bloque.nombres[0]} className={styles.bloque}>
+                {bloques.map((bloque) => (<div key={bloque.nombres[0]} className={styles.bloque}>
                     <div className={styles.stack}>
                         {legisladores.filter((l) => bloque.nombres.includes(l.Bloque)
                         ).toSorted((l1, l2) => l1.FinalizaMandato === finalizaMandatoNuevo && l2.FinalizaMandato !== finalizaMandatoNuevo ? 1 : 0).map((l) => (
@@ -56,7 +53,6 @@ export const Provincia = ({ legisladores, bloques, finalizaMandatoNuevo, enJuego
                         <div className={styles.label}>
                         <span className={`${styles.title} ${styles.wide}`}>{bloque.corto}</span>
                         <span className={`${styles.title} ${styles.narrow}`}>{bloque.muyCorto}</span>
-                        
                     </div>
                 </div>))}
             </div>
