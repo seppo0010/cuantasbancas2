@@ -37,7 +37,7 @@ export async function generateMetadata({
             siteName: '¿Cuántas bancas?',
             images: [
                 {
-                    url: 'https://simulador.poderciudadano.org/card.png',
+                    url: 'https://simulador.poderciudadano.org/images/ImageCardsSociales.png',
                     width: 1200,
                     height: 630,
                     alt: `Simulador electoral ${distritoNombre}`,
@@ -51,7 +51,7 @@ export async function generateMetadata({
             card: 'summary_large_image',
             title,
             description,
-            images: ['https://simulador.poderciudadano.org/card.png'],
+            images: ['https://simulador.poderciudadano.org/images/ImageCardsSociales.png'],
             creator: '@poderciudadano',
         },
     };

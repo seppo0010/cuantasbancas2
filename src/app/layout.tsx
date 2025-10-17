@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: '¿Cuántas bancas?',
     images: [
       {
-        url: 'https://simulador.poderciudadano.org/card.png',
+        url: 'https://simulador.poderciudadano.org/images/ImageCardsSociales.png',
         width: 1200,
         height: 630,
         alt: 'Simulador electoral ¿Cuántas bancas?',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "¿Cuántas bancas? - Simulador electoral 2025",
     description: "Simulá la distribución de bancas en las elecciones legislativas de Argentina 2025",
-    images: ['https://simulador.poderciudadano.org/card.png'],
+    images: ['https://simulador.poderciudadano.org/images/ImageCardsSociales.png'],
     creator: '@poderciudadano',
   },
   robots: {
