@@ -42,7 +42,7 @@ export default function ProvinciaChart({ provincia, bloques, votos }: { provinci
           colors: ['#ccc']
         },
         xaxis: {
-          categories: bloques.map((b) => b.corto),
+          categories: bloques.map((b) => b.muyCorto),
           labels: { show: false },
         },
         yaxis: {

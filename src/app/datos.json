@@ -1,6 +1,7 @@
 {
   "bloques": [
     {
+      "muyCorto": "FIT",
       "corto": "FIT-U",
       "nombres": [
         "IZQUIERDA SOCIALISTA FIT-UNIDAD",
@@ -20,6 +21,7 @@
       "color": "#fe5e5e"
     },
     {
+      "muyCorto": "FP",
       "corto": "FUERZA PATRIA",
       "nombres": [
         "FRENTE FUERZA PATRIA",
@@ -43,6 +45,7 @@
       "color": "#2fb9f4"
     },
     {
+      "muyCorto": "PU",
       "corto": "PROVINCIAS UNIDAS",
       "nombres": [
         "ALIANZA DEFENDAMOS Mendoza - PROVINCIAS UNIDAS",
@@ -64,6 +67,7 @@
       "color": "#13b53b"
     },
     {
+      "muyCorto": "Otros",
       "corto": "Otros",
       "nombres": [
         "OTROS",
@@ -178,6 +182,7 @@
       "color": "#aaa"
     },
     {
+      "muyCorto": "LLA",
       "corto": "LA LIBERTAD AVANZA",
       "nombres": [
         "PARTIDO LA LIBERTAD AVANZA",
@@ -192,6 +197,7 @@
       "color": "#ac7be9"
     },
     {
+      "muyCorto": "SUR",
       "corto": "PROYECTO SUR",
       "nombres": [
         "Corrientes NOS UNE",

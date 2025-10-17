@@ -54,7 +54,8 @@ export const Provincia = ({ legisladores, bloques, finalizaMandatoNuevo, enJuego
                         <span className={styles.metricaItem}><FontAwesomeIcon icon={faTrophy} /> {legisladores.filter((l) => bloque.nombres.includes(l.Bloque) && l.FinalizaMandato === finalizaMandatoNuevo).length}</span>
                     </div>
                         <div className={styles.label}>
-                        <span className={styles.title}>{bloque.corto}</span>
+                        <span className={`${styles.title} ${styles.wide}`}>{bloque.corto}</span>
+                        <span className={`${styles.title} ${styles.narrow}`}>{bloque.muyCorto}</span>
                         
                     </div>
                 </div>))}

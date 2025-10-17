@@ -197,6 +197,23 @@
     font-weight: bold;
   }
 
+  @media (max-width:960px) {
+    .title.narrow {
+      display: block;
+    }
+    .title.wide {
+      display: none;
+    }
+  }
+  @media (min-width:960px) {
+    .title.narrow {
+      display: none;
+    }
+    .title.wide {
+      display: block;
+    }
+  }
+
   .metricasFlex {
      display: flex;
      flex-direction: row;

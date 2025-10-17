@@ -134,7 +134,7 @@ export default function Home() {
                                         className={homeStyles.bloqueSwatch}
                                         style={{ backgroundColor: bloque.color }}
                                     />
-                                    <span className={homeStyles.referenciaText}>{bloque.corto || bloque.nombres[0]}</span>
+                                    <span className={homeStyles.referenciaText}>{bloque.muyCorto || bloque.nombres[0]}</span>
                                 </div>
                             ))}
                         </div>
