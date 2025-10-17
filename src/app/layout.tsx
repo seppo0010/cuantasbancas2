@@ -11,15 +11,37 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "¿Cuántas bancas?",
-  description: "Simulador de distribución de las elecciones legislativas de 2025",
+  title: "¿Cuántas bancas? - Simulador electoral 2025",
+  description: "Simulá la distribución de bancas en las elecciones legislativas de Argentina 2025. Probá diferentes resultados y conocé cómo funciona el sistema D'Hondt.",
+  keywords: ["elecciones", "argentina", "2025", "simulador", "bancas", "diputados", "senadores", "d'hondt"],
+  authors: [{ name: "Poder Ciudadano" }],
   openGraph: {
+    title: "¿Cuántas bancas? - Simulador electoral 2025",
+    description: "Simulá la distribución de bancas en las elecciones legislativas de Argentina 2025",
     siteName: '¿Cuántas bancas?',
-    images: 'http://simulador.poderciudadano.org/card.png',
-    url: 'http://simulador.poderciudadano.org/',
-    countryName: 'Argentina',
+    images: [
+      {
+        url: 'https://simulador.poderciudadano.org/card.png',
+        width: 1200,
+        height: 630,
+        alt: 'Simulador electoral ¿Cuántas bancas?',
+      }
+    ],
+    url: 'https://simulador.poderciudadano.org/',
     type: 'website',
-  }
+    locale: 'es_AR',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "¿Cuántas bancas? - Simulador electoral 2025",
+    description: "Simulá la distribución de bancas en las elecciones legislativas de Argentina 2025",
+    images: ['https://simulador.poderciudadano.org/card.png'],
+    creator: '@poderciudadano',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
