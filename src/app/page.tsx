@@ -100,7 +100,7 @@ export default function Home() {
                                     <br/><br/>
                                     <span className={homeStyles.chamberDetailText}>
                                         {selectedChamber === 'diputados' ? (
-                                            <>La Cámara de Diputados tiene 257 miembros que se renuevan por mitades cada 2 años. Este 26 de octubre se elegirán 127 representantes y en 2027 los restantes 130. La cantidad de bancas se distribuye según los votos que saca cada partido a través de una fórmula matemática llamada D'Hont.</>
+                                            <>La Cámara de Diputados tiene 257 miembros que se renuevan por mitades cada 2 años. Este 26 de octubre se elegirán 127 representantes y en 2027 los restantes 130. La cantidad de bancas se distribuye según los votos que saca cada partido a través de una fórmula matemática llamada D&apos;Hont.</>
                                         ) : (
                                             <>La Cámara de Senadores tiene 72 miembros que representan a las provincias y a la Ciudad de Buenos Aires. Cada uno de estos distritos tiene 3 bancas que se asignan 2 para el partido más votado y 1 para el que salga segundo, sin importar la cantidad de votos. Se renueva por tercios, es decir que el 26 de octubre se elegirán 24 senadores que corresponden a: Ciudad de Buenos Aires, Chaco, Entre Ríos, Neuquén, Río Negro, Salta, Santiago del Estero y Tierra del Fuego.</>
                                         )}
