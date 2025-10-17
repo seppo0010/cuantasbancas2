@@ -71,6 +71,22 @@
       "corto": "Otros",
       "nombres": [
         "OTROS",
+        "Corrientes NOS UNE",
+        "DEFENDAMOS CORDOBA",
+        "DEFENDAMOS TIERRA DEL FUEGO",
+        "FRENTE CIVICO POR SANTIAGO",
+        "FRENTE PRIMERO Jujuy AVANZA",
+        "FRENTE VERDE",
+        "FUERZA REPUBLICANA",
+        "FUERZA San Juan",
+        "JUNTOS DEFENDEMOS RIO NEGRO",
+        "LA FUERZA DEL TRABAJO ChubutENSE",
+        "LA NEUQUINIDAD",
+        "LAS FUERZAS DEL CENTRO",
+        "MOVIMIENTO POLÍTICO SOCIAL Y CULTURAL PROYECTO SUR",
+        "POR San Juan",
+        "PRIMERO LOS SALTEÑOS",
+        "VAMOS Chaco",
         "ACCION PARA EL CAMBIO",
         "ACTIVAR",
         "AHORA",
@@ -195,29 +211,6 @@
         "PRO"
       ],
       "color": "#ac7be9"
-    },
-    {
-      "muyCorto": "SUR",
-      "corto": "PROYECTO SUR",
-      "nombres": [
-        "Corrientes NOS UNE",
-        "DEFENDAMOS CORDOBA",
-        "DEFENDAMOS TIERRA DEL FUEGO",
-        "FRENTE CIVICO POR SANTIAGO",
-        "FRENTE PRIMERO Jujuy AVANZA",
-        "FRENTE VERDE",
-        "FUERZA REPUBLICANA",
-        "FUERZA San Juan",
-        "JUNTOS DEFENDEMOS RIO NEGRO",
-        "LA FUERZA DEL TRABAJO ChubutENSE",
-        "LA NEUQUINIDAD",
-        "LAS FUERZAS DEL CENTRO",
-        "MOVIMIENTO POLÍTICO SOCIAL Y CULTURAL PROYECTO SUR",
-        "POR San Juan",
-        "PRIMERO LOS SALTEÑOS",
-        "VAMOS Chaco"
-      ],
-      "color": "#45c594"
     }
   ],
   "finalizaMandato": "09/12/2025",
