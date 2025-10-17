@@ -197,21 +197,14 @@
     font-weight: bold;
   }
 
-  @media (max-width:960px) {
-    .title.narrow {
-      display: block;
-    }
-    .title.wide {
-      display: none;
-    }
+  /* Siempre mostrar narrow cuando se aplica esa clase */
+  .title.narrow {
+    display: block;
   }
-  @media (min-width:960px) {
-    .title.narrow {
-      display: none;
-    }
-    .title.wide {
-      display: block;
-    }
+  
+  /* Siempre mostrar wide cuando se aplica esa clase */
+  .title.wide {
+    display: block;
   }
 
   .metricasFlex {

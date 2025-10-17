@@ -14,6 +14,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChair, faRecycle, faShareNodes, faCopy } from '@fortawesome/free-solid-svg-icons';
 import provinciaStyles from './provincia.module.css';
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import Header from './Header';
 
 interface DatosType {
   diputados: Legislador[];
@@ -190,31 +191,12 @@ export default function Mapa({ camara, distrito }: {
 
   return (
     <div className={styles.container}>
-      <header className="hero is-light">
-        <div className="hero-body">
-          <div className={styles.headerContent}>
-            <h1 className={`title is-1 ${styles.mainTitle}`}>¿Cuántas bancas?</h1>
-            <h2 className={`subtitle is-3 ${styles.subtitle}`}>El simulador electoral</h2>
-            <div className={`has-text-grey mb-4 ${styles.version}`}>Versión 2025 de elecciones nacionales argentinas</div>
-            <div className={styles.projectLink}>
-              Es parte del proyecto electoral{' '}
-              <a 
-                href="https://financiamientopolitico.poderciudadano.org/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                Dinero y Política
-              </a>
-              {' '}de Poder Ciudadano
-            </div>
-          </div>
-        </div>
-      </header>
+      <Header />
 
       {eleccion !== null && distrito && (
         <div className={styles.breadcrumbContainer}>
           <div className={styles.breadcrumb}>
-            <Link href="/">Inicio</Link>
+            <Link href="/">Cambiar provincia</Link>
             <span className={styles.breadcrumbSeparator}> &gt; </span>
             <span className={styles.breadcrumbCurrent}>{distrito}</span>
           </div>
@@ -279,8 +261,8 @@ export default function Mapa({ camara, distrito }: {
       )}
 
       <div className={styles.page}>
-        <div className="columns is-variable is-1-mobile is-1-tablet">
-          <div className="column is-half-widescreen">
+        <div className={`columns is-variable is-1-mobile is-1-tablet ${styles.twoColumnLayout}`}>
+          <div className={`column ${styles.leftColumn}`}>
             {eleccion !== null && (
               <Provincia
                 enJuego={Object.fromEntries(
@@ -305,7 +287,7 @@ export default function Mapa({ camara, distrito }: {
             )}
           </div>
 
-          <div className="column is-half-widescreen">
+          <div className={`column ${styles.rightColumn}`}>
             {eleccion !== null && (
               <Sliders
                 eleccion={eleccion}

@@ -1,19 +1,30 @@
+'use client';
+
 import styles from './provincia.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChair, faRecycle, faTrophy } from '@fortawesome/free-solid-svg-icons';
 import { Legislador } from './Legislador';
 import { Bloque } from './Bloque';
+import { useState, useEffect } from 'react';
 
 export const Provincia = ({ legisladores, bloques, finalizaMandatoNuevo, enJuego }: {
     legisladores: Legislador[] , bloques: Bloque[], finalizaMandatoNuevo: string, enJuego: { [bloque: string]: number }
 }) => {
+
+    const [windowWidth, setWindowWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 1200);
+
+    useEffect(() => {
+        const handleResize = () => setWindowWidth(window.innerWidth);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     const maxLegislador = (
         Math.max(...bloques.map((bloque) => legisladores.filter((l) => bloque.nombres.includes(l.Bloque) && l.FinalizaMandato !== finalizaMandatoNuevo).length)) +
         legisladores.filter((l) => l.FinalizaMandato === finalizaMandatoNuevo).length
     );
     
-    const useMuyCorto = bloques.length > 4;
+    const useMuyCorto = bloques.length > 5 && windowWidth < 450;
     
     return (
         <div className={`${styles.modal} ${styles.principal}`}>

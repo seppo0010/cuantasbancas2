@@ -8,6 +8,28 @@
   margin: 20px auto;
 }
 
+/* Layout de dos columnas - exactamente 1200px */
+.twoColumnLayout {
+  display: flex;
+  flex-direction: column;
+}
+
+.leftColumn,
+.rightColumn {
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .twoColumnLayout {
+    flex-direction: row;
+  }
+  
+  .leftColumn,
+  .rightColumn {
+    width: 50%;
+  }
+}
+
 .sliderContainer {
   margin-bottom: 3px;
   padding: 3px 10px;
